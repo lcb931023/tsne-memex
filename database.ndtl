@@ -1,0 +1,530 @@
+let DATABASE = `
+
+星空
+  TYPE : quote
+  TAGS : philosophy
+  DATE : 12018-07-26
+  QOTE : 总得有更多人仰望星空。
+
+Boredom
+  TYPE : quote
+  TAGS : productivity
+  DATE : 12018-07-26
+  QOTE
+    When really bored and unmotivated, read a book.
+    When not motivated to read book, find interesting places around you and explore.
+
+THE TWINGE OF STARTING
+  LINK : https://www.lesswrong.com/posts/9o3QBg2xJXcRCxGjS/working-hurts-less-than-procrastinating-we-fear-the-twinge
+  QOTE : "being in the middle of doing the work is usually less painful than being in the middle of procrastinating."
+  TYPE : article
+  TAGS : psychology, productivity
+  DATE : 12018-07-19
+  DONE : true
+
+ELEVR LEARNINGS IN ONE YEAR
+  LINK : http://elevr.com/1-year-at-ycr/
+  TYPE : article
+  TAGS : design, inspiration
+  DATE : 12018-07-24
+  DONE : false
+
+CABBIBO'S VR INSIGHT
+  LINK : https://docs.google.com/document/d/1-UYCZcxKDmy5BF_-IXg1KDtwShJ5imNOch5xGPXzPr0/edit
+  TYPE : list
+  TAGS : design, inspiration
+  DATE : 12018-07-20
+  DONE : true
+  QOTE
+    > "Befriend an Architect, Industrial designer or an interior designer... They have infinitely more practice than you studying space"
+    > "Think about how you can transform that engineering into creating some piece that was never before possible, that pushes the limits of human understanding, and that moves us forward as a species."
+    > "I’ve really liked thinking about VR apps a lot like I think of ‘travel’. You go to this new place, learn a bunch of new things, have a bunch of fun, reminisce a lot, maybe have an existential crisis."
+    > "In all mediums it’s the constraints that define it"
+    > "Let's get weird with this new medium, spreading out our tendrils out into the majestic new possibility space until we find the places that are *truly* compelling, that let us as humans understand more about the universe around us, and help us discover more of our magical reality."
+
+IDENTITY
+  PERS : neauoire
+  SRCE : Merveilles
+  TYPE : quote
+  TAGS : philosophy, psychology, identity
+  QOTE
+    "Your “self” is forever fleeting, and you can never count of it to remain the same.
+    Instead of choosing an identity based on who I was, I based it on who I wanted to become.
+    It gave me a sense of direction, or something to chase."
+
+THE THREE GATES OF SPEECH
+  TYPE : quote
+  QOTE
+    "Before you speak, let your words pass through three gates; At the first gate, ask yourself, is is true? At the second gate ask, is it necessary? At the third gate ask, is it kind?" - Rumi
+  DATE : 12018-08-05
+  TAGS : philosophy, erisology, charisma
+
+NOTES ON OUTPUT
+  PERS : neauoire
+  SRCE : Merveilles
+  LINK : https://wiki.xxiivv.com/#aesthetics
+  TYPE : article
+  TAGS : philosophy, design, inspiration, productivity
+  DATE : 12018-07-19
+  DONE : true
+
+WAKING UP
+  PERS : faun
+  SRCE : Merveilles
+  QOTE : Keep a huge jar of water beside your bed for when you wake up. You probably wake up dehydrated and if you drink it, waking up will become easier
+  TYPE : quote
+  TAGS : philosophy
+  DATE : 12018-07-19
+
+TYPEFACE PAIRING
+  PERS : rutherford
+  SRCE : Merveilles
+  LINK : https://craze.co.uk/typeface+pairing
+  TYPE : article
+  TAGS : design, typography
+  DATE : 12018-07-27
+  DONE : false
+  QOTE : "The goal of typography is to go unnoticed, which means your options are to either have a pattern and stick to it, or make sure there isn’t a pattern at all. Contrast, or subtlety. No half measures."
+
+SCIENCE FICTION INTERFACES
+  PERS : nnkd
+  SRCE : Merveilles
+  LINK : http://sciencefictioninterfaces.tumblr.com/
+  TYPE : list
+  TAGS : design, inspiration
+  DATE : 12018-08-05
+
+MEAT
+  LINK : http://www.terrybisson.com/page6/page6.html
+  TYPE : article
+  DATE : 12018-07-19
+  QOTE : 'Meat. They're made out of meat.'
+  DONE : true
+  TAGS : fiction
+
+A Declaration of the Independence of Cyberspace
+  LINK : https://www.eff.org/cyberspace-independence
+  TYPE : article
+  DATE : 12018-08-06
+  DONE : true
+  TAGS : web, freedom
+  QOTE : "Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather."
+
+NIKITA VOLOBOEV
+  LINK : https://wiki.nikitavoloboev.xyz/
+  TYPE : list
+  DATE : 12018-07-19
+  DONE : false
+  TAGS : philosophy, productivity, individual
+
+KILL SIX BILLION DEMONS
+  LINK : https://killsixbilliondemons.com/comic/kill-six-billion-demons-chapter-4/
+  TYPE : book
+  DATE : 12018-08-01
+  TAGS : comic, worldbuilding
+  
+DINOTOPIA
+  LINK : http://www.dinotopia.com/
+  TYPE : book
+  DATE : 12018-08-01
+  TAGS : comic, worldbuilding
+  NOTE : Childhood, lost and found.
+
+UNIVERSAL PAPERCLIPS
+  LINK : http://www.decisionproblem.com/paperclips/
+  TYPE : game
+  DATE : 12018-07-31
+  DONE : true
+  TAGS : web, clicker game, thought experiment
+
+RAVEN KWOK
+  LINK : http://ravenkwok.com/
+  TYPE : list
+  DATE : 12018-07-31
+  TAGS : generative, inspiration, individual
+
+SHU
+  LINK : https://shud.in/
+  TYPE : list
+  DATE : 12018-08-03
+  TAGS : inspiration, individual, code
+  NOTE : A Merveilles-like mind in China
+
+MAK
+  LINK : https://inns.studio/mak
+  TYPE : tool
+  DATE : 12018-08-03
+  TAGS : productivity
+  NOTE : A universal notepad.
+
+NUMI
+  LINK : https://numi.io/
+  TYPE : tool
+  DATE : 12018-08-03
+  TAGS : productivity, inspiration
+  NOTE : Text editor calculator
+
+JOEL SIMON
+  LINK : http://www.joelsimon.net/
+  TYPE : list
+  DATE : 12018-07-31
+  TAGS : generative, inspiration, biology, individual
+
+OPTIMIZATION PROGRAM
+  QOTE : "An optimization program is a tool to let you know which constraints you forgot"
+  LINK : https://www.reddit.com/r/dataisbeautiful/comments/934zar/what_happens_when_you_let_computers_optimize/e3avmwp/?context=8&depth=9
+  TYPE : quote
+  DATE : 12018-07-31
+  TAGS : philosophy, code, generative
+
+INTERACTION DESIGN FUTURE
+  LINK : http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
+  TYPE : article
+  DATE : 12018-07-19
+  TAGS : ux, design
+  DONE : false
+
+INDEPENDENCE IN CYBERSPACE
+  PERS : ark
+  SRCE : Merveilles
+  LINK : https://www.eff.org/cyberspace-independence
+  TYPE : article
+  DATE : 12018-07-19
+  TAGS : philosophy
+  DONE : false
+
+TOP SLATE STAR CODEX
+  PERS : neauoire
+  SRCE : Merveilles
+  LINK : http://slatestarcodex.com/top-posts/
+  TYPE : list
+  DATE : 12018-07-19
+  DONE : false
+  TAGS : psychology, society, research, philosophy
+
+UNDER THE SKIN: J PETERSON
+  LINK : https://youtu.be/r2S58rH0PAw?t=1h1m38s
+  TYPE : podcast
+  Date : 12018-07-19
+  DONE : true
+  TAGS : society, psychology, philosophy
+
+SCP FOUNDATION
+  LINK : http://www.scp-wiki.net/
+  TYPE : list
+  DATE : 12018-07-19
+  DONE : false
+  TAGS : fiction
+
+TENDRILS OF MESS IN OUR BRAINS
+  LINK : https://www.ribbonfarm.com/2017/01/05/tendrils-of-mess-in-our-brains/
+  TYPE : article
+  DATE : 12018-07-19
+  DONE : false
+  TAGS : psychology
+
+WIKTOPHER
+  PERS : Rekka
+  LINK : https://wiktopher.kokorobot.ca/
+  TYPE : book
+  DATE : 12018-07-19
+  DONE : false
+  TAGS : fiction
+
+SELF AUTHORING
+  LINK : https://selfauthoring.com/
+  TYPE : lecture
+  DATE : 12018-07-19
+  DONE : true
+  TAGS : psychology
+
+THREE TIER MIND
+  PERS : Neauoire
+  SRCE : Merveilles
+  LINK : https://www.pftq.com/blabberbox/?page=Three_Tiers_of_Mind
+  TYPE : article
+  DONE : false
+  DATE : 12018-07-19
+  TAGS : etymology, psychology
+
+WONDERBOOK
+  PERS : stephen
+  SRCE : Merveilles
+  LINK : http://wonderbooknow.com/
+  TYPE : book
+  NOTE : "The Illustrated Guide to Creating Imaginative Fiction."
+  DATE : 12018-07-19
+  DONE : false
+  TAGS : art, design
+
+VULTR
+  LINK : https://www.vultr.com
+  TYPE : tool
+  TAGS : web
+  DATE : 12018-07-19
+  NOTE : Web hosting
+  DONE : false
+
+GWERN
+  PERS : neauoire
+  SRCE : Merveilles
+  LINK : http://www.gwern.net/
+  TYPE : list
+  DATE : 12018-07-19
+  DONE : false
+  TAGS : history, psychology, science, ai, bitcoin, code, psychedelics, env, individual
+
+LET'S ENCRYPT
+  LINK : https://letsencrypt.org/
+  TYPE : tool
+  DATE : 12018-07-19
+  DONE : true
+  TAGS : code, web
+  NOTE : Free encryption ssl cert
+
+CATASTROPHE JOURNAL
+  PERS : cblgh
+  SRCE : Merveilles
+  LINK : https://seths.blog/2018/07/a-catastrophe-journal/
+  TYPE : article
+  DATE : 12018-07-19
+  TAGS : philosophy, psychology
+  DONE : true
+
+MISE EN BAG
+  PERS : cblgh
+  SRCE : Merveilles
+  LINK : https://miseenbag.com/
+  TYPE : article
+  DATE : 12018-07-19
+  DONE : true
+  TAGS : food
+  NOTE : Guerilla cooking backpack
+
+Flirting
+  PERS : eel
+  SRCE : Merveilles
+  LINK : http://top5-datingsites.co.uk/articles/the-science-of-flirting-the-hot-ape-method/
+  TYPE : article
+  DATE : 12018-07-19
+  TAGS : psychology, charisma
+  DONE : true
+
+CABBIBO.IS
+  LINK : http://cabbibo.is/
+  SRCE : OooShiny
+  TYPE : list
+  DATE : 12018-07-20
+  TAGS : inspiration, individual
+  DONE : false
+
+VI HART
+  LINK : http://vihart.com
+  TYPE : list
+  DATE : 12018-07-24
+  TAGS : inspiration, individual
+  DONE : false
+
+ELEVR BLOG
+  LINK : http://elevr.com/blog/
+  TYPE : list
+  DATE : 12018-07-24
+  TAGS : design
+  DONE : false
+
+UNCLUTTERED GAME DESIGN
+  LINK : https://www.youtube.com/watch?v=5DuDambEIMU
+  TYPE : lecture
+  DATE : 12018-07-19
+  TAGS : game
+  DONE : true
+  NOTE : Using space in game design, be it space or time.
+
+淘宝NPM镜像
+  LINK : https://www.jianshu.com/p/253cb9003411
+  TYPE : article
+  DATE : 12018-07-26
+  TAGS : web
+  DONE : true
+  NOTE : 教程是给NVM写的。NVS用户可以运行nvs remote指令添加淘宝node下载源
+
+STREISAND
+  LINK : https://github.com/StreisandEffect/streisand
+  TYPE : tool
+  DATE : 12018-07-23
+  TAGS : web, censorship
+  DONE : false
+  NOTE : Tool to set up VPN using own server.
+  
+WHONIX
+  LINK : https://www.whonix.org/
+  TYPE : tool
+  DATE : 12018-07-25
+  TAGS : censorship
+  DONE : false
+  NOTE : Linux OS configured for anonymity via Tor. Works well in a VM.
+
+t-SNE
+  LINK : https://lvdmaaten.github.io/tsne/
+  TYPE : tool
+  TAGS : machine learning, visualization
+  DONE : false
+  DATE : 12018-07-26
+  NOTE : Visualize high-dimensional data.
+
+Emoji in Semantic Space
+  LINK : https://getdango.com/postimg/semantic-space.html
+  TYPE : interactive
+  TAGS : inspiration, visualization
+  DONE : true
+  DATE : 12018-07-27
+  NOTE : t-SNE to group emoji. The same technique can be used to visualize bookmarks.
+
+GIFSLAP
+  LINK : https://github.com/gridwalk/gifSlap
+  TYPE : tool
+  TAGS : VJ
+  DONE : false
+  DATE : 12018-07-27
+  PERS : Donald Hanson
+
+UX ARCHIVE
+  LINK : http://uxarchive.com/
+  NOTE : Mobile app UX flow collections, categorized by tasks (onboarding, searching, etc.)
+  TAGS : UX, design
+  DONE : false
+  TYPE : list
+  DATE : 12018-07-27
+
+UXPIN E-BOOKS
+  LINK : https://www.uxpin.com/studio/ebooks/
+  NOTE : Free UX books
+  TAGS : UX, design
+  DONE : false
+  TYPE : list
+  DATE : 12018-07-28
+
+CADENCE & SLANG
+  LINK : https://medium.com/thoughtful-design/the-cadence-slang-of-good-user-interaction-e34953323c49
+  NOTE : Book on UX.
+  TAGS : UX, design
+  DONE : false
+  TYPE : book
+  DATE : 12018-07-28
+  QOTE : “Cadence” covers the rhythms we get into when we’re immersed in productive work with technology; “Slang” discusses the visual and interactional languages of an interface.
+
+STALKER (1979)
+  TYPE : video
+  NOTE : Art film from the Soviet Union
+  QOTE : "But, above all, may they believe in themselves and become as helpless as children. For softness is great and strength is worthless. When a man is born, he is soft and pliable. When he dies, he is strong and hard. When a tree grows, it is soft and pliable. But when it's dry and hard, it dies. Hardness and strength are death's companions. Flexibility and softness are the embodiment of life. That which has become hard shall not triumph."
+  TAGS : film, philosophy
+  DONE : false
+  DATE : 12018-07-28
+
+THE HOLY MOUNTAIN (1973)
+  TYPE : video
+  NOTE : Art film by Alejandro Jodorowsky.
+  TAGS : film
+  DONE : false
+  DATE : 12018-07-28
+
+MAKE IT SO
+  LINK : https://rosenfeldmedia.com/books/make-it-so/
+  NOTE : Interaction design from science fiction
+  TAGS : UX, design
+  DONE : false
+  TYPE : book
+  DATE : 12018-07-28
+
+GRIMGRAINS - TOOLS
+  LINK : http://grimgrains.com/#tools
+  SRCE : Merveilles
+  PERS : Rekka
+  TAGS : food
+  DONE : false
+  TYPE : article
+  DATE : 12018-07-28
+  NOTE : Kitchen tools for a floating home.
+
+THE TRANSPARENT SOCIETY, CHAPTER 1
+  LINK : http://www.davidbrin.com/nonfiction/transparentsociety1.html
+  SRCE : Merveilles
+  PERS : faun
+  TAGS : philosophy, technology, futurology
+  TYPE : book
+  DATE : 12018-07-28
+  DONE : false
+
+THE EVOLUTION OF TRUST
+  LINK : https://ncase.me/trust/
+  TAGS : society, psychology
+  TYPE : interactive
+  DATE : 12018-07-28
+  DONE : true
+  QOTE : "So, do what you can do, to create the conditions necessary to evolve trust. Build relationships. Find win-wins. Communicate clearly. Maybe then, we can stop firing at each other, get out of our own trenches, cross No Man's Land to come together...to live and let live."
+
+NICKY CASE
+  LINK : https://ncase.me/
+  TAGS : inspiration, game, education, individual
+  TYPE : list
+  DATE : 12018-07-28
+  DONE : false
+  NOTE : Explorable explanations.
+
+REGEXR
+  LINK : https://regexr.com/
+  TYPE : tool
+  TAGS : code
+  DATE : 12018-07-28
+  NOTE : ReGex testing ground, explanation, and collection.
+
+STYLE2PAINTS
+  LINK : https://github.com/lllyasviel/style2paints
+  TYPE : tool
+  TAGS : machine learning, code, otaku
+  DATE : 12018-07-29
+  DONE : false
+  NOTE : Color anime-style sketches automatically, yet with great control.
+
+NOTES ON KABBALAH
+  LINK : http://sebastiansiverand.com/library/NoK.pdf
+  TYPE : book
+  TAGS : esotericism, religion, judaism
+  DATE : 12018-07-29
+
+INFINITY MIRROR PRISM
+  LINK : https://www.reddit.com/r/DIY/comments/93vnxi/i_made_an_infinity_mirror_prism_internet_lacked_a/e3gkmtt/
+  TYPE : article
+  DATE : 12018-08-02
+  DONE : false
+  TAGS : hardware, DIY, LED
+  NOTE : Build guide on making trippy LED toy. Potential workshop idea at XinCheJian?
+
+BIGFACEBOX
+  LINK : http://portal.nifty.com/bigface/howtomakebox.htm#en
+  TYPE : article
+  DATE : 12018-08-05
+  DONE : false
+  TAGS : hardware, DIY, funny
+
+VARIETIES OF ARGUMENTATIVE EXPERIENCE
+  LINK : http://slatestarcodex.com/2018/05/08/varieties-of-argumentative-experience/
+  TYPE : article
+  DATE : 12018-08-05
+  DONE : true
+  TAGS : philosophy, psychology, erisology
+  NOTE : If an internet argument ever infuriates you so much that you can't sleep, read this.
+
+高木正勝 - Girls
+  LINK : https://www.youtube.com/watch?v=39dTEIVJ-CU
+  TYPE : music
+  DATE : 12018-08-05
+  TAGS : piano, heart, japan
+
+Sarah Vaughan - Misty
+  LINK : https://www.youtube.com/watch?v=6U1RaS_TQQk
+  TYPE : music
+  DATE : 12018-08-06
+  TAGS : jazz
+  NOTE : Sultry.
+`
