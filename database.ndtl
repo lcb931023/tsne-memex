@@ -22,17 +22,28 @@ THE TWINGE OF STARTING
   DATE : 12018-07-19
   DONE : true
 
+THE CYBERPALEO ETHIC
+  LINK : https://mailchi.mp/ribbonfarm/the-cyberpaleo-ethic-and-the-spirit-of-postcapitalism
+  TYPE : article
+  TAGS : philosophy, economy, psychology
+  DATE : 12018-09-03
+  QOTE
+    > "Necessity relates to the capacity for staying alive. Meaning relates to the interestingness of doing so. Burnout happens when one outruns the other."
+    > "When the outcome of work involves the variability of the environment in a consequential way, meaning and necessity are coupled. Life can be interesting without ideology."
+    > "You cannot burn out or get bored. You can only live, or die."
+    > "The cyberpaleo ethic: all the conveniences of the cyber age, with all the life-and-death meaningfulness of the paleolithic age -- engineered by choice into the environment."
+
 ELEVR LEARNINGS IN ONE YEAR
   LINK : http://elevr.com/1-year-at-ycr/
   TYPE : article
-  TAGS : design, inspiration
+  TAGS : design, inspiration, virtual reality, research
   DATE : 12018-07-24
   DONE : false
 
 CABBIBO'S VR INSIGHT
   LINK : https://docs.google.com/document/d/1-UYCZcxKDmy5BF_-IXg1KDtwShJ5imNOch5xGPXzPr0/edit
   TYPE : list
-  TAGS : design, inspiration
+  TAGS : design, inspiration, virtual reality
   DATE : 12018-07-20
   DONE : true
   QOTE
@@ -91,7 +102,7 @@ SCIENCE FICTION INTERFACES
   SRCE : Merveilles
   LINK : http://sciencefictioninterfaces.tumblr.com/
   TYPE : list
-  TAGS : design, inspiration
+  TAGS : design, inspiration, interface
   DATE : 12018-08-05
 
 MEAT
@@ -105,10 +116,22 @@ MEAT
 A Declaration of the Independence of Cyberspace
   LINK : https://www.eff.org/cyberspace-independence
   TYPE : article
-  DATE : 12018-08-06
+  DATE : 12018-07-19
   DONE : true
-  TAGS : web, freedom
+  TAGS : web, freedom, philosophy
   QOTE : "Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather."
+
+Information Management: A Proposal
+  LINK : https://www.w3.org/History/1989/proposal.html
+  TYPE : article
+  DATE : 12018-09-08
+  TAGS : web, research, information science
+  NOTE : The original proposal of the WWW, by Tim Berners-Lee at CERN.
+  QOTE
+    "Often, the information has been recorded, it just cannot be found."
+    "The system must allow any sort of information to be entered. Another person must be able to find the information, sometimes without knowing what he is looking for."
+    "It is also possible to look at the topology of an organisation or a project, and draw conclusions about how it should be managed, and how it could evolve. This is particularly useful when the database becomes very large, and groups of projects, for example, so interwoven as to make it difficult to see the wood for the trees."
+    "We should work toward a universal linked information system, in which generality and portability are more important than fancy graphics techniques and complex extra facilities."
 
 NIKITA VOLOBOEV
   LINK : https://wiki.nikitavoloboev.xyz/
@@ -130,6 +153,21 @@ DINOTOPIA
   TAGS : comic, worldbuilding
   NOTE : Childhood, lost and found.
 
+FORGETTING CURVE
+  LINK : https://en.wikipedia.org/wiki/Forgetting_curve
+  TYPE : article
+  DATE : 12018-08-23
+  SRCE : XinCheJian
+  TAGS : psychology, education
+
+FRATH WIKI
+  LINK : http://www.frathwiki.com/Main_Page
+  TYPE : list
+  DATE : 12018-08-14
+  TAGS : worldbuilding, conlang, language
+  DONE : false
+  NOTE : Conlang / conworld resource
+
 UNIVERSAL PAPERCLIPS
   LINK : http://www.decisionproblem.com/paperclips/
   TYPE : game
@@ -150,6 +188,12 @@ SHU
   TAGS : inspiration, individual, code
   NOTE : A Merveilles-like mind in China
 
+IF HEMINGWAY WROTE JAVASCRIPT
+  LINK : http://byfat.xxx/if-hemingway-wrote-javascript
+  TYPE : article
+  DATE : 12018-08-23
+  TAGS : code, humor, minimalism
+
 MAK
   LINK : https://inns.studio/mak
   TYPE : tool
@@ -157,12 +201,47 @@ MAK
   TAGS : productivity
   NOTE : A universal notepad.
 
+HEMINGWAY EDITOR
+  LINK : http://www.hemingwayapp.com/
+  TYPE : tool
+  DATE : 12018-08-23
+  TAGS : writing, minimalism
+  NOTE : Editor that helps making the writing bold and clear. Use this for emails.
+
 NUMI
   LINK : https://numi.io/
   TYPE : tool
   DATE : 12018-08-03
-  TAGS : productivity, inspiration
+  TAGS : productivity, inspiration, math
   NOTE : Text editor calculator
+
+WOLFRAM ALPHA
+  LINK : https://www.wolframalpha.com/
+  TYPE : tool
+  DATE : 12018-09-03
+  TAGS : math, dictionary
+  NOTE : Computable knowledge.
+
+A NEW KIND OF SCIENCE
+  LINK : https://www.wolframscience.com/nks/
+  DONE : false
+  TYPE : book
+  DATE : 12018-09-03
+  TAGS : science, code, generative
+
+BAYESIAN METHODS
+  LINK : https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
+  DONE : false
+  TYPE : book
+  DATE : 12018-09-07
+  TAGS : ai, machine learning
+
+LIBRARY GENESIS
+  LINK : http://libgen.io/
+  TYPE : tool
+  DATE : 12018-09-03
+  NOTE : Free e-books.
+  TAGS : book
 
 JOEL SIMON
   LINK : http://www.joelsimon.net/
@@ -184,14 +263,19 @@ INTERACTION DESIGN FUTURE
   TAGS : ux, design
   DONE : false
 
-INDEPENDENCE IN CYBERSPACE
-  PERS : ark
-  SRCE : Merveilles
-  LINK : https://www.eff.org/cyberspace-independence
-  TYPE : article
-  DATE : 12018-07-19
-  TAGS : philosophy
-  DONE : false
+BREAKING SMART S1
+  LINK : https://breakingsmart.com/en/season-1-newsletter-archive/
+  TYPE : list
+  NOTE : Theme: "Software is Eating the World"
+  TAGS : philosophy, technology, economy
+  DATE : 12018-09-03
+
+BREAKING SMART S2
+  LINK : https://breakingsmart.com/en/season-2/season-2-newsletter-archive/
+  TYPE : list
+  NOTE : Cyberpaleo aesthetics.
+  TAGS : philosophy, technology, economy
+  DATE : 12018-09-03
 
 TOP SLATE STAR CODEX
   PERS : neauoire
@@ -209,12 +293,19 @@ UNDER THE SKIN: J PETERSON
   DONE : true
   TAGS : society, psychology, philosophy
 
+UNNAMED REVERSE ENGINEERING PODCAST
+  LINK : https://reverseengineering.libsyn.com/
+  TYPE : podcast
+  DATE : 12018-08-28
+  DONE : false
+  TAGS : code, hardware
+
 SCP FOUNDATION
   LINK : http://www.scp-wiki.net/
   TYPE : list
   DATE : 12018-07-19
   DONE : false
-  TAGS : fiction
+  TAGS : fiction, science
 
 TENDRILS OF MESS IN OUR BRAINS
   LINK : https://www.ribbonfarm.com/2017/01/05/tendrils-of-mess-in-our-brains/
@@ -229,14 +320,7 @@ WIKTOPHER
   TYPE : book
   DATE : 12018-07-19
   DONE : false
-  TAGS : fiction
-
-SELF AUTHORING
-  LINK : https://selfauthoring.com/
-  TYPE : lecture
-  DATE : 12018-07-19
-  DONE : true
-  TAGS : psychology
+  TAGS : fiction, fantasy, conlang, worldbuilding
 
 THREE TIER MIND
   PERS : Neauoire
@@ -307,29 +391,35 @@ Flirting
   LINK : http://top5-datingsites.co.uk/articles/the-science-of-flirting-the-hot-ape-method/
   TYPE : article
   DATE : 12018-07-19
-  TAGS : psychology, charisma
+  TAGS : psychology, charisma, dating
   DONE : true
+
+PEOPLE WATCHING
+  LINK : https://www.youtube.com/playlist?list=PL_saLI-LH-VrxFpFgk467Jn02i46arTyD
+  TYPE : video
+  DATE : 12018-08-17
+  TAGS : psychology, dating, pop culture, society
 
 CABBIBO.IS
   LINK : http://cabbibo.is/
   SRCE : OooShiny
   TYPE : list
   DATE : 12018-07-20
-  TAGS : inspiration, individual
+  TAGS : inspiration, individual, web, virtual reality, art
   DONE : false
 
 VI HART
   LINK : http://vihart.com
   TYPE : list
   DATE : 12018-07-24
-  TAGS : inspiration, individual
+  TAGS : inspiration, individual, research, virtual reality
   DONE : false
 
 ELEVR BLOG
   LINK : http://elevr.com/blog/
   TYPE : list
   DATE : 12018-07-24
-  TAGS : design
+  TAGS : design, virtual reality, research
   DONE : false
 
 UNCLUTTERED GAME DESIGN
@@ -352,7 +442,7 @@ STREISAND
   LINK : https://github.com/StreisandEffect/streisand
   TYPE : tool
   DATE : 12018-07-23
-  TAGS : web, censorship
+  TAGS : web, censorship, privacy
   DONE : false
   NOTE : Tool to set up VPN using own server.
   
@@ -363,6 +453,20 @@ WHONIX
   TAGS : censorship
   DONE : false
   NOTE : Linux OS configured for anonymity via Tor. Works well in a VM.
+
+HYPERFACE
+  LINK : https://ahprojects.com/projects/hyperface/
+  TYPE : article
+  DATE : 12018-09-07
+  TAGS : censorship, privacy, fashion, computer vision, art
+  NOTE : Counter facial detection surveillance by providing false face data.
+
+OFF POCKET
+  LINK : https://ahprojects.com/projects/off-pocket/
+  TYPE : article
+  DATE : 12018-09-07
+  TAGS : privacy, gadget
+  NOTE : Faraday cage phone case, blocks all wireless signals. For avoiding tracking and also for disconnecting.
 
 t-SNE
   LINK : https://lvdmaaten.github.io/tsne/
@@ -486,6 +590,14 @@ STYLE2PAINTS
   DONE : false
   NOTE : Color anime-style sketches automatically, yet with great control.
 
+NEURAL STYLE TENSORFLOW
+  LINK : https://github.com/cysmith/neural-style-tf
+  TYPE : tool
+  TAGS : machine learning, code, art
+  DATE : 12018-09-05
+  DONE : false
+  NOTE : Neural style transfer for both image and video.
+
 NOTES ON KABBALAH
   LINK : http://sebastiansiverand.com/library/NoK.pdf
   TYPE : book
@@ -505,7 +617,7 @@ BIGFACEBOX
   TYPE : article
   DATE : 12018-08-05
   DONE : false
-  TAGS : hardware, DIY, funny
+  TAGS : hardware, DIY, humor
 
 VARIETIES OF ARGUMENTATIVE EXPERIENCE
   LINK : http://slatestarcodex.com/2018/05/08/varieties-of-argumentative-experience/
@@ -514,6 +626,21 @@ VARIETIES OF ARGUMENTATIVE EXPERIENCE
   DONE : true
   TAGS : philosophy, psychology, erisology
   NOTE : If an internet argument ever infuriates you so much that you can't sleep, read this.
+
+RAISE A GENIUS!
+  LINK : http://slatestarcodex.com/Stuff/genius.pdf
+  TYPE : book
+  DATE : 12018-08-23
+  NOTE : Before anything, start with the last part, 'The Meaning of the Whole Thing'.
+  TAGS : family, education, psychology
+
+How to take your Performance to the Next Level
+  LINK : https://www.youtube.com/watch?v=eG1_Fcaq280
+  TYPE : lecture
+  DATE : 12018-08-14
+  DONE : true
+  TAGS : music, psychology, performance, education
+  NOTE : Hierarchy of Competence, and why you don't know your performance sucks.
 
 高木正勝 - Girls
   LINK : https://www.youtube.com/watch?v=39dTEIVJ-CU
@@ -527,4 +654,11 @@ Sarah Vaughan - Misty
   DATE : 12018-08-06
   TAGS : jazz
   NOTE : Sultry.
+
+浅井製作所 × Dorian「ASAI NEJI」
+  LINK : https://www.youtube.com/watch?v=NLIP2yMHfPM
+  TYPE : music
+  DATE : 12018-09-10
+  TAGS : industrial, inspiration, electronic
+  NOTE : Music video synchronizing the sound and the machines. Visual ASMR.
 `
