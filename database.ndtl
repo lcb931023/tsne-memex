@@ -5,6 +5,7 @@ let DATABASE = `
   TAGS : philosophy
   DATE : 12018-07-26
   QOTE : 总得有更多人仰望星空。
+  DONE : true
 
 Boredom
   TYPE : quote
@@ -13,6 +14,7 @@ Boredom
   QOTE
     When really bored and unmotivated, read a book.
     When not motivated to read book, find interesting places around you and explore.
+  DONE : true
 
 THE TWINGE OF STARTING
   LINK : https://www.lesswrong.com/posts/9o3QBg2xJXcRCxGjS/working-hurts-less-than-procrastinating-we-fear-the-twinge
@@ -32,26 +34,7 @@ THE CYBERPALEO ETHIC
     > "When the outcome of work involves the variability of the environment in a consequential way, meaning and necessity are coupled. Life can be interesting without ideology."
     > "You cannot burn out or get bored. You can only live, or die."
     > "The cyberpaleo ethic: all the conveniences of the cyber age, with all the life-and-death meaningfulness of the paleolithic age -- engineered by choice into the environment."
-
-ELEVR LEARNINGS IN ONE YEAR
-  LINK : http://elevr.com/1-year-at-ycr/
-  TYPE : article
-  TAGS : design, inspiration, virtual reality, research
-  DATE : 12018-07-24
-  DONE : false
-
-CABBIBO'S VR INSIGHT
-  LINK : https://docs.google.com/document/d/1-UYCZcxKDmy5BF_-IXg1KDtwShJ5imNOch5xGPXzPr0/edit
-  TYPE : list
-  TAGS : design, inspiration, virtual reality
-  DATE : 12018-07-20
   DONE : true
-  QOTE
-    > "Befriend an Architect, Industrial designer or an interior designer... They have infinitely more practice than you studying space"
-    > "Think about how you can transform that engineering into creating some piece that was never before possible, that pushes the limits of human understanding, and that moves us forward as a species."
-    > "I’ve really liked thinking about VR apps a lot like I think of ‘travel’. You go to this new place, learn a bunch of new things, have a bunch of fun, reminisce a lot, maybe have an existential crisis."
-    > "In all mediums it’s the constraints that define it"
-    > "Let's get weird with this new medium, spreading out our tendrils out into the majestic new possibility space until we find the places that are *truly* compelling, that let us as humans understand more about the universe around us, and help us discover more of our magical reality."
 
 IDENTITY
   PERS : neauoire
@@ -62,6 +45,17 @@ IDENTITY
     "Your “self” is forever fleeting, and you can never count of it to remain the same.
     Instead of choosing an identity based on who I was, I based it on who I wanted to become.
     It gave me a sense of direction, or something to chase."
+  DONE : true
+
+LOGO
+  PERS : faun
+  SRCE : Merveilles
+  TYPE : quote
+  TAGS : semiotics, design, identity
+  QOTE
+    Are there aspects of yourself that you foresee won't change for a long while?
+    Can you represent them in visual form, for a semiotician from the future to decrypt?
+  DONE : true
 
 THE THREE GATES OF SPEECH
   TYPE : quote
@@ -69,6 +63,28 @@ THE THREE GATES OF SPEECH
     "Before you speak, let your words pass through three gates; At the first gate, ask yourself, is is true? At the second gate ask, is it necessary? At the third gate ask, is it kind?" - Rumi
   DATE : 12018-08-05
   TAGS : philosophy, erisology, charisma
+  DONE : true
+
+CABBIBO'S VR INSIGHT
+  LINK : https://docs.google.com/document/d/1-UYCZcxKDmy5BF_-IXg1KDtwShJ5imNOch5xGPXzPr0/edit
+  TYPE : list
+  TAGS : design, inspiration, virtual reality
+  DATE : 12018-07-20
+  DONE : false
+  QOTE
+    > "Befriend an Architect, Industrial designer or an interior designer... They have infinitely more practice than you studying space"
+    > "Think about how you can transform that engineering into creating some piece that was never before possible, that pushes the limits of human understanding, and that moves us forward as a species."
+    > "I’ve really liked thinking about VR apps a lot like I think of ‘travel’. You go to this new place, learn a bunch of new things, have a bunch of fun, reminisce a lot, maybe have an existential crisis."
+    > "In all mediums it’s the constraints that define it"
+    > "Let's get weird with this new medium, spreading out our tendrils out into the majestic new possibility space until we find the places that are *truly* compelling, that let us as humans understand more about the universe around us, and help us discover more of our magical reality."
+  DONE : true
+
+ELEVR LEARNINGS IN ONE YEAR
+  LINK : http://elevr.com/1-year-at-ycr/
+  TYPE : article
+  TAGS : design, inspiration, virtual reality, research
+  DATE : 12018-07-24
+  DONE : false
 
 NOTES ON OUTPUT
   PERS : neauoire
@@ -77,7 +93,7 @@ NOTES ON OUTPUT
   TYPE : article
   TAGS : philosophy, design, inspiration, productivity
   DATE : 12018-07-19
-  DONE : true
+  DONE : false
 
 WAKING UP
   PERS : faun
@@ -86,6 +102,7 @@ WAKING UP
   TYPE : quote
   TAGS : philosophy
   DATE : 12018-07-19
+  DONE : true
 
 TYPEFACE PAIRING
   PERS : rutherford
@@ -94,7 +111,7 @@ TYPEFACE PAIRING
   TYPE : article
   TAGS : design, typography
   DATE : 12018-07-27
-  DONE : false
+  DONE : true
   QOTE : "The goal of typography is to go unnoticed, which means your options are to either have a pattern and stick to it, or make sure there isn’t a pattern at all. Contrast, or subtlety. No half measures."
 
 SCIENCE FICTION INTERFACES
@@ -102,7 +119,7 @@ SCIENCE FICTION INTERFACES
   SRCE : Merveilles
   LINK : http://sciencefictioninterfaces.tumblr.com/
   TYPE : list
-  TAGS : design, inspiration, interface
+  TAGS : design, inspiration, interface, sci-fi
   DATE : 12018-08-05
 
 MEAT
@@ -110,14 +127,14 @@ MEAT
   TYPE : article
   DATE : 12018-07-19
   QOTE : 'Meat. They're made out of meat.'
-  DONE : true
+  DONE : false
   TAGS : fiction
 
 A Declaration of the Independence of Cyberspace
   LINK : https://www.eff.org/cyberspace-independence
   TYPE : article
   DATE : 12018-07-19
-  DONE : true
+  DONE : false
   TAGS : web, freedom, philosophy
   QOTE : "Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather."
 
@@ -126,6 +143,7 @@ Information Management: A Proposal
   TYPE : article
   DATE : 12018-09-08
   TAGS : web, research, information science
+  DONE : true
   NOTE : The original proposal of the WWW, by Tim Berners-Lee at CERN.
   QOTE
     "Often, the information has been recorded, it just cannot be found."
@@ -153,12 +171,20 @@ DINOTOPIA
   TAGS : comic, worldbuilding
   NOTE : Childhood, lost and found.
 
+BLAME! And So On
+  LINK : http://www.randomisgod.com/blame/Artbook82.html
+  TYPE : article
+  DATE : 12018-10-01
+  TAGS : comic, worldbuilding, cyberpunk, aesthetics
+  NOTE : Author's notes on setting and content of BLAME!. 4 pages.
+
 FORGETTING CURVE
   LINK : https://en.wikipedia.org/wiki/Forgetting_curve
   TYPE : article
   DATE : 12018-08-23
   SRCE : XinCheJian
-  TAGS : psychology, education
+  TAGS : psychology, education, memory
+  DONE : true
 
 FRATH WIKI
   LINK : http://www.frathwiki.com/Main_Page
@@ -172,13 +198,14 @@ UNIVERSAL PAPERCLIPS
   LINK : http://www.decisionproblem.com/paperclips/
   TYPE : game
   DATE : 12018-07-31
-  DONE : true
+  DONE : false
   TAGS : web, clicker game, thought experiment
 
 RAVEN KWOK
   LINK : http://ravenkwok.com/
   TYPE : list
   DATE : 12018-07-31
+  DONE : true
   TAGS : generative, inspiration, individual
 
 SHU
@@ -199,12 +226,14 @@ MAK
   TYPE : tool
   DATE : 12018-08-03
   TAGS : productivity
+  DONE : true
   NOTE : A universal notepad.
 
 HEMINGWAY EDITOR
   LINK : http://www.hemingwayapp.com/
   TYPE : tool
   DATE : 12018-08-23
+  DONE : true
   TAGS : writing, minimalism
   NOTE : Editor that helps making the writing bold and clear. Use this for emails.
 
@@ -212,6 +241,7 @@ NUMI
   LINK : https://numi.io/
   TYPE : tool
   DATE : 12018-08-03
+  DONE : true
   TAGS : productivity, inspiration, math
   NOTE : Text editor calculator
 
@@ -219,6 +249,7 @@ WOLFRAM ALPHA
   LINK : https://www.wolframalpha.com/
   TYPE : tool
   DATE : 12018-09-03
+  DONE : true
   TAGS : math, dictionary
   NOTE : Computable knowledge.
 
@@ -248,6 +279,8 @@ JOEL SIMON
   TYPE : list
   DATE : 12018-07-31
   TAGS : generative, inspiration, biology, individual
+  NOTE : Artist / Researcher who did a variety of biology & generative works.
+  DONE : true
 
 OPTIMIZATION PROGRAM
   QOTE : "An optimization program is a tool to let you know which constraints you forgot"
@@ -255,6 +288,13 @@ OPTIMIZATION PROGRAM
   TYPE : quote
   DATE : 12018-07-31
   TAGS : philosophy, code, generative
+
+VOYAGER GOLDEN RECORD
+  TYPE : quote
+  QOTE : "This is a present from a small distant world, a token of our sounds, our science, our images, our music, our thoughts, and our feelings. We are attempting to survive our time so we may live into yours. We hope someday, having solved the problems we face, to join a community of galactic civilizations. This record represents our hope and our determination, and our good will in a vast and awesome universe." - Jimmy Carter
+  DATE : 12018-10-01
+  TAGS : space, history
+  DONE : true
 
 INTERACTION DESIGN FUTURE
   LINK : http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
@@ -274,7 +314,7 @@ BREAKING SMART S2
   LINK : https://breakingsmart.com/en/season-2/season-2-newsletter-archive/
   TYPE : list
   NOTE : Cyberpaleo aesthetics.
-  TAGS : philosophy, technology, economy
+  TAGS : philosophy, technology, economy, psychology
   DATE : 12018-09-03
 
 TOP SLATE STAR CODEX
@@ -286,11 +326,37 @@ TOP SLATE STAR CODEX
   DONE : false
   TAGS : psychology, society, research, philosophy
 
+STOCKS
+  TYPE : quote
+  DATE : 12018-09-23
+  DONE : true
+  SRCE : Merveilles
+  PERS : horsman
+  TAGS : personal finance, economy, investment
+  QOTE
+    If you are not a finance expert, or an expert of the industry you are investing in _and_  intermediately knowledgeable in finance, you are going to be way better off buying index funds of various kinds.
+    The less you touch or money and actively trade, the better you will do on average.
+    Being “long” means you believe the macro forces at play are going to bring the etf / sector / company up over the long term and you are totally comfortable doing nothing on the peaks and dips, with a plan for what conditions you will sell for upfront (ie: in 5 years, if the stock price doubles, or when I want to buy a PINO).
+    It's easier to predict economy on a macro scale, if you can tie it to systemic changes in global economy / industries / power structures, events...
+    To reduce risk from volatility:
+    1. Average your trades in and out: if you have enough money that the cost of trades is insignificant in relation to the cost of stock you are buying, you should purchase 1/n stock with a fixed frequency, n times. this averages out the volitility of the stock price over that period of time, giving you something closer to the macro value of the stock. You can do this when you sell, too.
+    2. Rebalance your assets with a given frequency, say 1-4 times a year. If your due diligence is the same, you should still want to have the same percentage of your money in each of the areas you planned before. This means that if one of your stocks had _sick gains_, you should take those gains and put them with equal percentages into all of your investments, not just continue to bet on the stock that did well with that money. Rebalance your investment percentages back to what you originally decided.
+    3. Update your due diligence. Are the macro forces that got you into the investments you have still relevant? What is the current status of the market you are investing in?
+
+THE INTELLIGENT INVESTOR
+  TYPE : book
+  LINK : https://en.wikipedia.org/wiki/The_Intelligent_Investor
+  DATE : 12018-10-03
+  TAGS : personal finance, economy, investment
+  QOTE
+    The group approach. To try to buy groups of stocks that meet some simple criterion for being undervalued-regardless of the industry and with very little attention to the individual company.
+    The investor is advised to concentrate on the real life performance of his companies and receiving dividends, rather than be too concerned with Mr. Market's often irrational behavior.
+
 UNDER THE SKIN: J PETERSON
   LINK : https://youtu.be/r2S58rH0PAw?t=1h1m38s
   TYPE : podcast
-  Date : 12018-07-19
-  DONE : true
+  DATE : 12018-07-19
+  DONE : false
   TAGS : society, psychology, philosophy
 
 UNNAMED REVERSE ENGINEERING PODCAST
@@ -362,7 +428,7 @@ LET'S ENCRYPT
   LINK : https://letsencrypt.org/
   TYPE : tool
   DATE : 12018-07-19
-  DONE : true
+  DONE : false
   TAGS : code, web
   NOTE : Free encryption ssl cert
 
@@ -373,7 +439,7 @@ CATASTROPHE JOURNAL
   TYPE : article
   DATE : 12018-07-19
   TAGS : philosophy, psychology
-  DONE : true
+  DONE : false
 
 MISE EN BAG
   PERS : cblgh
@@ -381,7 +447,7 @@ MISE EN BAG
   LINK : https://miseenbag.com/
   TYPE : article
   DATE : 12018-07-19
-  DONE : true
+  DONE : false
   TAGS : food
   NOTE : Guerilla cooking backpack
 
@@ -422,13 +488,71 @@ ELEVR BLOG
   TAGS : design, virtual reality, research
   DONE : false
 
+Reality-virtuality continuum
+  LINK : https://en.wikipedia.org/wiki/Reality%E2%80%93virtuality_continuum
+  TYPE : article
+  DATE : 12018-09-23
+  DONE : true
+  TAGS : virtual reality, etymology
+  NOTE : Real Environment - Augmented Reality - Augmented Virtuality - Virtual Environment
+
+WONKUBUS'S VR INSIGHT FOR GAMES
+  TYPE : lecture
+  DATE : 12018-10-10
+  TAGS : virtual reality, inspiration, game design
+  DONE : true
+  TERM
+    > FTUE - First-time user experience
+  NOTE
+    Learning how to play a game is where the fun comes from; Be careful however not to confuse the gameplay with its UI. The UI outside the gameplay needs to be clear and intuitive, especially at the beginning of the game, to ensure good FTUE.
+    Tutorials need to be fun for the player, and that requires giving them agency during the tutorial.
+    Tooltips are powerful way to teach things that are hard to explain to players in VR, so long as it's used in moderation. Reading is hard!
+    Pick one between room-scale and seated experience, and stick with it. It's much work to design a game that has to satisfies both.
+    Avoid designing the game for one VR controller, and use virtual objects player can interact with in game as UI. Current VR controllers aren't the same across platforms.
+
+UNITY POST-PROCESSING STACK FOR VR
+  TYPE : tool
+  DATE : 12018-10-10
+  DONE : true
+  TAGS : virtual reality, unity3d, visual
+  PERS : wonkubus
+  NOTE
+    Effects that are bad in VR:
+    Ambinet Occlusion, because expensive calculation.
+    Depth of Field. Our eyes focusing on something that look close in VR, but blurred out, will mess with the brain.
+    Motion blur, because _barfs_.
+    Effects that are good in VR:
+    Eye Adaption.
+    Color-grading.
+    Bloom. Bright objects can be used for highlighting and wayfinding in VR.
+
 UNCLUTTERED GAME DESIGN
   LINK : https://www.youtube.com/watch?v=5DuDambEIMU
   TYPE : lecture
   DATE : 12018-07-19
-  TAGS : game
+  TAGS : game design, minimalism
+  DONE : false
+  NOTE : Using space in game design, be it space or time. Make things stand out.
+
+MORALITY SYSTEMS IN GAME
+  LINK : https://www.youtube.com/watch?v=C450hycRpog
+  TYPE : lecture
+  DATE : 12018-10-02
   DONE : true
-  NOTE : Using space in game design, be it space or time.
+  TAGS : game design, morality
+  NOTE : Having a system in game that evaluates your moral choices would corrupt them, for it would turn an ethical choice into a strategic one.
+
+MULTIPLAYER MUSIC AND SOUND
+  LINK : https://www.youtube.com/watch?v=mqylE_9Cbvg
+  TYPE : lecture
+  DATE : 12018-10-06
+  DONE : true
+  TAGS : game design, sound design, multiplayer
+  NOTE
+    Multiplayer games such as Overwatch & DotA struggle to design its audio. 
+    One, because music have to be used sparsely in order to avoid repeating too much and annoying the players; and two, because the sound design affects game balance.
+    Playing the music only before game starts give a sense of ceremony, and playing it toward the end of a game adds tension.
+    Making footsteps audible, and providing in-game communication tools that are audio based, fill up the void of the soundscape while giving players crucial in-game information.
 
 淘宝NPM镜像
   LINK : https://www.jianshu.com/p/253cb9003411
@@ -458,6 +582,7 @@ HYPERFACE
   LINK : https://ahprojects.com/projects/hyperface/
   TYPE : article
   DATE : 12018-09-07
+  DONE : true
   TAGS : censorship, privacy, fashion, computer vision, art
   NOTE : Counter facial detection surveillance by providing false face data.
 
@@ -465,22 +590,64 @@ OFF POCKET
   LINK : https://ahprojects.com/projects/off-pocket/
   TYPE : article
   DATE : 12018-09-07
+  DONE : true
   TAGS : privacy, gadget
   NOTE : Faraday cage phone case, blocks all wireless signals. For avoiding tracking and also for disconnecting.
+
+GENEROMINOS
+  LINK : http://www.galaxykate.com/generominos/generominos.pdf
+  TYPE : tool
+  DATE : 12018-10-01
+  PERS : Kate Compton
+  DONE : true
+  NOTE : Generative ideation cards.
+  TAGS : ideation, generative
+
+REACTION-DIFFUSION TUTORIAL
+  LINK : http://www.karlsims.com/rd.html
+  TYPE : article
+  DATE : 12018-10-01
+  PERS : Karl Sims
+  TAGS : reaction diffusion, generative
+  NOTE : A simulation of two virtual chemicals reacting and diffusing on a 2D grid using the Gray-Scott model.
+  DONE : false
+
+REACTION-DIFFUSION DEMO
+  LINK : http://pmneila.github.io/jsexp/grayscott/
+  TYPE : interactive
+  DATE : 12018-10-01
+  NOTE : Interactive playground of rx-diff, with presets to explore.
+  TAGS : reaction diffusion, generative
+
+DESIGN KIT
+  LINK : http://www.designkit.org/methods
+  TYPE : tool
+  NOTE : IDEO's methods for inspiration, ideation, and implementation.
+  DONE : false
+  DATE : 12018-10-01
+  TAGS : design, prototyping, ideation
+
+AUGMENTING LONG-TERM MEMORY
+  LINK : http://augmentingcognition.com/ltm.html
+  TYPE : article
+  DONE : false
+  DATE : 12018-10-01
+  NOTE : Essay on using Anki to memorize info for long time. Reading papers, understanding foreign subjects, and other patterns.
+  TAGS : memory, psychology, memex
 
 t-SNE
   LINK : https://lvdmaaten.github.io/tsne/
   TYPE : tool
   TAGS : machine learning, visualization
-  DONE : false
+  DONE : true
   DATE : 12018-07-26
   NOTE : Visualize high-dimensional data.
 
 Emoji in Semantic Space
   LINK : https://getdango.com/postimg/semantic-space.html
   TYPE : interactive
-  TAGS : inspiration, visualization
-  DONE : true
+  TAGS : inspiration, visualization, semiotics
+  DONE : false
   DATE : 12018-07-27
   NOTE : t-SNE to group emoji. The same technique can be used to visualize bookmarks.
 
@@ -488,15 +655,23 @@ GIFSLAP
   LINK : https://github.com/gridwalk/gifSlap
   TYPE : tool
   TAGS : VJ
-  DONE : false
+  DONE : true
   DATE : 12018-07-27
   PERS : Donald Hanson
+
+泼辣有图
+  LINK : http://www.polayoutu.com/collections
+  TYPE : tool
+  TAGS : design, photo
+  NOTE : Chinese Stock Photo Community, Creative Commons Zero License.
+  DATE : 12018-09-25
+  DONE : true
 
 UX ARCHIVE
   LINK : http://uxarchive.com/
   NOTE : Mobile app UX flow collections, categorized by tasks (onboarding, searching, etc.)
   TAGS : UX, design
-  DONE : false
+  DONE : true
   TYPE : list
   DATE : 12018-07-27
 
@@ -535,7 +710,7 @@ THE HOLY MOUNTAIN (1973)
 MAKE IT SO
   LINK : https://rosenfeldmedia.com/books/make-it-so/
   NOTE : Interaction design from science fiction
-  TAGS : UX, design
+  TAGS : UX, design, sci-fi
   DONE : false
   TYPE : book
   DATE : 12018-07-28
@@ -544,8 +719,8 @@ GRIMGRAINS - TOOLS
   LINK : http://grimgrains.com/#tools
   SRCE : Merveilles
   PERS : Rekka
-  TAGS : food
-  DONE : false
+  TAGS : food, cooking
+  DONE : true
   TYPE : article
   DATE : 12018-07-28
   NOTE : Kitchen tools for a floating home.
@@ -572,7 +747,7 @@ NICKY CASE
   TAGS : inspiration, game, education, individual
   TYPE : list
   DATE : 12018-07-28
-  DONE : false
+  DONE : true
   NOTE : Explorable explanations.
 
 REGEXR
@@ -580,14 +755,15 @@ REGEXR
   TYPE : tool
   TAGS : code
   DATE : 12018-07-28
+  DONE : true
   NOTE : ReGex testing ground, explanation, and collection.
 
 STYLE2PAINTS
   LINK : https://github.com/lllyasviel/style2paints
   TYPE : tool
-  TAGS : machine learning, code, otaku
+  TAGS : machine learning, code, otaku, anime
   DATE : 12018-07-29
-  DONE : false
+  DONE : true
   NOTE : Color anime-style sketches automatically, yet with great control.
 
 NEURAL STYLE TENSORFLOW
@@ -595,7 +771,7 @@ NEURAL STYLE TENSORFLOW
   TYPE : tool
   TAGS : machine learning, code, art
   DATE : 12018-09-05
-  DONE : false
+  DONE : true
   NOTE : Neural style transfer for both image and video.
 
 NOTES ON KABBALAH
@@ -623,7 +799,7 @@ VARIETIES OF ARGUMENTATIVE EXPERIENCE
   LINK : http://slatestarcodex.com/2018/05/08/varieties-of-argumentative-experience/
   TYPE : article
   DATE : 12018-08-05
-  DONE : true
+  DONE : false
   TAGS : philosophy, psychology, erisology
   NOTE : If an internet argument ever infuriates you so much that you can't sleep, read this.
 
@@ -642,16 +818,33 @@ How to take your Performance to the Next Level
   TAGS : music, psychology, performance, education
   NOTE : Hierarchy of Competence, and why you don't know your performance sucks.
 
+TIDALCYCLES
+  LINK : https://tidalcycles.org/patterns.html
+  TYPE : tool
+  DATE : 12018-10-01
+  TAGS : music, live coding, performance, haskell
+
+YOU ARE LISTENING TO
+  LINK : http://youarelistening.to/
+  TYPE : music
+  DATE : 12018-09-23
+  TAGS : radio, productivity, ambient, city
+  NOTE : Mashup of SoundCloud playlists and radio snippets.
+  SRCE : Merveilles
+  PERS : alx
+
 高木正勝 - Girls
   LINK : https://www.youtube.com/watch?v=39dTEIVJ-CU
   TYPE : music
   DATE : 12018-08-05
+  DONE : true
   TAGS : piano, heart, japan
 
 Sarah Vaughan - Misty
   LINK : https://www.youtube.com/watch?v=6U1RaS_TQQk
   TYPE : music
   DATE : 12018-08-06
+  DONE : true
   TAGS : jazz
   NOTE : Sultry.
 
@@ -659,6 +852,336 @@ Sarah Vaughan - Misty
   LINK : https://www.youtube.com/watch?v=NLIP2yMHfPM
   TYPE : music
   DATE : 12018-09-10
+  DONE : true
   TAGS : industrial, inspiration, electronic
   NOTE : Music video synchronizing the sound and the machines. Visual ASMR.
+
+起承转结 - 4 STEP LEVEL DESIGN
+  DATE : 12018-10-08
+  TYPE : lecture
+  LINK : https://www.youtube.com/watch?v=dBmIkEvEBtA
+  DONE : true
+  TAGS : game design, level design, nintendo
+  NOTE
+    Each Super Mario 3D World level introduces a mechanic in a safe environment, then develops it further, then add twists that players don't expect, and finally let's them show off their skill on the flagpole as conclusion.
+  TERM
+    > 起承转结: 'A narrative structure that introduces a concept, develops it, twists it, and offers a conclusion. AKA Kishōtenketsu in Japanese.'
+
+NINTENDO - PUTTING PLAY FIRST
+  DATE : 12018-10-08
+  TYPE : lecture
+  LINK : https://www.youtube.com/watch?v=2u6HTG8LuXQ
+  DONE : true
+  TAGS : game design, nintendo
+  QOTE
+    "What you do in the game and how you do it is used as the catalyst to drive everything else."
+    "I first take the character which you're going to control and replace them with a dot as a placeholder, then I think about what kind of movement would be fun." - Gunpei Yokoi
+    "When you could interact with almost everything in the game by using [one strong main mechanic], Nintendo can make a game where the player's range of actions is very small and easy to learn, but the number of things they could interact with is huge."
+    "(When it comes to Nintendo's sequels) it's about putting a new twist on an already established mechanics... put those old mechanics in interesting new contexts."
+    "(By representing part of the game system, such as camera, targeting system... as characters,) gameplay needn't be abstract systems but organic part of the game world."
+    "(Basing the story on the game's main mechanics) might seem like a crazy way to come up with a story, but it can help ensure there's a deep connection between what you do in the game, and what happens in the story."
+    "When every aspect of the game is suggesting the way you play it, it becomes effortless to pick the game up and get stuck in."
+  NOTE
+    Super Mario: A game about jumping. Splatoon: firing ink. A Link Between Worlds: turning into a painting. Luigi's Mansion (gamecube): using a vacuum cleaner.
+    All these games start with one single mechanics, and that determines everything from graphical style, sound design, user interface, characters, world setting, and even narrative.
+
+
+MOIRAI
+  DATE : 12018-10-09
+  TYPE : game
+  DONE : true
+  LINK : https://www.pcgamer.com/a-brief-history-of-moirai-one-of-pcs-most-disturbing-games/
+  TAGS : game design, indie game, society
+  NOTE
+    I played this game twice, in 12013 &amp; 12017. In both playthroughs I let the previous player pass, refused to mercy-kill Julia, and the next player let me pass too.
+    It subverts the expectation that characters you interact with in game are NPCs.
+    The choice between letting previous player pass or die examines how the player would behave when nobody's watching.
+    The answers player types in for the next player, on the other hand, introduces a real vulnerability. The outcome isn't up to the player anymore.
+  QOTE
+    "There’s a certain codified language about how people approach games, and one of those things is that most of the characters you’ll interact with will be some pre-programmed thing, unless the game is explicitly a multiplayer one. I thought it was an interesting thing to subvert that expectation: you don’t realise the other player is actually a player. You see them as an NPC."
+    "(Moirai) forced you to assess yourself: how you comport yourself when you think no one’s listening."
+
+THE CONCEPT OF ANXIETY
+  DATE : 12018-10-10
+  TYPE : book
+  LINK : https://en.wikipedia.org/wiki/The_Concept_of_Anxiety
+  TAGS : philosophy, inspiration, freedom, existentialism
+  TERM
+    > Dizziness of Freedom: The mere fact that one has the possibility and freedom to do something, even the most terrifying of possibilities, triggers immense feelings of dread.
+
+HOW TO LEARN LANGUAGE
+  DATE : 12018-10-19
+  TYPE : lecture
+  LINK : https://www.youtube.com/watch?v=cUojCUTKYlc
+  TAGS : language
+
+PRICE ANCHORING
+  DATE : 12018-10-19
+  TYPE : lecture
+  LINK : https://www.youtube.com/watch?v=DjgVwN_k_88
+  TAGS : business, negotiation, psychology
+
+GOLAN LEVIN
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, inspiration, education
+  LINK : http://www.flong.com/
+
+ZACH LIEBERMAN
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, inspiration, education
+  LINK : http://thesystemis.com/
+
+MARPI
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, unity3d, inspiration, san francisco
+  LINK : https://marpi.pl/
+
+ECCO SCREEN
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, inspiration, san francisco, minimalism
+  LINK : https://eccoscreen.xyz/
+
+XIAOHAN ZHANG
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, inspiration, san francisco
+  LINK : http://www.hellochar.com/
+
+GEORGE ZISIADIS
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, inspiration, san francisco, society
+  LINK : http://www.georgezisiadis.com/
+
+Baku 麦
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, inspiration, japan
+  LINK : https://baku89.com/
+
+Jurg Lehni
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, art, inspiration, robotics
+  LINK : http://juerglehni.com/
+
+ANDY PHELPS
+  DATE : 12018-10-19
+  TYPE : list
+  TAGS : individual, education, game design
+  LINK : https://andyworld.io/
+
+INTERACTING WITH NEGATIVE SPACES
+  LINK : https://www.youtube.com/watch?v=Wq9QtEyO0Vc
+  DATE : 12018-10-19
+  TYPE : interactive
+  TAGS : inspiration, art, audio-visual
+
+AKIRA (1988)
+  DATE : 12018-10-20
+  TYPE : video
+  NOTE : Ground-breaking anime film about a dystopian Tokyo 2020. Beautiful lighting animation.
+  QOTE : “We know the future doesn’t necessarily proceed on a single course. There ought to be a future we can choose. It’s up to us to find it.” - Kyoko
+  TAGS : sci-fi, anime
+
+NEW SCI-FI SUBGENRES
+  DATE : 12018-10-20
+  TYPE : list
+  DONE : true
+  LINK : https://howwegettonext.com/exploring-the-future-without-cyberpunks-neon-and-noir-8e23562819e3
+  TERM
+    > 超幻: Chinese Sci-Fi, the "Ultra-Unreal". Time is compressed in China, and daily news feel like reading science fiction sometimes.
+    > Afrofuturism: Black lives in the future. Challenge the anglosphere's narratives about others, past, present, and future.
+    > Gulf Futurism: Both the "hyperdevelopment" aesthetic of architecture in the region, and the critique of the same.
+    > Climate Fiction (Cli-Fi): Sci-fi about climate change.
+    > Solarpunk: Optimistic cli-fi. Overcome the apocalypse with ingenuity, positive creation, independence, and community.
+    > Water Crisis Thriller: Mad Max, Tank Girl, etc.
+    > Kitchen Sink Dystopia: A story that seems wholly mundane and normal until something goes a bit wrong. “day to day debasement of Super Late Capitalism.”
+    > Woke Space Opera: All the elements of spare opera, with a contemporary sociopolitical twist.
+    > The New Weird: Time for some tentacles! The central characters often aren't wholly human. The mood is eerie and uneasy.
+  TAGS : sci-fi, literature
+
+PAUL GRAHAM'S WRITING TIPS
+  DATE : 12018-10-20
+  TYPE : article
+  LINK : http://www.paulgraham.com/writing44.html
+  TAGS : writing
+
+Using Anki to learn chords
+  QOTE : "I would recommend putting in chord progressions (like in a normal song) rather than single chords. Also make sure to actually form the chords, either on the piano (definitely much better), or on the table (in a pinch). This will allow you to learn the chords in context and give your hands muscle memory, especially with common transitions."
+  DATE : 12018-10-25
+  TYPE : quote
+  TAGS : music, memory
+
+Effective Learning
+  LINK : https://www.supermemo.com/en/articles/20rules
+  TYPE : list
+  DATE : 12018-10-29
+  TAGS : memory, learning
+  NOTE : 20 rules of formulating knowledge. Guideline for creating Anki flash cards.
+
+FLASH CARDS FOR GUITARIST
+  LINK : https://deftdigits.com/tools/flash-cards
+  TYPE : tool
+  DATE : 12018-10-29
+  TAGS : learning, music, guitar
+  NOTE : Flash cards for remembering and practicing the fretboard, triads, modes, and chords.
+
+Memories (1995)
+  TYPE : video
+  NOTE : 3 Sci-fi shorts by Japanese masters of anime.
+  TAGS : film, anime, art, sci-fi
+  DATE : 12018-10-29
+
+Categorizing creative systems
+  TYPE : quote
+  DATE : 12018-11-13
+  TAGS : generative
+  DONE : true
+  QOTE
+    1. Domain & Creative Task: Does it produce poetry? music? visual art? cinema? game? If it produces music, does it compose? perform? improvise?
+
+    2. How specific or generic is the system. e.g. AARON's output has a very specific style, while the Continuator can imitate many styles of music. Often, artistic systems are more specific, while researching / scientific systems are more generic.
+
+    3. Level of autonomy. How much human involvement is needed? AARON paints new paintings on demand without any human input, while the continuator only works with a human partner.
+
+    4. Interactivity: if the system interacts with human, and in what way. Low level interactivity: the system only reacts to its input, like most apps with a GUI. A text editor interacts with you this way. High level interactivity: aka Agent Interaction, or Conversational Interactivity. the actions of the creative system affects the actions of the human.
+
+    5. Time: The generative process can happen in real time, or ahead of time.
+
+    6. Origin of the system's knowledge. Encoded Knowledge, Input Knowledge, and Knowledge learned - extracted from some input data.
+
+    7. System's pattern of behavior, as if they are artificial lives. Christopher Langton's 4 classes of behavior. Fixed behavior: static output. Periodic behavior: system has recurrent behaviors. Chaotic behavior: no discernable patterns. Complex behavior: the sweet spot between Periodic and Chaotic behavior. Where we can find the most intelligent outputs. ˀ"Complex" here refers to the output of the system, not the complexity of the process. 
+
+    8. Architecture of the system. Purely generative system takes some input, and then simply outputs. Feedback loop or reflexive system separates the generation and evaluation; the evaluation affects the generation. Interactive, or adaptive system, adds the audience, user, or environment of the output into feedback.
+
+Brainstorming Guidelines
+  DATE : 12018-11-13
+  TAGS : psychology, society, ideation
+  TYPE : tool
+  QOTE
+    Go for quantity
+    Withhold criticism
+    Welcome wild ideas
+    Combine and improve ideas
+  DONE : true
+
+AARON
+  DATE : 12018-11-13
+  TYPE : article
+  LINK : http://www.computerhistory.org/atchm/harold-cohen-and-aaron-a-40-year-collaboration/
+  TAGS : art, generative
+  NOTE : Robot + Software painter by Harold Cohen, created in the 1970s.
+  DONE : true
+
+The Continuator
+  DATE : 12018-11-13
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=ynPWOMzossI
+  TAGS : art, music, generative
+  NOTE : Continues musician's playing in their style, designed by François Pachet. Based on Markov Chain.
+  DONE : true
+
+Systematic Learning
+  DATE : 12018-11-13
+  TAGS : psychology, learning
+  TYPE : quote
+  TERM
+    > Systematic Learning: For subjects that are large and complicated, such as engineering. Understanding an advanced concept in this would require prerequisite knowledge, and therefore can only be learned systematically. 
+    When learning through a tutorial series / book, do not skip ahead even if you already have some knowledge. Start with the 1st tut. 
+    Systematic knowledges can be reinforced with Anki, but must be learned systematically beforehand.
+
+
+Jump learning
+  DATE : 12018-11-13
+  TAGS : psychology, learning
+  TYPE : quote
+  TERM
+    > Jump learning: For separate pieces of knowledge that do not depend on each other. e.g. APIs, Alphabet, Dictionary, websites with a "search" function.
+    Knowledges that can be jump-learned, can be learned directly through Anki flashcards.
+
+Droqen
+  DATE : 12018-11-13
+  TAGS : individual, game design
+  TYPE : list
+  LINK : https://www.droqen.com/
+  NOTE : Indie game developer who focuses on making learning and discovery a part of fun. Minimal design.
+
+PINK SHIP WINS
+  LINK : https://droqen.itch.io/vmj5-pink-ship
+  DATE : 12018-11-13
+  TAGS : game design, multiplayer
+  TYPE : game
+  NOTE : Minimalist competitive game by Droqen.
+
+STARSEED PILGRIM
+  LINK : http://www.starseedpilgrim.com/
+  DATE : 12018-11-13
+  TAGS : game design
+  TYPE : game
+  NOTE : Strange, relaxing, puzzle exploration game by Droqen. Very unique.
+
+JOY EXHIBITION
+  LINK : https://www.youtube.com/watch?v=z4MEH1TRz70
+  TYPE : game
+  TAGS : game design, generative, art
+  DATE : 12018-11-13
+  NOTE : Alien art gallery. A game about learning to enjoy the process of failure. By Strangethink.
+
+Tetsuya Mizuguchi
+  DATE : 12018-11-13
+  LINK : https://en.wikipedia.org/wiki/Tetsuya_Mizuguchi
+  TYPE : article
+  TAGS : game design, individual
+  NOTE : Japanese game designer who excels at interactive sound design.
+
+Point, Reason, Example, Summary
+  DATE : 12018-11-19
+  LINK : https://www.themuse.com/advice/3-smart-ways-to-keep-yourself-from-rambling
+  NOTE : A conversational framework to keep oneself from rambling.
+  TAGS : psychology, conversation, logic
+  TYPE : article
+
+Chet Baker - My Funny Valentine
+  DATE : 12018-11-27
+  LINK : https://www.youtube.com/watch?v=JVfeHN2lypE
+  TYPE : music
+  NOTE : Chet Baker's last concert, 2 weeks before his death.
+  TAGS : jazz
+  DONE : true
+
+LIP BUZZING FOR TRUMPET
+  DATE : 12018-11-28
+  TYPE : lecture
+  LINK : https://www.youtube.com/watch?v=F9k4yKcdvpE
+  QOTE : Clench the corners of your mouth, make a flat lip shape, and produce a long, sustained sound.
+  TAGS : trumpet, instrument, music
+
+DOCUMENTING TOOLS
+  LINK : https://wiki.xxiivv.com/#documentation
+  DATE : 12018-11-28
+  TYPE : article
+  NOTE : Neauoire's cheatsheet on different types of documentation - Tutorials, How-to Guides, Explanations, and Reference.
+  TAGS : writing, technology
+
+What to Do If You Hate Small Talk
+  LINK : https://www.youtube.com/watch?v=SrK5NAgw_g4
+  DATE : 12018-11-28
+  TYPE : video
+  QOTE
+    "To those gifted enough to see properly, the whole world could be found in a single grain of sand."
+    "Conversation is fundamentally a natural, organic occurance which happens to us, but cannot be created or shaped by us."
+  TAGS : psychology, society, conversation
+
+Evangelion Directing Tricks
+  LINK : https://www.youtube.com/watch?v=LnqluniiXyk
+  DATE : 12018-11-29
+  TYPE : video
+  NOTE : Rapid fire imageries for sensual overload. Eye movement to inform location relationships. Make viewer eyes move dynamically. Use movement at the start and end of a shot.
+  TAGS : film, anime, directing
+
 `
