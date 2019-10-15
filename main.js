@@ -17,6 +17,8 @@ const preparedMemex = {}
 for (const key in memex) {
   if (memex.hasOwnProperty(key)) {
     const meme = memex[key]
+    // avoid processing memes that aren't properly tagged
+    if (!meme.TAGS) continue;
     preparedMemex[key] = []
     allTags.forEach(tag => {
       const tagName = tag[0]
