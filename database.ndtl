@@ -1,5 +1,4 @@
-let DATABASE = `
-
+var DATABASE = `
 星空
   TYPE : quote
   TAGS : philosophy
@@ -65,6 +64,16 @@ THE THREE GATES OF SPEECH
   TAGS : philosophy, erisology, charisma
   DONE : true
 
+FATE
+  TYPE : quote
+  SRCE : Merveilles
+  PERS : faun
+  QOTE
+    "Fate is a terrible designer. You can probably do better."
+  DATE : 12019-01-01
+  TAGS : philosophy, fate, design
+  DONE : true
+
 CABBIBO'S VR INSIGHT
   LINK : https://docs.google.com/document/d/1-UYCZcxKDmy5BF_-IXg1KDtwShJ5imNOch5xGPXzPr0/edit
   TYPE : list
@@ -91,7 +100,7 @@ NOTES ON OUTPUT
   SRCE : Merveilles
   LINK : https://wiki.xxiivv.com/#aesthetics
   TYPE : article
-  TAGS : philosophy, design, inspiration, productivity
+  TAGS : philosophy, design, inspiration, productivity, merveilles
   DATE : 12018-07-19
   DONE : false
 
@@ -100,9 +109,17 @@ WAKING UP
   SRCE : Merveilles
   QOTE : Keep a huge jar of water beside your bed for when you wake up. You probably wake up dehydrated and if you drink it, waking up will become easier
   TYPE : quote
-  TAGS : philosophy
+  TAGS : health
   DATE : 12018-07-19
   DONE : true
+
+SILENCE
+  QOTE : "Don't talk unless you can improve the silence" -- Jorge Luis Borges
+  DATE : 12019-04-16
+  TYPE : quote
+  TAGS : silence, socializing
+  SRCE : Merveilles
+  PERS : kormyen
 
 TYPEFACE PAIRING
   PERS : rutherford
@@ -156,7 +173,7 @@ NIKITA VOLOBOEV
   TYPE : list
   DATE : 12018-07-19
   DONE : false
-  TAGS : philosophy, productivity, individual
+  TAGS : philosophy, productivity, individual, merveilles
 
 KILL SIX BILLION DEMONS
   LINK : https://killsixbilliondemons.com/comic/kill-six-billion-demons-chapter-4/
@@ -207,6 +224,47 @@ RAVEN KWOK
   DATE : 12018-07-31
   DONE : true
   TAGS : generative, inspiration, individual
+
+BEN BLOOMBERG
+  LINK : https://ben.ai/
+  TYPE : list
+  DATE : 12019-05-13
+  NOTE : Production design & development. MIT Media Lab alumni. Made visuals and performance system for Jacob Collier.
+  TAGS : individual, production design, music, VJ, sound design
+
+JACOB COLLIER TED TALK
+  LINK : https://www.youtube.com/watch?v=dDZoGcQVjJg
+  TYPE : video
+  DATE : 12019-05-13
+  TAGS : music, VJ, neural network
+  NOTE : Performance at Ted. The visual seems to be using many interesting & advanced techniques such as neural style transfer, background subtraction with Kinect (or just plain computer vision techniques?), facial recognition, flocking, kaleidoscopic shader, and all tied to the improvised musical inputs. Performance system created by Ben Bloomberg.
+
+STEPHEN MALINOWSKI
+  LINK : https://musanim.com/
+  TAGS : music, synesthesia, musical score, visualization, individual
+  DATE : 12019-05-13
+  TYPE : list
+  NOTE : Creator of animated musical scores.
+
+Music Animation Machine Renderers
+  LINK : http://www.musanim.com/Renderers/
+  TYPE : list
+  DATE : 12019-05-13
+  TAGS : music, synesthesia, visualization, musical score, graphic design
+  NOTE : Various techniques and visual styles for visualizing musical scores. Ideas on how to represent sound and musical movements in graphical form. By Stephen Malinowski.
+
+Grainger, Children's March
+  LINK : https://www.youtube.com/watch?v=mJZR91YggAw
+  TYPE : video
+  DATE : 12019-05-13
+  TAGS : music, synesthesia, musical score, visualization
+
+Instruments with accents
+  TYPE : quote
+  LINK : https://www.reddit.com/r/Showerthoughts/comments/bnt62n/banjos_sound_like_a_guitar_with_a_southern_accent/
+  QOTE : "Banjos sound like a guitar with a southern accent" - r/showerthoughts
+  DATE : 12019-05-13
+  TAGS : music, instrument, language, accent
 
 SHU
   LINK : https://shud.in/
@@ -272,7 +330,14 @@ LIBRARY GENESIS
   TYPE : tool
   DATE : 12018-09-03
   NOTE : Free e-books.
-  TAGS : book
+  TAGS : book, library, download
+
+ZLibrary
+  LINK : https://b-ok.org/
+  TYPE : tool
+  DATE : 12019-08-09
+  NOTE : Free e-books.
+  TAGS : book, library, download
 
 JOEL SIMON
   LINK : http://www.joelsimon.net/
@@ -448,7 +513,7 @@ MISE EN BAG
   TYPE : article
   DATE : 12018-07-19
   DONE : false
-  TAGS : food
+  TAGS : food, cooking
   NOTE : Guerilla cooking backpack
 
 Flirting
@@ -502,7 +567,7 @@ WONKUBUS'S VR INSIGHT FOR GAMES
   TAGS : virtual reality, inspiration, game design
   DONE : true
   TERM
-    > FTUE - First-time user experience
+    > FTUE: First-time user experience
   NOTE
     Learning how to play a game is where the fun comes from; Be careful however not to confuse the gameplay with its UI. The UI outside the gameplay needs to be clear and intuitive, especially at the beginning of the game, to ensure good FTUE.
     Tutorials need to be fun for the player, and that requires giving them agency during the tutorial.
@@ -662,7 +727,7 @@ GIFSLAP
 泼辣有图
   LINK : http://www.polayoutu.com/collections
   TYPE : tool
-  TAGS : design, photo
+  TAGS : design, photo, open source, license, legal, creative commons
   NOTE : Chinese Stock Photo Community, Creative Commons Zero License.
   DATE : 12018-09-25
   DONE : true
@@ -719,7 +784,7 @@ GRIMGRAINS - TOOLS
   LINK : http://grimgrains.com/#tools
   SRCE : Merveilles
   PERS : Rekka
-  TAGS : food, cooking
+  TAGS : food, cooking, merveilles
   DONE : true
   TYPE : article
   DATE : 12018-07-28
@@ -769,7 +834,7 @@ STYLE2PAINTS
 NEURAL STYLE TENSORFLOW
   LINK : https://github.com/cysmith/neural-style-tf
   TYPE : tool
-  TAGS : machine learning, code, art
+  TAGS : machine learning, code, art, neural network
   DATE : 12018-09-05
   DONE : true
   NOTE : Neural style transfer for both image and video.
@@ -845,7 +910,7 @@ Sarah Vaughan - Misty
   TYPE : music
   DATE : 12018-08-06
   DONE : true
-  TAGS : jazz
+  TAGS : jazz, vocal
   NOTE : Sultry.
 
 浅井製作所 × Dorian「ASAI NEJI」
@@ -1136,7 +1201,7 @@ Tetsuya Mizuguchi
   DATE : 12018-11-13
   LINK : https://en.wikipedia.org/wiki/Tetsuya_Mizuguchi
   TYPE : article
-  TAGS : game design, individual
+  TAGS : game design, individual, sound design, synesthesia, japan
   NOTE : Japanese game designer who excels at interactive sound design.
 
 Point, Reason, Example, Summary
@@ -1151,7 +1216,7 @@ Chet Baker - My Funny Valentine
   LINK : https://www.youtube.com/watch?v=JVfeHN2lypE
   TYPE : music
   NOTE : Chet Baker's last concert, 2 weeks before his death.
-  TAGS : jazz
+  TAGS : jazz, vocal, trumpet
   DONE : true
 
 LIP BUZZING FOR TRUMPET
@@ -1166,7 +1231,7 @@ DOCUMENTING TOOLS
   DATE : 12018-11-28
   TYPE : article
   NOTE : Neauoire's cheatsheet on different types of documentation - Tutorials, How-to Guides, Explanations, and Reference.
-  TAGS : writing, technology
+  TAGS : writing, technology, merveilles
 
 What to Do If You Hate Small Talk
   LINK : https://www.youtube.com/watch?v=SrK5NAgw_g4
@@ -1184,4 +1249,844 @@ Evangelion Directing Tricks
   NOTE : Rapid fire imageries for sensual overload. Eye movement to inform location relationships. Make viewer eyes move dynamically. Use movement at the start and end of a shot.
   TAGS : film, anime, directing
 
+Gifts
+  LINK : https://www.reddit.com/r/LifeProTips/comments/a2xny3/lpt_dont_give_a_gift_that_will_require_further/
+  SRCE : reddit
+  QOTE : Don't give a gift that will require further investment from the person receiving it. Unless it's something they've specifically asked for, it isn't a gift it's a burden.
+  DATE : 12018-12-05
+  TYPE : quote
+  TAGS : society, psychology
+
+Voyager Images
+  LINK : https://www.youtube.com/watch?v=ibByF9XPAPg
+  DATE : 12018-12-06
+  TYPE : video
+  TAGS : space, inspiration, history
+  NOTE : Real time decoding of voyager images, encoded as audio.
+
+Shade by Simon Heijdens 
+  LINK : http://www.simonheijdens.com/indexbig.php?type=project&name=Shade
+  DATE : 12018-12-07
+  TYPE : article
+  TAGS : inspiration, nature, architecture, glass, light, installation
+  NOTE : Switchable glass + wind pattern.
+
+CONSTELLACTION
+  LINK : https://vimeo.com/76479685
+  DATE : 12018-12-07
+  TYPE : video
+  TAGS : inspiration, light, installation
+  NOTE : Light installation with emergent behaviors. Each light unit responds to brightness of the surrounding units. Like fireflies.
+
+THE KONMARI METHOD
+  LINK : https://konmari.com/pages/about
+  DATE : 12018-12-09
+  TYPE : article
+  TAGS : minimalism, interior design
+  NOTE : An approach to tidying up by asking, "Does this item spark joy?"
+
+A GROWING THING
+  LINK : https://sunbeam.city/@dualhammers/101196802552326298
+  SRCE : Merveilles
+  PERS : dualhammers
+  DATE : 12018-12-10
+  TYPE : article
+  TAGS : health, psychology, poem
+  QOTE
+    To grow, things must be removed
+    Trim away the old leaves and dead Branches
+    Of things you could have become
+
+    Find new buds near old wounds
+    Give them sunlight
+    And water
+    See what they blossom
+
+    And do it all again
+
+    Because
+
+    We are made of broken things
+    The mulch from which we emerge
+    Is rich
+    When we have lived and died
+    Gained and discarded
+    Tried and failed
+
+HOW TO BUILD PRODUCTS QUICKLY
+  LINK : https://blog.stefanaleksic.com/posts/2018/02/14/products/
+  PERS : Stefan Aleksic
+  DATE : 12018-12-13
+  TYPE : article
+  TAGS : productivity, prototyping, business, web, code, design, marketing
+  NOTE : Stefan's notes on how to ship quickly. I don't agree with his approach on web technology; However, the "muscle memory" perspective, and the methodical approach to building something, resonates with me.
+  QOTE
+    "Rapidly prototyping an idea you have is a muscle you have to train and build."
+    "You need to go from buying a domain to setting it up with your DigitalOcean servers in less than 5 minutes."
+
+JOE CRABTREE
+  LINK : https://www.joecrabtree.com/now
+  DATE : 12018-12-16
+  TYPE : article
+  TAGS : individual, music, drum
+
+NOW PAGE
+  LINK : https://nownownow.com/about
+  DATE : 12018-12-16
+  TYPE : article
+  TAGS : web
+  NOTE : A "Now page" tells you what this person is focused on at this point in their life.
+  QOTE : "Think of what you’d tell a friend you hadn’t seen in a year."
+
+CERBELLUM
+  LINK : https://kokorobot.ca/#cerbellum
+  DATE : 12018-12-16
+  TYPE : book
+  TAGS : psychology, anxiety, art, illustration, comic
+
+EMOTIONAL & ECONOMIC MICROSOLIDARITY
+  LINK : http://richdecibels.com/stories/courage-before-hope/courage-before-hope.html
+  DATE : 12018-12-19
+  TYPE : article
+  TAGS : economy, society, psychology
+  QOTE : "What to do in the last decade of the Anthropocene"
+
+HOW TO COMFORT SOMEONE WITH DEPRESSION
+  LINK : http://www.sadrunner.com/2016/comfort-someone-with-depression/
+  DATE : 12018-12-19
+  TYPE : article
+  TAGS : psychology, depression
+  QOTE
+    "I love you"
+    "You may still feel alone, but I am here"
+    "I can’t imagine what it’s like, but I want to listen"
+    "You are important to me"
+    "We/I care about you and what is happening"
+    Say nothing and listen (when they are too exhausted, or refuse to take in positivity)
+    "I want to be here for you, I won’t leave you behind"
+    "Let’s ride this out together"
+    "Even if it doesn’t feel like it, you’re so strong"
+    "Please keep going, if not for you, for me"
+
+How Dark Souls Turns Motifs Into Music
+  LINK : https://www.youtube.com/watch?v=bUdyc8j8eLc
+  DATE : 12018-12-28
+  TYPE : video
+  TAGS : music, composition, motif, game
+  NOTE : The music for "Gwyn, Lord of Cinder" develops two simple motifs into a 2 minute piece beautifully.
+
+PINK TROMBONE
+  DATE : 12019-01-01
+  LINK : https://dood.al/pinktrombone/
+  TYPE : interactive
+  TAGS : language, speech, anatomy
+  NOTE : Speech synthesis.
+
+Way of Seeing Coltrane
+  LINK : https://www.coreymwamba.co.uk/rambles/1388150764
+  DATE : 12019-01-01
+  TYPE : article
+  TAGS : jazz, modal jazz, music theory, music, hard bop
+  NOTE : Analysis of John Coltrane's Circle of Fifth Deluxe.
+  QOTE
+    "So, to what I think was an order of events. I think a circle was drawn first; then the main pitches written as a cycle of fourths, with the position of each pitch being alternated between being inside or outside the circle. This would make the two whole tone scales...
+    "From there, the subsidiary pitches were written in to produce the repetition of each scale, and then Coltrane grouped them, for reasons that were entirely related to theory and go beyond a chromatic modulation. I suspect the numbers were written on last, perhaps just after the connecting spokes were drawn."
+
+Chet Baker - Lament
+  LINK : https://www.youtube.com/watch?v=8LAAi_BanJo
+  DATE : 12019-01-05
+  TYPE : music
+  TAGS : jazz, trumpet, guitar
+  NOTE : Beautiful pairing of guitar, bass, and Chet Baker's trumpet.
+
+VR SCREEN SHAKE
+  LINK : http://www.zulubo.com/gamedev/2019/1/5/vr-screen-shake-the-art-of-not-throwing-up
+  DATE : 12019-01-07
+  TYPE : article
+  TAGS : virtual reality, user experience
+  NOTE : Virtial reality screen shake that doesn't make you throw up. Achieved by distorting only the edge of the screen.
+
+HISTORY OF BLUE PIGMENT
+  TYPE : quote
+  DATE : 12019-01-07
+  TAGS : color, history, science, society
+  QOTE
+    "The only way to achieve a deep rich blue was by using a semi-precious stone, lapis lazuli, to produce a pigment known as ultramarine [...] To have one's portrait commissioned and painted with ultramarine blue was considered a great luxury. If a patron wanted blue, they were obliged to pay extra.
+    "Blue and purple came to be associated with royalty because of their rarity."
+
+ROMANI VARDO WAGONS
+  TYPE : article
+  DATE : 12019-01-08
+  LINK : https://www.thevintagenews.com/2018/06/22/romani-vardo-wagons/
+  TAGS : nomad, history, romani, culture, minority
+  QOTE : "Inside the vardo wagons, there was enough room for sleeping. Besides beds, they contained all the necessary appliances and assets to run a household. Perhaps it was all in miniature but there was everything: a stove, some cupboards, a table, chairs, and a place to store clothes and other belongings."
+  TERM
+    > Vardo: Traditional horse-drawn wagon used by British Romani people as their home.
+
+福建土楼
+  TYPE : article
+  DATE : 12019-01-08
+  LINK : https://en.wikipedia.org/wiki/Fujian_Tulou
+  TAGS : diaspora, hakka, culture, minority, architecture
+  TERM
+    > 福建土楼: Walled villages, popular in Fujian, and constructed by Hakka people during the Punti-Hakka Clan Wars.
+
+AMAZIGH/BERBER WOMEN TATTOO
+  TYPE : article
+  DATE : 12019-01-08
+  LINK : https://lineblurring.wordpress.com/2015/03/20/amazigh-face-tattoos-a-north-african-beautiful-dying-tradition/
+  TAGS : tattoo, visual, aesthetics, culture, minority, nomad
+  NOTE : Berber women tatoo & their meanings.
+
+CALIBRE
+  TYPE : tool
+  DATE : 12019-01-08
+  LINK : https://calibre-ebook.com/
+  TAGS : book, kindle, e-book
+  NOTE : Converts between e-book formats; manages books in Kindle.
+
+DIY CAT TOWER
+  DATE : 12019-01-09
+  LINK : https://imgur.com/a/djPhBRu
+  TYPE : article
+  TAGS : hardware, diy, cat, pet
+  NOTE : Cat tower made from scrap wood, cardboard, and papier-mache.
+
+CONSIDERATIONS WHEN PORTING TO VR
+  DATE : 12019-01-09
+  LINK : https://www.reddit.com/r/Vive/comments/ae5bu3/due_to_recent_increase_of_postscomments_saying/
+  TYPE : article
+  TAGS : virtual reality, design, porting
+  NOTE
+    3D effects in VR is different
+    Optimization, from 60fps to 90fps & 2x resolution
+    HUD change
+    Locomotion change
+    Interaction change, from mouse & keyboard / controller, to tracked controller.
+    Motion sickness prevention
+
+SURFING
+  DATE : 12019-01-21
+  PERS : Nao Tokui
+  TYPE : quote
+  TAGS : music, philosophy, control, art, ai
+  QOTE : "People tend to think that it's total control or no control. But the interesting place is in the middle of that. I call it 'surfing.' When you surf, there is a powerful complicated system, but you're riding on it, you're going somewhere on it, and you can make some choices about it." - Brian Eno
+
+NAO TOKUI
+  LINK : http://naotokui.net/
+  TYPE : list
+  DATE : 12019-01-21
+  TAGS : individual, art, music, ai, japan, researcher
+  NOTE : Creative technologist specializing in Computational Creativity and AI.
+
+GARTNER HYPE CYCLE
+  LINK : https://www.gartner.com/en/research/methodologies/gartner-hype-cycle
+  DATE : 12019-01-21
+  TYPE : article
+  TAGS : technology, business, psychology
+  QOTE
+    Innovation Trigger: A potential technology breakthrough kicks things off. Early proof-of-concept stories and media interest trigger significant publicity. Often no usable products exist and commercial viability is unproven.
+    Peak of Inflated Expectations: Early publicity produces a number of success stories — often accompanied by scores of failures. Some companies take action; many do not.
+    Trough of Disillusionment: Interest wanes as experiments and implementations fail to deliver. Producers of the technology shake out or fail. Investments continue only if the surviving providers improve their products to the satisfaction of early adopters.
+    Slope of Enlightenment: More instances of how the technology can benefit the enterprise start to crystallize and become more widely understood. Second- and third-generation products appear from technology providers. More enterprises fund pilots; conservative companies remain cautious.
+    Plateau of Productivity: Mainstream adoption starts to take off. Criteria for assessing provider viability are more clearly defined. The technology's broad market applicability and relevance are clearly paying off.
+
+INDICATING ROOMSCALE VR BOUNDARY
+  LINK : https://www.reddit.com/r/Vive/comments/aia9sl/when_people_you_show_your_vr_to_dont_understand/
+  DATE : 12019-01-22
+  TYPE : article
+  TAGS : virtual reality, design, interior design
+  QOTE
+    Have a carpet in the middle of the room that gives them intuitive feedback about where they are in the real world. The ideal carpet would be small enough so that you cant reach the walls while standing on it, but large enough to give you space to walk around. Have them play without shoes so that they feel the carpet better.
+
+GUIDE TO READING CYRILLIC ALPHABET
+  LINK : https://i.redd.it/44h3dzqy63c21.jpg
+  DATE : 12019-01-23
+  TYPE : image
+  FILE : 12019-01-23_cyrillic.jpg
+  TAGS : language, russian, alphabet
+  NOTE : Quick comic guide with lots of heuristic memorization tricks.
+
+CycleGAN
+  LINK : https://junyanz.github.io/CycleGAN/
+  DATE : 12019-01-29
+  TYPE : article
+  TAGS : ai, machine learning, neural network, art, visual
+  NOTE : Image style translation that's aware of the context. Can do things like changing summer to winter, zebra to horse, apples to oranges.
+
+THE RED STRINGS CLUB
+  LINK : https://www.youtube.com/watch?v=IKwKVukDsXQ
+  DATE : 12019-02-11
+  TYPE : game
+  TAGS : roleplaying, ai, philosophy, cyberpunk, game design
+  NOTE : A roleplaying game that asks good questions about technology and freewill. Gameplay as metaphor.
+
+CHOOSE A LICENSE
+  LINK : https://choosealicense.com/
+  DATE : 12019-02-12
+  TYPE : tool
+  TAGS : open source, legal, license, business
+  NOTE : Tool and explanation for how to choose an open source license, what features each of them provide.
+
+FERMENTED LONELINESS
+  QOTE : I bottled up my loneliness, and it fermented. Now I have champagne, but no one to drink it with.
+  TAGS : inspiration, writing, surreal
+  TYPE : quote
+  LINK : https://www.reddit.com/r/fifthworldproblems/comments/aqd7ja/i_bottled_up_my_loneliness_and_it_fermented_now_i/
+  DATE : 12019-02-14
+
+I'M GOOGLE
+  LINK : http://dinakelberman.tumblr.com/
+  DATE : 12019-02-15
+  TYPE : list
+  TAGS : art, internet, surreal
+  NOTE : Manually arranged Google image search stream of consciousness.
+
+A COMPLETE GUIDE TO LASER SHOWS
+  LINK : http://www.laserist.org/guide-to-laser-shows.htm
+  DATE : 12019-03-01
+  TYPE : article
+  TAGS : laser, projector, lightning tech
+
+Lake Peigneur Salt Mine drilling accident
+  LINK : https://www.youtube.com/watch?v=3cXnxGIDhOA
+  TYPE : video
+  DATE : 12019-03-08
+  NOTE : A drill connected a shallow lake to the salt mine underneath. Water melts salt. Water fills mine. Water forms vortex. Vortex drains lake. Vortex pulls land. Land breaks. Lake water is gone. Canal to the Gulf of Mexico flows backward, and fills the lake. Fortunately, nobody was hurt.
+  TAGS : disaster, history, geology, failure
+
+BILINGUAL PERSONALITIES
+  LINK : https://www.reddit.com/r/languagelearning/comments/azokug/anyone_else/
+  TYPE : article
+  DATE : 12019-03-12
+  NOTE : A reddit post where people talk about having different "personalities" when speaking different languages.
+  QOTE : "bilingual culture is realising you have different voices in different languages"
+  TAGS : language, psychology, culture
+
+MARIMO
+  LINK : https://en.wikipedia.org/wiki/Marimo
+  TYPE : article
+  DATE : 12019-03-14
+  NOTE : Japanese moss ball that grows naturally in water.
+  TAGS : plant, decoration, interior design, moss, japan
+
+Language Learning with Netflix
+  LINK : https://languagelearningwithnetflix.com/instructions.html
+  TYPE : tool
+  DATE : 12019-04-08
+  TAGS : langauge, learning, netflix, tv
+  NOTE : Browser plugin that enhances subtitles for netflix. The link contains study tips for this learning method.
+
+Sylbo Whistling Language
+  LINK : https://www.youtube.com/watch?v=C0CIRCjoICA
+  TYPE : video
+  DATE : 12019-04-15
+  TAGS : language, whistling language, spanish, culture
+  NOTE : Whistling language in La Gomera island, in the Spanish canary islands. It's a coded form of Spanish.
+
+Mazatec Whistle Talk
+  LINK : https://www.youtube.com/watch?v=Hvw9sN2fN8A
+  TYPE : video
+  DATE : 12019-04-15
+  TAGS : language, whistling language, mexico, culture
+  NOTE : Whistling language in Oaxaca, Mexico. It is a spoken language that can also be whistled. The whistling form is mostly only spoken by younger men these days.
+
+Thokcha
+  LINK : https://en.wikipedia.org/wiki/Thokcha
+  DATE : 12019-04-22
+  TYPE : article
+  QOTE : "Meteoric iron or 'sky-iron' (Tib. gnam lcags) is the supreme substance for forging the physical representation of the vajra or other iron weapons, since it has already been tempered by the celestial gods in its passage across the heavens. The indivisibility of form and emptiness is a perfect metaphor for the image of a meteorite or 'stone fallen from the sky', manifesting out of the voidness of space as a shooting star or fireball, and depositing a chunk of fused 'sky iron' on the earth below. Many vajras held by deities as weapons are described as being forged from meteorite iron, and Tibet, with its high altitude, thin atmosphere and desolate landscape, received an abundance of meteorite fragments. Tibetan vajras were often cast from meteorite iron, and as an act of sympathetic magic a piece of the meteoric iron was often returned to its original site."
+  TAGS : tibet, culture, metallurgy
+  TERM
+    > Thokcha: (ཐོག་ལྕགས) Tibetan meteorites / tektites, & the sacred amulets made from them. One of the few ways we could have hard "steel" before 19th century.
+
+FIGHT OF THE CENTURY
+  LINK : https://www.youtube.com/watch?v=1lE8JAY0rp4
+  DATE : 12019-04-22
+  TYPE : video
+  NOTE : Ali vs Frazier. Good primer on boxing.
+  TAGS : boxing
+
+Steganography
+  LINK : https://en.wikipedia.org/wiki/Steganography
+  TERM
+    > Steganography: concealing piece of information within another file, message, image, or video. 隐写术
+  DATE : 12019-04-22
+  TYPE : article
+  TAGS : information science, cryptography
+
+女书
+  LINK : https://zh.wikipedia.org/wiki/%E5%A5%B3%E4%B9%A6
+  TYPE : article
+  DATE : 12019-04-22
+  TAGS : language, culture, cryptography
+  TERM
+    > 女书: a syllabic script derived from Chinese characters that was used exclusively among women in Jiangyong County in Hunan province of China.
+
+PIXELSYNTH
+  LINK : https://ojack.github.io/PIXELSYNTH/
+  TYPE : interactive
+  DATE : 12019-04-22
+  TAGS : music, generative
+  NOTE : Synthesizer that uses images and drawings as a basis for creating sounds. Lets you choose which scales to map to music.
+
+STOP AVOIDING WORK
+  LINK : https://stopavoiding.work
+  TYPE : interactive
+  DATE : 12019-04-22
+  TAGS : motivation, psychology, productivity
+  NOTE : Guided motivational exercise to get excited about doing that thing you've been putting off.
+
+VVVR
+  LINK : https://plusfour.io/
+  TYPE : interactive
+  DATE : 12019-04-23
+  PERS : Ray McClure
+  NOTE : Sing objects into existance. Paired audio-visual meditation in VR.
+  TAGS : audio, virtual reality, inspiration
+
+AWRA AMBA
+  LINK : https://www.youtube.com/watch?v=feYv2wZFbb0
+  TYPE : video
+  DATE : 12019-05-06
+  NOTE : A cultish commune in Ethiopia that celebrates egalitarianism, and rose the residents out of poverty. Awra Amba celebrates equal right between genders, hard work, and being good with people regardless of religion. Awra Amba does not have any religion, and is thus ostracized by its Christian & Islamic neighbors. It is founded by Zumra Nuru in 1980.
+  TAGS : cult, africa, religion, atheism, ethiopia
+
+MOCKERY
+  TYPE : quote
+  QOTE : "If they want to give you a name, take it, make it your own. Then they can’t hurt you with it anymore." - Tyrion Lannister
+  DATE : 12019-05-06
+  TAGS : mockery, society, name, identity, philosophy
+
+“Users want control” is a shoulder shrug
+  TYPE : article
+  DATE : 12019-05-13
+  LINK : https://www.ianbicking.org/blog/2019/04/users-want-control-is-a-shrug.html
+  TAGS : ux, privacy, technology
+  QOTE : "Control is what you need when you want something and it won’t happen on its own. But (usually) it’s not control you want, it’s just a means."
+
+DATAISNATURE
+  LINK : https://www.dataisnature.com/
+  TAGS : inspiration, nature, generative, visualization
+  DATE : 12019-05-13
+  TYPE : list
+  NOTE : Website that collects artistic works that base on scientific algorithms from the nature.
+
+0.99+
+  DATE : 12019-05-19
+  TYPE : quote
+  QOTE : "不要卖0.99美元的游戏，这样没法打折。" - Paul from OF COURSE, 转述Vlambeer的心得
+  TAGS : game design, game industry, app store, business
+
+Ear Training Game
+  LINK : https://www.youtube.com/watch?v=hWA6HwScQh8
+  DATE : 12019-06-04
+  TYPE : video
+  TAGS : music, ear training, learning, game
+  NOTE : For remembering intervals, calculating letter notations, and picking notes out of a chord. By Adam Neely & Ben Levin.
+
+Thesaurus of scales and melodic patterns
+  LINK : https://www.scottlernermusic.com/ftp/Nicolas%2520Slonimsky%2520-%2520Thesaurus%2520Of%2520Scales%2520And%2520Melodic%2520Patterns.pdf
+  DATE : 12019-06-04
+  TYPE : book
+  TAGS : music, music theory, guitar
+  NOTE : Huge collection of musical patterns and weird scales. Bebop musicians use this book to populate their bag. Unsure how to benefit from it however... it seems that overanalyzing it was deemed a bad idea by other musicians.
+
+EXCITED ACCOUNTABILITY
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=OwqVtZn5df8
+  TAGS : philosophy, productivity, learning, psychology
+  DATE : 12019-06-04
+  TERM
+    > Excited Accountability: A situation where the opportunity excites you, and there is also a good amount of pressure - something like, "It's not total hell if this fails, but I want to impress, and it'll be lame if that doesn't happen." In this situation, you would get a speed boost for learning things. So if you want to force yourself to learn something... create these kind of situations that inspire excited accountability.
+  NOTE : The pressure in this situation cannot be fear-based. Getting propelled forward by fear of death would lead to less quality. The pressure should be to impress, to think, "This needs to be good." Then you would be propelled to make it better, instead of make the job shorter.
+
+DOT NET PERL
+  TYPE : tool
+  DATE : 12019-06-19
+  NOTE : Quick reference website for C# features. Also has other languages (Python, Go, Swift, Ruby, Java...). Ugly website but very fast and with useful notes.
+  TAGS : c sharp, code, python, swift, java
+  LINK : https://www.dotnetperls.com/
+
+Generating fake jokes
+  TYPE : article
+  DATE : 12019-06-20
+  TAGS : generative, gpt2, neural network, machine learning
+  LINK : https://pmbaumgartner.github.io/blog/gpt2-jokes/
+  NOTE : Using OpenAI's gpt-2. There's a fork of the repo that allows "fine-tuning" - aka training it on our custom data.
+
+Generating Fake Conversations
+  TYPE : article
+  DATE : 12019-06-20
+  TAGS : generative, gpt2, neural network, machine learning
+  LINK : https://svilentodorov.xyz/blog/gpt-finetune
+  NOTE : GPT-2 fune-tuning. This article uses Google Collab.
+
+Generating Fake subreddits
+  TYPE : article
+  DATE : 12019-06-20
+  TAGS : generative, gpt2, neural network, machine learning, internet
+  LINK : https://www.reddit.com/r/SubSimulatorGPT2/comments/btfhks/what_is_rsubsimulatorgpt2/
+  NOTE : An entire subreddit that emulates other subreddits' contents using GPT-2.
+
+Macerating Toilet
+  NOTE : At No.181, the toilet has a macerator installed - 力成牌污水提升器. It needs a button pressed to macerate and flush, and ideally needs its content cleared by macerating often - otherwise will lead to bug and sewer gas problem.
+  LINK : https://www.emergencyplumber.uk.com/plumbing/macerator-problem-and-cures/
+  DATE : 12019-06-21
+  TYPE : article
+  TAGS : plumbing
+  TERM
+    > Maceration (sewage treatment): Using a machine to turn human waste into slurry, and pump them away. Useful when water pressure is low, pipe is too thin, or the toilet is installed below the drain line, like in a basement.
+
+JUST ONE COOKBOOK
+  DATE : 12019-06-22
+  TYPE : list
+  LINK : https://www.justonecookbook.com/recipes/
+  TAGS : cooking, japan, japanese food, recipes
+  NOTE : Great collection of japanese food recipes.
+
+ONSEN EGG
+  LINK : https://www.justonecookbook.com/onsen-tamago/
+  DATE : 12019-06-22
+  TYPE : article
+  TAGS : cooking, japan, japanese food, recipes, egg
+  NOTE
+    > Boil 1000ml water in a pot, take it off the heat source, mix 200ml cold water, then keep 4 eggs in it for 17 minutes. 
+    > Onsen egg can stay in the fridge for 1~2 days.
+
+Ukulele Major 2-5-1 progression
+  DATE : 12019-06-22
+  TAGS : ukulele, chord, chord voicing, jazz
+  TYPE : music
+  NOTE
+    iim7 V7 IM7 (I6)
+    in D major, this would be:
+    Em7 A7 DM7 (D6)
+    A flexible way of playing, that can be moved up and down the neck for other keys:
+    4 4 3 5 (Em7)
+    2 4 3 4 (A7)
+    2 2 2 4 (DM7)
+    4 2 2 4 (DM13) / 2 2 2 2 (D6).
+    Alternative option just for ii-V-I in D:
+    0 2 0 2
+    0 4 5 4
+    2 2 2 4
+    2 2 2 2 (D6)
+
+MATH ROCK HARMONY
+  LINK : https://www.youtube.com/watch?v=7ePLqaV2OWU
+  TYPE : video
+  TAGS : music, guitar, math rock, music theory, chord
+  DATE : 12019-07-01
+  NOTE
+    > Common chord qualities, progressions, and intervals in math rock.
+    > SCALE: Major scale and natural minor scale.
+    > MELODY: angular melodies with lots of leaps. Try major 9, 11...
+    > COMMON CHORDS: Ma7, Ma9, Ma6, 6/9, Add9
+    > COMMON CHORDS: Mi7, Mi9, Mi11, Add9, Sus
+    > AVOID CHORDS: Anything too crunchy. Dominant Chords, #11, m7b5, dim7
+    > CHORD PROGRESSIONS: Often uses IV, ii, vi, I chord of the key - because they offer the math-rock-y extensions.
+    > CHORD PROGRESSIONS: Build the progressions off the 4th scale degree - it's stable, but more dramatic than the tonic.
+
+POLYRHYTHMIC PHRASES
+  LINK : https://www.youtube.com/watch?v=wEPu8rEYQJY
+  DATE : 12019-07-01
+  TYPE : video
+  TAGS : polyrhythm, music, drum, juggling
+  NOTE
+    > 2:3 polyrhythm: Nice cup of tea
+    > 4:3 polyrhythm: Pass the bread and butter
+    > 5:4 polyrhythm: I'm looking for a home to buy
+
+TEORIA
+  LINK : https://www.teoria.com/
+  TYPE : tool
+  DATE : 12019-07-01
+  TAGS : music theory, music, ear training
+  NOTE : Collection of music theory tutorials & references, and ear training exercises.
+
+OOLIMO GUITAR CHORD ANALYZER
+  LINK : https://www.oolimo.com/guitarchords/analyze
+  TYPE : tool
+  DATE : 12019-07-29
+  TAGS : music theory, music, guitar, chord
+
+BIRTH OF THE UNABOMBER
+  LINK : https://www.reddit.com/r/AskReddit/comments/1rjj2f/what_is_the_greatest_reallife_plot_twist_in_all/cdnzqld/
+  TYPE : article
+  DATE : 12019-07-03
+  TAGS : history, psychology, cautionary tale
+  NOTE : The unabomber was once a brilliant mathematics student at Harvard, until the psychologist professor experimented on him.
+
+Louis Armstrong - When You Wish Upon A Star
+  LINK : https://www.youtube.com/watch?v=uReGn1l4ir8
+  TYPE : music
+  DATE : 12019-07-05
+  TAGS : jazz, vocal, trumpet, disney, theme song
+  NOTE : The original song is from Pinnochio, and used as Disney's title card theme. It's also a jazz standard and can be found in iReal Pro.
+
+LE PETIT CHEF
+  LINK : https://www.youtube.com/watch?v=yBJEP4lsRFY
+  TYPE : video
+  DATE : 12019-07-08
+  TAGS : projection mapping, inspiration
+
+CURRICULUM DESIGN: PRODUCING THE MATERIAL
+  LINK : https://www.youtube.com/watch?v=mljZhTaq-mo
+  TYPE : video
+  DATE : 12019-07-09
+  TAGS : curriculum design, learning
+  NOTE
+    > Be explicit about the transformation.
+    > Consistent format. The students could know what to expect from each chunk of learning.
+    > Contextualize each step. Show how the current activity contributes to the transformation that is promised.
+
+ORG MODE
+  LINK : https://orgmode.org/
+  TYPE : tool
+  DATE : 12019-07-12
+  TAGS : productivity, calendar, plain text, emacs
+  PERS : Josh Moller-Mara
+  NOTE : Plain text system for making lists, tracking times, and filtering data. Josh said it has android viewer, and can sync through Dropbox.
+
+Death From Above 1979 - Little Girl
+  TYPE : music
+  LINK : https://www.youtube.com/watch?v=q2jdne6GVHQ
+  DATE : 12019-07-13
+  TAGS : punk rock, bass
+  NOTE : B A S S
+
+GIANT STEPS
+  TYPE : music
+  LINK : https://www.youtube.com/watch?v=rh6WTAHKYTc
+  DATE : 12019-07-16
+  TAGS : jazz, animation, visualization, synesthesia
+  NOTE : 3D animation for Giant Steps. Heavy synesthesia.
+
+URSULA K. LE GUIN
+  TYPE : list
+  LINK : https://www.ursulakleguin.com/
+  DATE : 12019-07-16
+  TAGS : worldbuilding, individual, map, writer
+  NOTE : Author of the Earthsea series, fantasy books set in an island world.
+
+THE BLEAK ETERNITY OF GEHENNA
+  TYPE : article
+  LINK : https://forgottenrealms.fandom.com/wiki/Gehenna
+  DATE : 12019-07-16
+  TAGS : worldbuilding, DnD
+  NOTE : One of the outer planes in DnD Great Wheel Cosmology.
+  QOTE : "The four layers of Gehenna were infinite planes with gravity at a forty-five degree angle to the ground, making travelers feel as if they were on the side of a mountain with no base or peak. Anyone losing their footing could tumble for miles/kilometers before finding enough purchase on the slope to halt their fall."
+
+DIFFERENT WAYS TO VISUALIZE FRETBOARD
+  TYPE : video
+  DATE : 12019-08-02
+  TAGS : guitar, learning, music
+  LINK : https://www.youtube.com/watch?v=Mz7wmxqnBxk
+  NOTE : Mini patterns: 3NPS but only on two strings. Also practice the scales with limitations: limit how many fingers, limit how many and which strings.
+
+BUTTER BASTED STEAK
+  TYPE : video
+  DATE : 12019-08-07
+  TAGS : recipes, cooking, steak
+  LINK : https://www.youtube.com/watch?v=kbpIYAnt-7k
+  NOTE
+    > Use a thick cut so that the outside has time to brown and form crust before the inside is dried out.
+    > Pat the steak surface dry.
+    > Season both sides evenly.
+    > Make sure there's a good layer of fat underneath the steak, so it browns evenly.
+    > Keep basting with those browned nutty butter. If butter got too burned, add more butter.
+    > Inner temperature should be just around 50C.
+    > Take it out of the pan and let rest for 5 minutes.
+    > More butter!
+
+Common Japanese Chord Progressions (Part 1)
+  LINK : https://www.youtube.com/watch?v=yKV58VVGV9k
+  TYPE : video
+  TAGS : math rock, japanese music, japan, chord, music, music theory
+  DATE : 12019-08-09
+  NOTE
+    > Interesting that japanese styles of progression is also found in CHON's music, and other math rock bands in the state. The influence could have came from video game and anime.
+    > IV (V7) iii vi progression. The turnaround could be vi V IV, or vi V I IV (2-5-1)
+    > IV V vi progression
+    > {VI} chords. This is borrowed from A Major. This works because you can think of C Major as A minor. Use VIsus to add ambiguity and allow us to resolve to either VI or vi.
+    > {bVII} chords. This can be seen as borrowed from the parallel minor, or as neapolitan chord of vi.
+
+Common Japanese Chord Progressions (Part 2)
+  LINK : https://www.youtube.com/watch?v=Ne_9UnKcSb4
+  TYPE : video
+  TAGS : math rock, japanese music, japan, chord, music, music theory
+  DATE : 12019-08-11
+  NOTE
+    > IV iii progression. Simplified from IV iii vi. A floating feeling.
+    > We can tell the key of a song without the tonic chord ever being used in the progression, by watching out for half-steps chord changes. If it's between a minor and major chord, it's iii and IV. If diminished and major, it's viidim and I.
+    > maj#11 chord, or the lydian chord, is also a strong indicator of tonality. With IV as the root it's 3467 of the major scale it belongs to. the 4 and 7 wants to resolve to 3 and 1 (iii).
+    > {viiº/vi} or {bviº}: the viiº chord borrowed from a harmonic minor scale from vi. Think of it as another way to approach vi. Can also try {bVI}
+    > {bII/IV} or {#IV}: The neapolitan chord of IV - it's the 2nd chord of a phrygian (34567123) scale from IV. Think of it as another way to approach IV.
+
+7 STEPS OF MACHINE LEARNING
+  LINK : https://www.youtube.com/watch?v=nKW8Ndu7Mjw
+  TYPE : lecture
+  TAGS : machine learning, ai
+  DATE : 12019-08-16
+  NOTE
+    > Gathering data
+    > Preparing that data
+    > Choosing a model
+    > Training
+    > Evaluation
+    > Hyperparameter tuning
+    > Prediction
+
+DEBONE CHICKEN
+  LINK : https://www.youtube.com/watch?v=bRHWMPgjJro
+  TYPE : video
+  TAGS : cooking, chicken, debone, knife
+  DATE : 12019-09-08
+  NOTE : Chinese style chicken deboning with a cleaver knife. For the thigh, try freeing the joint and then pulling the meat off.
+
+Why Do All Smartphones Look The Same?
+  LINK : https://www.youtube.com/watch?v=K3YO1mja_H8
+  TYPE : video
+  TAGS : smartphone, apple, technology, design, product design
+  DATE : 12019-09-26
+  NOTE
+    > Synopsis: While technology always improves, human change at a much slower pace. We will always want a phone we can comfortably hold and keep in our pockets. And because our phone focuses on having a big screen, the softwares can change without changing the hardware design.
+    > I think it's also unlikely the future smartphones will have much difference. We can get rid of the notch, get rid of the port, maybe make the phone transparent and display content on both sides. Then we end up with a smart glass rectangle. But there's not much we can add as long as the interaction stays the same, with human interacting with a glass rectangular tablet.
+
+STEVE JOBS PRESENTATION FOR 1ST IPHONE
+  LINK : https://www.youtube.com/watch?v=vN4U5FqrOdQ
+  TYPE : video
+  TAGS : speech, speaking, presentation, ux, design, product design, apple
+  DATE : 12019-09-26
+  NOTE : Lots to learn about creating tension, anticipation; also lots to learn about the design thinking behind iPhone, and what makes it different from other devices at the time.
+
+https://www.computerworld.com/article/2473016/90160-tk.html#slide7
+
+http://www.flong.com/projects/telesymphony/
+
+http://cuppetellimendoza.com/nervous-structure-3/
+
+http://www.mee.tcd.ie/~bruckerj/projects/phoneticfaces.html
+
+JACK CHURCHILL
+  LINK : https://en.wikipedia.org/wiki/Jack_Churchill
+  TYPE : article
+  TAGS : individual, eccentric, war, WWII, soldier
+  DATE : 12019-10-01
+  NOTE : British Army Officer who fought throughout the Second World War armed with a longbow, bagpipes, and a basket-hilted Scottish broadsword.
+  QOTE
+    > "Any officer who goes into action without his sword is improperly dressed."
+    > "If it wasn't for those damn Yanks, we could have kept the war going another 10 years!"
+
+https://designingprograms.bitbucket.io/pages/00_preface.html
+
+Victor Ivanov
+  LINK : https://v-os.ca/
+  TYPE : list
+  DATE : 12019-10-02
+  TAGS : individual, wiki, merveilles, writer, designer, game designer, artist, developer
+  NOTE : Renaissance man, world-building website. 
+
+TRUMP TWEETS LINGUISTIC ANALYSIS
+  LINK : https://www.scientificamerican.com/article/two-linguists-use-their-skills-to-inspect-21-739-trump-tweets/?utm_source=newsletter&utm_medium=email&utm_campaign=sciences&utm_content=link&utm_term=2019-09-27_featured-this-week&spMailingID=60535152&spUserID=NTM5NzI1MDIyMAS2&spJobID=1723612076&spReportId=MTcyMzYxMjA3NgS2
+  TYPE : article
+  DATE : 12019-10-02
+  TAGS : politics, trump, linguistics, language, research
+  QOTE
+    > "Our main takeaway was that Trump’s Twitter account wasn’t just a bunch of random attacks, as is sometimes claimed by the media. Rather we found a lot of stylistic variation—and crucially, we found this variation was, on the whole, fairly systematic over time: the style of tweets changed in clear ways, depending on what was happening in the campaign."
+    > "In general, all the major stylistic inflection points we identified correspond to major events in the Trump time line."
+
+CAPTURED ATMOSPHERES
+  LINK : http://derivative.ca/events/2017/Naivelaser/
+  TYPE : article
+  DATE : 12019-10-02
+  TAGS : laser, art
+  NOTE : Beautiful laser projection, by projecting it onto plexiglass tube that has fog coming out of it.
+
+SKY LIGHTS
+  LINK : https://virtulabs.com/portfolio/sky-lights/
+  PERS : Sorob Louie
+  DATE : 12019-10-02
+  TAGS : laser, art
+  TYPE : article
+  NOTE : Laser show by Virtulab & Naive Laser. Projection onto two gauze screens hanging down from the ceiling. Responsive to guests in the space (though unclear how?)
+
+Why Beautiful Things Make us Happy
+  LINK : https://www.youtube.com/watch?v=-O5kNPlUV7w
+  DATE : 12019-10-03
+  TAGS : psychology, anthropology, design
+  TYPE : video
+  NOTE : Our sense of beauty evolves from observing useful patterns in nature.
+  QOTE : "Beauty meets an inherent need for meaningful information."
+
+https://www.dezeen.com/2019/10/07/nendo-3d-printed-bonsai-tree/
+
+https://www.theverge.com/2019/3/29/18287129/kiel-mutschelknaus-space-type-generator-animation-design-motion-graphics-coding
+
+Raymarching Toolkit for Unity
+  LINK : https://kev.town/raymarching-toolkit/
+  SRCE : OooShiny
+  DATE : 12019-10-10
+  TAGS : unity3d, raymarching, VJ, SDF
+  TYPE : tool
+
+SDFr
+  LINK : https://github.com/xraxra/SDFr
+  TYPE : tool
+  DATE : 12019-10-10
+  SRCE : Merveilles
+  PERS : xra
+  TAGS : unity3d, VJ, SDF, raymarching
+
+MEMORY OF A BROKEN DIMENSION
+  LINK : https://xra.itch.io/memory-of-a-broken-dimension
+  TYPE : game
+  DATE : 12019-10-10
+  SRCE : Merveilles
+  PERS : xra
+  TAGS : SDF, raymarching, abstract, visual
+
+Unity Visual Effect Graph
+  LINK : https://github.com/Unity-Technologies/ScriptableRenderPipeline/wiki/Visual-Effect-Graph
+  TYPE : tool
+  DATE : 12019-10-10
+  TAGS : unity3d, VJ
+  NOTE : Part of the Scriptable Render Pipeline.
+
+Foundations of Geopolitics
+  LINK : https://en.wikipedia.org/wiki/Foundations_of_Geopolitics
+  TAGS : politics, russia, war, eurasianism, imperialism
+  TYPE : book
+  DATE : 12019-10-15
+  NOTE : Putin's playbook. Far-right book that's popular among russian military, detailing how Russia would gain control over Europe and Asia.
+
+Ian J Battaglia
+  LINK : https://mnchrm.co/
+  TYPE : list
+  DATE : 12019-10-15
+  TAGS : individual, merveilles, minimalism, writing
+  SRCE : Merveilles
+  NOTE : A polymath and monochromist.
+
+DEFCON
+  LINK : https://www.youtube.com/watch?v=y6neDk_4XBs
+  TYPE : game
+  DATE : 12019-10-15
+  TAGS : politics, inspiration, society, nuclear, game theory, minimalism, war
+  NOTE : A nuclear war simulator. Research shows playing this game changes people's views on nuclear war, to become more pessimistic.
+
+TRUTH DECAY
+  LINK : https://www.rand.org/research/projects/truth-decay.html
+  DATE : 12019-10-15
+  TYPE : article
+  TAGS : politics, information, society, research
+  TERM
+    > Truth Decay: The diminishing role of facts and data in American public life.
+  QOTE
+    There are four trends that characterize Truth Decay:
+    1. increasing disagreement about facts and analytical interpretations of facts and data
+    2. a blurring of the line between opinion and fact
+    3. the increasing relative volume and resulting influence of opinion and personal experience over fact
+    4. declining trust in formerly respected sources of facts.
 `
