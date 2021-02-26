@@ -63,7 +63,7 @@ var trace1 = {
   x: outputScaled.map(output => output[0]),
   y: outputScaled.map(output => output[1]),
   type: 'scatter',
-  mode: 'markers+text',
+  mode: 'markers',
   textposition: 'top center',
   textfont: {
     size: 12,
