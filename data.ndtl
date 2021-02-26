@@ -36,6 +36,7 @@ THE CYBERPALEO ETHIC
   DONE : true
 
 IDENTITY
+  DATE : 12018-07-19
   PERS : neauoire
   SRCE : Merveilles
   TYPE : quote
@@ -47,6 +48,7 @@ IDENTITY
   DONE : true
 
 LOGO
+  DATE : 12018-07-19
   PERS : faun
   SRCE : Merveilles
   TYPE : quote
@@ -79,7 +81,6 @@ CABBIBO'S VR INSIGHT
   TYPE : list
   TAGS : design, inspiration, virtual reality
   DATE : 12018-07-20
-  DONE : false
   QOTE
     > "Befriend an Architect, Industrial designer or an interior designer... They have infinitely more practice than you studying space"
     > "Think about how you can transform that engineering into creating some piece that was never before possible, that pushes the limits of human understanding, and that moves us forward as a species."
@@ -93,16 +94,14 @@ ELEVR LEARNINGS IN ONE YEAR
   TYPE : article
   TAGS : design, inspiration, virtual reality, research
   DATE : 12018-07-24
-  DONE : false
 
 NOTES ON OUTPUT
   PERS : neauoire
   SRCE : Merveilles
-  LINK : https://wiki.xxiivv.com/#aesthetics
+  LINK : https://wiki.xxiivv.com/site/aesthetics.html
   TYPE : article
   TAGS : philosophy, design, inspiration, productivity, merveilles
   DATE : 12018-07-19
-  DONE : false
 
 WAKING UP
   PERS : faun
@@ -144,22 +143,27 @@ MEAT
   TYPE : article
   DATE : 12018-07-19
   QOTE : 'Meat. They're made out of meat.'
-  DONE : false
   TAGS : fiction
 
 A Declaration of the Independence of Cyberspace
   LINK : https://www.eff.org/cyberspace-independence
   TYPE : article
   DATE : 12018-07-19
-  DONE : false
   TAGS : web, freedom, philosophy
   QOTE : "Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather."
+
+网络独立宣言
+  TYPE : article
+  LINK : http://www.ideobook.com/38/declaration-independence-cyberspace/
+  DATE : 12020-11-21
+  TAGS : web, freedom, philosophy
+  QOTE : "工业世界的政府们，你们这些令人生厌的铁血巨人们，我来自网络世界——一个崭新的心灵家园。作为未来的代言人，我代表未来，要求过去的你们别管我们。在我们这里，你们并不受欢迎。在我们聚集的地方，你们没有主权。"
 
 Information Management: A Proposal
   LINK : https://www.w3.org/History/1989/proposal.html
   TYPE : article
   DATE : 12018-09-08
-  TAGS : web, research, information science
+  TAGS : web, research, information
   DONE : true
   NOTE : The original proposal of the WWW, by Tim Berners-Lee at CERN.
   QOTE
@@ -172,7 +176,6 @@ NIKITA VOLOBOEV
   LINK : https://wiki.nikitavoloboev.xyz/
   TYPE : list
   DATE : 12018-07-19
-  DONE : false
   TAGS : philosophy, productivity, individual, merveilles
 
 KILL SIX BILLION DEMONS
@@ -208,14 +211,12 @@ FRATH WIKI
   TYPE : list
   DATE : 12018-08-14
   TAGS : worldbuilding, conlang, language
-  DONE : false
   NOTE : Conlang / conworld resource
 
 UNIVERSAL PAPERCLIPS
   LINK : http://www.decisionproblem.com/paperclips/
   TYPE : game
   DATE : 12018-07-31
-  DONE : false
   TAGS : web, clicker game, thought experiment
 
 RAVEN KWOK
@@ -236,7 +237,7 @@ JACOB COLLIER TED TALK
   LINK : https://www.youtube.com/watch?v=dDZoGcQVjJg
   TYPE : video
   DATE : 12019-05-13
-  TAGS : music, VJ, neural network
+  TAGS : music, VJ, neural network, kinect, facial recognition
   NOTE : Performance at Ted. The visual seems to be using many interesting & advanced techniques such as neural style transfer, background subtraction with Kinect (or just plain computer vision techniques?), facial recognition, flocking, kaleidoscopic shader, and all tied to the improvised musical inputs. Performance system created by Ben Bloomberg.
 
 STEPHEN MALINOWSKI
@@ -313,14 +314,12 @@ WOLFRAM ALPHA
 
 A NEW KIND OF SCIENCE
   LINK : https://www.wolframscience.com/nks/
-  DONE : false
   TYPE : book
   DATE : 12018-09-03
   TAGS : science, code, generative
 
 BAYESIAN METHODS
   LINK : https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
-  DONE : false
   TYPE : book
   DATE : 12018-09-07
   TAGS : ai, machine learning
@@ -333,7 +332,7 @@ LIBRARY GENESIS
   TAGS : book, library, download
 
 ZLibrary
-  LINK : https://b-ok.org/
+  LINK : https://z-lib.org/
   TYPE : tool
   DATE : 12019-08-09
   NOTE : Free e-books.
@@ -366,7 +365,6 @@ INTERACTION DESIGN FUTURE
   TYPE : article
   DATE : 12018-07-19
   TAGS : ux, design
-  DONE : false
 
 BREAKING SMART S1
   LINK : https://breakingsmart.com/en/season-1-newsletter-archive/
@@ -388,8 +386,7 @@ TOP SLATE STAR CODEX
   LINK : http://slatestarcodex.com/top-posts/
   TYPE : list
   DATE : 12018-07-19
-  DONE : false
-  TAGS : psychology, society, research, philosophy
+  TAGS : psychology, sociology, research, philosophy
 
 STOCKS
   TYPE : quote
@@ -421,28 +418,24 @@ UNDER THE SKIN: J PETERSON
   LINK : https://youtu.be/r2S58rH0PAw?t=1h1m38s
   TYPE : podcast
   DATE : 12018-07-19
-  DONE : false
-  TAGS : society, psychology, philosophy
+  TAGS : sociology, psychology, philosophy
 
 UNNAMED REVERSE ENGINEERING PODCAST
   LINK : https://reverseengineering.libsyn.com/
   TYPE : podcast
   DATE : 12018-08-28
-  DONE : false
   TAGS : code, hardware
 
 SCP FOUNDATION
   LINK : http://www.scp-wiki.net/
   TYPE : list
   DATE : 12018-07-19
-  DONE : false
   TAGS : fiction, science
 
 TENDRILS OF MESS IN OUR BRAINS
   LINK : https://www.ribbonfarm.com/2017/01/05/tendrils-of-mess-in-our-brains/
   TYPE : article
   DATE : 12018-07-19
-  DONE : false
   TAGS : psychology
 
 WIKTOPHER
@@ -450,7 +443,6 @@ WIKTOPHER
   LINK : https://wiktopher.kokorobot.ca/
   TYPE : book
   DATE : 12018-07-19
-  DONE : false
   TAGS : fiction, fantasy, conlang, worldbuilding
 
 THREE TIER MIND
@@ -458,7 +450,6 @@ THREE TIER MIND
   SRCE : Merveilles
   LINK : https://www.pftq.com/blabberbox/?page=Three_Tiers_of_Mind
   TYPE : article
-  DONE : false
   DATE : 12018-07-19
   TAGS : etymology, psychology
 
@@ -469,7 +460,6 @@ WONDERBOOK
   TYPE : book
   NOTE : "The Illustrated Guide to Creating Imaginative Fiction."
   DATE : 12018-07-19
-  DONE : false
   TAGS : art, design
 
 VULTR
@@ -478,7 +468,6 @@ VULTR
   TAGS : web
   DATE : 12018-07-19
   NOTE : Web hosting
-  DONE : false
 
 GWERN
   PERS : neauoire
@@ -486,15 +475,13 @@ GWERN
   LINK : http://www.gwern.net/
   TYPE : list
   DATE : 12018-07-19
-  DONE : false
   TAGS : history, psychology, science, ai, bitcoin, code, psychedelics, env, individual
 
 LET'S ENCRYPT
   LINK : https://letsencrypt.org/
   TYPE : tool
   DATE : 12018-07-19
-  DONE : false
-  TAGS : code, web
+  TAGS : code, web, encryption
   NOTE : Free encryption ssl cert
 
 CATASTROPHE JOURNAL
@@ -504,7 +491,6 @@ CATASTROPHE JOURNAL
   TYPE : article
   DATE : 12018-07-19
   TAGS : philosophy, psychology
-  DONE : false
 
 MISE EN BAG
   PERS : cblgh
@@ -512,7 +498,6 @@ MISE EN BAG
   LINK : https://miseenbag.com/
   TYPE : article
   DATE : 12018-07-19
-  DONE : false
   TAGS : food, cooking
   NOTE : Guerilla cooking backpack
 
@@ -529,7 +514,7 @@ PEOPLE WATCHING
   LINK : https://www.youtube.com/playlist?list=PL_saLI-LH-VrxFpFgk467Jn02i46arTyD
   TYPE : video
   DATE : 12018-08-17
-  TAGS : psychology, dating, pop culture, society
+  TAGS : psychology, dating, pop culture, sociology
 
 CABBIBO.IS
   LINK : http://cabbibo.is/
@@ -537,21 +522,18 @@ CABBIBO.IS
   TYPE : list
   DATE : 12018-07-20
   TAGS : inspiration, individual, web, virtual reality, art
-  DONE : false
 
 VI HART
   LINK : http://vihart.com
   TYPE : list
   DATE : 12018-07-24
   TAGS : inspiration, individual, research, virtual reality
-  DONE : false
 
 ELEVR BLOG
   LINK : http://elevr.com/blog/
   TYPE : list
   DATE : 12018-07-24
   TAGS : design, virtual reality, research
-  DONE : false
 
 Reality-virtuality continuum
   LINK : https://en.wikipedia.org/wiki/Reality%E2%80%93virtuality_continuum
@@ -596,7 +578,6 @@ UNCLUTTERED GAME DESIGN
   TYPE : lecture
   DATE : 12018-07-19
   TAGS : game design, minimalism
-  DONE : false
   NOTE : Using space in game design, be it space or time. Make things stand out.
 
 MORALITY SYSTEMS IN GAME
@@ -632,7 +613,6 @@ STREISAND
   TYPE : tool
   DATE : 12018-07-23
   TAGS : web, censorship, privacy
-  DONE : false
   NOTE : Tool to set up VPN using own server.
   
 WHONIX
@@ -640,7 +620,6 @@ WHONIX
   TYPE : tool
   DATE : 12018-07-25
   TAGS : censorship
-  DONE : false
   NOTE : Linux OS configured for anonymity via Tor. Works well in a VM.
 
 HYPERFACE
@@ -675,7 +654,6 @@ REACTION-DIFFUSION TUTORIAL
   PERS : Karl Sims
   TAGS : reaction diffusion, generative
   NOTE : A simulation of two virtual chemicals reacting and diffusing on a 2D grid using the Gray-Scott model.
-  DONE : false
 
 REACTION-DIFFUSION DEMO
   LINK : http://pmneila.github.io/jsexp/grayscott/
@@ -688,14 +666,12 @@ DESIGN KIT
   LINK : http://www.designkit.org/methods
   TYPE : tool
   NOTE : IDEO's methods for inspiration, ideation, and implementation.
-  DONE : false
   DATE : 12018-10-01
   TAGS : design, prototyping, ideation
 
 AUGMENTING LONG-TERM MEMORY
   LINK : http://augmentingcognition.com/ltm.html
   TYPE : article
-  DONE : false
   DATE : 12018-10-01
   NOTE : Essay on using Anki to memorize info for long time. Reading papers, understanding foreign subjects, and other patterns.
   TAGS : memory, psychology, memex
@@ -712,7 +688,6 @@ Emoji in Semantic Space
   LINK : https://getdango.com/postimg/semantic-space.html
   TYPE : interactive
   TAGS : inspiration, visualization, semiotics
-  DONE : false
   DATE : 12018-07-27
   NOTE : t-SNE to group emoji. The same technique can be used to visualize bookmarks.
 
@@ -744,7 +719,6 @@ UXPIN E-BOOKS
   LINK : https://www.uxpin.com/studio/ebooks/
   NOTE : Free UX books
   TAGS : UX, design
-  DONE : false
   TYPE : list
   DATE : 12018-07-28
 
@@ -752,7 +726,6 @@ CADENCE & SLANG
   LINK : https://medium.com/thoughtful-design/the-cadence-slang-of-good-user-interaction-e34953323c49
   NOTE : Book on UX.
   TAGS : UX, design
-  DONE : false
   TYPE : book
   DATE : 12018-07-28
   QOTE : “Cadence” covers the rhythms we get into when we’re immersed in productive work with technology; “Slang” discusses the visual and interactional languages of an interface.
@@ -762,26 +735,23 @@ STALKER (1979)
   NOTE : Art film from the Soviet Union
   QOTE : "But, above all, may they believe in themselves and become as helpless as children. For softness is great and strength is worthless. When a man is born, he is soft and pliable. When he dies, he is strong and hard. When a tree grows, it is soft and pliable. But when it's dry and hard, it dies. Hardness and strength are death's companions. Flexibility and softness are the embodiment of life. That which has become hard shall not triumph."
   TAGS : film, philosophy
-  DONE : false
   DATE : 12018-07-28
 
 THE HOLY MOUNTAIN (1973)
   TYPE : video
   NOTE : Art film by Alejandro Jodorowsky.
   TAGS : film
-  DONE : false
   DATE : 12018-07-28
 
 MAKE IT SO
   LINK : https://rosenfeldmedia.com/books/make-it-so/
   NOTE : Interaction design from science fiction
   TAGS : UX, design, sci-fi
-  DONE : false
   TYPE : book
   DATE : 12018-07-28
 
 GRIMGRAINS - TOOLS
-  LINK : http://grimgrains.com/#tools
+  LINK : https://grimgrains.com/site/tools.html
   SRCE : Merveilles
   PERS : Rekka
   TAGS : food, cooking, merveilles
@@ -797,11 +767,10 @@ THE TRANSPARENT SOCIETY, CHAPTER 1
   TAGS : philosophy, technology, futurology
   TYPE : book
   DATE : 12018-07-28
-  DONE : false
 
 THE EVOLUTION OF TRUST
   LINK : https://ncase.me/trust/
-  TAGS : society, psychology
+  TAGS : sociology, psychology
   TYPE : interactive
   DATE : 12018-07-28
   DONE : true
@@ -847,9 +816,8 @@ NOTES ON KABBALAH
 
 INFINITY MIRROR PRISM
   LINK : https://www.reddit.com/r/DIY/comments/93vnxi/i_made_an_infinity_mirror_prism_internet_lacked_a/e3gkmtt/
-  TYPE : article
+  TYPE : forum
   DATE : 12018-08-02
-  DONE : false
   TAGS : hardware, DIY, LED
   NOTE : Build guide on making trippy LED toy. Potential workshop idea at XinCheJian?
 
@@ -857,14 +825,12 @@ BIGFACEBOX
   LINK : http://portal.nifty.com/bigface/howtomakebox.htm#en
   TYPE : article
   DATE : 12018-08-05
-  DONE : false
   TAGS : hardware, DIY, humor
 
 VARIETIES OF ARGUMENTATIVE EXPERIENCE
   LINK : http://slatestarcodex.com/2018/05/08/varieties-of-argumentative-experience/
   TYPE : article
   DATE : 12018-08-05
-  DONE : false
   TAGS : philosophy, psychology, erisology
   NOTE : If an internet argument ever infuriates you so much that you can't sleep, read this.
 
@@ -903,7 +869,7 @@ YOU ARE LISTENING TO
   TYPE : music
   DATE : 12018-08-05
   DONE : true
-  TAGS : piano, heart, japan
+  TAGS : piano, heart, japan, japanese music
 
 Sarah Vaughan - Misty
   LINK : https://www.youtube.com/watch?v=6U1RaS_TQQk
@@ -956,7 +922,7 @@ MOIRAI
   TYPE : game
   DONE : true
   LINK : https://www.pcgamer.com/a-brief-history-of-moirai-one-of-pcs-most-disturbing-games/
-  TAGS : game design, indie game, society
+  TAGS : game design, indie game, sociology
   NOTE
     I played this game twice, in 12013 &amp; 12017. In both playthroughs I let the previous player pass, refused to mercy-kill Julia, and the next player let me pass too.
     It subverts the expectation that characters you interact with in game are NPCs.
@@ -1019,7 +985,7 @@ XIAOHAN ZHANG
 GEORGE ZISIADIS
   DATE : 12018-10-19
   TYPE : list
-  TAGS : individual, art, inspiration, san francisco, society
+  TAGS : individual, art, inspiration, san francisco, sociology
   LINK : http://www.georgezisiadis.com/
 
 Baku 麦
@@ -1044,7 +1010,7 @@ INTERACTING WITH NEGATIVE SPACES
   LINK : https://www.youtube.com/watch?v=Wq9QtEyO0Vc
   DATE : 12018-10-19
   TYPE : interactive
-  TAGS : inspiration, art, audio-visual
+  TAGS : inspiration, art, installation, interactive art, improvisation
 
 AKIRA (1988)
   DATE : 12018-10-20
@@ -1080,7 +1046,7 @@ Using Anki to learn chords
   QOTE : "I would recommend putting in chord progressions (like in a normal song) rather than single chords. Also make sure to actually form the chords, either on the piano (definitely much better), or on the table (in a pinch). This will allow you to learn the chords in context and give your hands muscle memory, especially with common transitions."
   DATE : 12018-10-25
   TYPE : quote
-  TAGS : music, memory
+  TAGS : music, memory, music theory
 
 Effective Learning
   LINK : https://www.supermemo.com/en/articles/20rules
@@ -1126,7 +1092,7 @@ Categorizing creative systems
 
 Brainstorming Guidelines
   DATE : 12018-11-13
-  TAGS : psychology, society, ideation
+  TAGS : psychology, sociology, ideation
   TYPE : tool
   QOTE
     Go for quantity
@@ -1204,6 +1170,13 @@ Tetsuya Mizuguchi
   TAGS : game design, individual, sound design, synesthesia, japan
   NOTE : Japanese game designer who excels at interactive sound design.
 
+Tetris Effect: Downtown Jazz
+  DATE : 12020-11-25
+  LINK : https://www.youtube.com/watch?v=vQe87jiJwIg
+  TYPE : video
+  TAGS : game design, sound design, synesthesia, music, jazz
+  NOTE : A game by Tetsuya Mizuguchi; integrating sound design and an independent game loop, so that while the player can play the game as a regular tetris game, this player here played it as an instrument, throwing excessive actions that doesn't contribute to winning the game, but as musical expression. Check out how they played toward the end.
+
 Point, Reason, Example, Summary
   DATE : 12018-11-19
   LINK : https://www.themuse.com/advice/3-smart-ways-to-keep-yourself-from-rambling
@@ -1227,7 +1200,7 @@ LIP BUZZING FOR TRUMPET
   TAGS : trumpet, instrument, music
 
 DOCUMENTING TOOLS
-  LINK : https://wiki.xxiivv.com/#documentation
+  LINK : https://wiki.xxiivv.com/site/documentation.html
   DATE : 12018-11-28
   TYPE : article
   NOTE : Neauoire's cheatsheet on different types of documentation - Tutorials, How-to Guides, Explanations, and Reference.
@@ -1240,7 +1213,7 @@ What to Do If You Hate Small Talk
   QOTE
     "To those gifted enough to see properly, the whole world could be found in a single grain of sand."
     "Conversation is fundamentally a natural, organic occurance which happens to us, but cannot be created or shaped by us."
-  TAGS : psychology, society, conversation
+  TAGS : psychology, sociology, conversation
 
 Evangelion Directing Tricks
   LINK : https://www.youtube.com/watch?v=LnqluniiXyk
@@ -1255,7 +1228,7 @@ Gifts
   QOTE : Don't give a gift that will require further investment from the person receiving it. Unless it's something they've specifically asked for, it isn't a gift it's a burden.
   DATE : 12018-12-05
   TYPE : quote
-  TAGS : society, psychology
+  TAGS : sociology, psychology
 
 Voyager Images
   LINK : https://www.youtube.com/watch?v=ibByF9XPAPg
@@ -1348,7 +1321,7 @@ EMOTIONAL & ECONOMIC MICROSOLIDARITY
   LINK : http://richdecibels.com/stories/courage-before-hope/courage-before-hope.html
   DATE : 12018-12-19
   TYPE : article
-  TAGS : economy, society, psychology
+  TAGS : economy, sociology, psychology
   QOTE : "What to do in the last decade of the Anthropocene"
 
 HOW TO COMFORT SOMEONE WITH DEPRESSION
@@ -1409,7 +1382,7 @@ VR SCREEN SHAKE
 HISTORY OF BLUE PIGMENT
   TYPE : quote
   DATE : 12019-01-07
-  TAGS : color, history, science, society
+  TAGS : color, history, science, sociology
   QOTE
     "The only way to achieve a deep rich blue was by using a semi-precious stone, lapis lazuli, to produce a pigment known as ultramarine [...] To have one's portrait commissioned and painted with ultramarine blue was considered a great luxury. If a patron wanted blue, they were obliged to pay extra.
     "Blue and purple came to be associated with royalty because of their rarity."
@@ -1455,7 +1428,7 @@ DIY CAT TOWER
 CONSIDERATIONS WHEN PORTING TO VR
   DATE : 12019-01-09
   LINK : https://www.reddit.com/r/Vive/comments/ae5bu3/due_to_recent_increase_of_postscomments_saying/
-  TYPE : article
+  TYPE : forum
   TAGS : virtual reality, design, porting
   NOTE
     3D effects in VR is different
@@ -1494,7 +1467,7 @@ GARTNER HYPE CYCLE
 INDICATING ROOMSCALE VR BOUNDARY
   LINK : https://www.reddit.com/r/Vive/comments/aia9sl/when_people_you_show_your_vr_to_dont_understand/
   DATE : 12019-01-22
-  TYPE : article
+  TYPE : forum
   TAGS : virtual reality, design, interior design
   QOTE
     Have a carpet in the middle of the room that gives them intuitive feedback about where they are in the real world. The ideal carpet would be small enough so that you cant reach the walls while standing on it, but large enough to give you space to walk around. Have them play without shoes so that they feel the carpet better.
@@ -1530,7 +1503,7 @@ CHOOSE A LICENSE
 
 FERMENTED LONELINESS
   QOTE : I bottled up my loneliness, and it fermented. Now I have champagne, but no one to drink it with.
-  TAGS : inspiration, writing, surreal
+  TAGS : inspiration, writing, surreal, loneliness
   TYPE : quote
   LINK : https://www.reddit.com/r/fifthworldproblems/comments/aqd7ja/i_bottled_up_my_loneliness_and_it_fermented_now_i/
   DATE : 12019-02-14
@@ -1557,7 +1530,7 @@ Lake Peigneur Salt Mine drilling accident
 
 BILINGUAL PERSONALITIES
   LINK : https://www.reddit.com/r/languagelearning/comments/azokug/anyone_else/
-  TYPE : article
+  TYPE : forum
   DATE : 12019-03-12
   NOTE : A reddit post where people talk about having different "personalities" when speaking different languages.
   QOTE : "bilingual culture is realising you have different voices in different languages"
@@ -1613,7 +1586,7 @@ Steganography
     > Steganography: concealing piece of information within another file, message, image, or video. 隐写术
   DATE : 12019-04-22
   TYPE : article
-  TAGS : information science, cryptography
+  TAGS : information, cryptography
 
 女书
   LINK : https://zh.wikipedia.org/wiki/%E5%A5%B3%E4%B9%A6
@@ -1656,7 +1629,7 @@ MOCKERY
   TYPE : quote
   QOTE : "If they want to give you a name, take it, make it your own. Then they can’t hurt you with it anymore." - Tyrion Lannister
   DATE : 12019-05-06
-  TAGS : mockery, society, name, identity, philosophy
+  TAGS : mockery, sociology, name, identity, philosophy
 
 “Users want control” is a shoulder shrug
   TYPE : article
@@ -1723,7 +1696,7 @@ Generating Fake Conversations
   NOTE : GPT-2 fune-tuning. This article uses Google Collab.
 
 Generating Fake subreddits
-  TYPE : article
+  TYPE : forum
   DATE : 12019-06-20
   TAGS : generative, gpt2, neural network, machine learning, internet
   LINK : https://www.reddit.com/r/SubSimulatorGPT2/comments/btfhks/what_is_rsubsimulatorgpt2/
@@ -1774,9 +1747,9 @@ Ukulele Major 2-5-1 progression
     2 2 2 2 (D6)
 
 MATH ROCK HARMONY
-  LINK : https://www.youtube.com/watch?v=7ePLqaV2OWU
+  LINK : https://www.youtube.com/watch?v=t8q65t4baxk
   TYPE : video
-  TAGS : music, guitar, math rock, music theory, chord
+  TAGS : music, guitar, rock, math rock, music theory, chord
   DATE : 12019-07-01
   NOTE
     > Common chord qualities, progressions, and intervals in math rock.
@@ -1813,7 +1786,7 @@ OOLIMO GUITAR CHORD ANALYZER
 
 BIRTH OF THE UNABOMBER
   LINK : https://www.reddit.com/r/AskReddit/comments/1rjj2f/what_is_the_greatest_reallife_plot_twist_in_all/cdnzqld/
-  TYPE : article
+  TYPE : forum
   DATE : 12019-07-03
   TAGS : history, psychology, cautionary tale
   NOTE : The unabomber was once a brilliant mathematics student at Harvard, until the psychologist professor experimented on him.
@@ -1853,7 +1826,7 @@ Death From Above 1979 - Little Girl
   TYPE : music
   LINK : https://www.youtube.com/watch?v=q2jdne6GVHQ
   DATE : 12019-07-13
-  TAGS : punk rock, bass
+  TAGS : rock, punk rock, bass
   NOTE : B A S S
 
 GIANT STEPS
@@ -1903,7 +1876,7 @@ BUTTER BASTED STEAK
 Common Japanese Chord Progressions (Part 1)
   LINK : https://www.youtube.com/watch?v=yKV58VVGV9k
   TYPE : video
-  TAGS : math rock, japanese music, japan, chord, music, music theory
+  TAGS : rock, math rock, japanese music, japan, chord, music, music theory
   DATE : 12019-08-09
   NOTE
     > Interesting that japanese styles of progression is also found in CHON's music, and other math rock bands in the state. The influence could have came from video game and anime.
@@ -1915,7 +1888,7 @@ Common Japanese Chord Progressions (Part 1)
 Common Japanese Chord Progressions (Part 2)
   LINK : https://www.youtube.com/watch?v=Ne_9UnKcSb4
   TYPE : video
-  TAGS : math rock, japanese music, japan, chord, music, music theory
+  TAGS : rock, math rock, japanese music, japan, chord, music, music theory
   DATE : 12019-08-11
   NOTE
     > IV iii progression. Simplified from IV iii vi. A floating feeling.
@@ -1957,11 +1930,16 @@ Why Do All Smartphones Look The Same?
 STEVE JOBS PRESENTATION FOR 1ST IPHONE
   LINK : https://www.youtube.com/watch?v=vN4U5FqrOdQ
   TYPE : video
-  TAGS : speech, speaking, presentation, ux, design, product design, apple
+  TAGS : speaking, presentation, ux, design, product design, apple
   DATE : 12019-09-26
   NOTE : Lots to learn about creating tension, anticipation; also lots to learn about the design thinking behind iPhone, and what makes it different from other devices at the time.
 
-https://www.computerworld.com/article/2473016/90160-tk.html#slide7
+James Alliban & Keiichi Matsuda: Cell
+  LINK : https://www.youtube.com/watch?v=A28Ih64927Q
+  TYPE : video
+  TAGS : interactive art, installation, art, information, cyberspace, kinect, identity, inspiration
+  DATE : 12019-10-16
+  NOTE : Interactive installation. Keyword tags from online profiles float down and form your body. The longer you stay, the more tags you accumulate, to the point where the only representation of you is your tags.
 
 http://www.flong.com/projects/telesymphony/
 
@@ -2073,14 +2051,14 @@ DEFCON
   LINK : https://www.youtube.com/watch?v=y6neDk_4XBs
   TYPE : game
   DATE : 12019-10-15
-  TAGS : politics, inspiration, society, nuclear, game theory, minimalism, war
+  TAGS : politics, inspiration, sociology, nuclear, game theory, minimalism, war
   NOTE : A nuclear war simulator. Research shows playing this game changes people's views on nuclear war, to become more pessimistic.
 
 TRUTH DECAY
   LINK : https://www.rand.org/research/projects/truth-decay.html
   DATE : 12019-10-15
   TYPE : article
-  TAGS : politics, information, society, research
+  TAGS : politics, information, sociology, research
   TERM
     > Truth Decay: The diminishing role of facts and data in American public life.
   QOTE
@@ -2089,4 +2067,1141 @@ TRUTH DECAY
     2. a blurring of the line between opinion and fact
     3. the increasing relative volume and resulting influence of opinion and personal experience over fact
     4. declining trust in formerly respected sources of facts.
+
+The Pillows - Beautiful morning with you
+  LINK : https://www.youtube.com/watch?v=wj5hmkhUntM
+  TYPE : music
+  DATE : 12019-10-17
+  TAGS : anime, music, japan, japanese music, rock
+  NOTE : FLCL
+
+Deep Sea Banquet
+  LINK : https://www.youtube.com/watch?v=fFtcK1cK1ro
+  TYPE : video
+  DATE : 12019-10-19
+  TAGS : deep sea, sea, animal, octopus, horror, evnautilus
+  NOTE : Octopuses, fish, and worms feeding on a whale carcass on the seafloor.
+
+SLOMO FRAME HACK
+  LINK : https://www.instructables.com/id/IKEA-Frame-Hack-SLOMO-Slow-Motion-Frame/
+  DATE : 12019-10-20
+  TYPE : article
+  TAGS : DIY, hardware
+  NOTE : strobe light + vibration motor that makes light object look as if they are dancing in slow motion.
+
+CAT MESMERIZED BY FLOATING WATER DROP
+  LINK : https://funnyjunk.com/Cat+vs+antigravity+water+drops/fYTTMsL/
+  DATE : 12019-10-20
+  TYPE : video
+  TAGS : funny, inspiration, hardware, cat, levitation
+  NOTE : High speed shutter to make the water look like floating. Idea for drinking fountain?
+
+LEVIZEN
+  LINK : https://www.youtube.com/watch?v=zBb1RDf9PfM
+  DATE : 12019-10-20
+  TAGS : DIY, hardware, levitation
+  TYPE : video
+  NOTE : Levitate water with ultrasonic soundwave. Can levitate other small objects too, like ants. Robin's working on duplicating it.
+
+CELESTE LEVEL DESIGN
+  LINK : https://www.youtube.com/watch?v=4RlpMhBKNr0
+  DATE : 12019-10-21
+  TYPE : lecture
+  TAGS : game design, level design, indie game
+
+https://ncase.me/anxiety/
+
+NieR:Automata postmortem
+  TAGS : game design, postmortem
+  LINK : https://www.youtube.com/watch?v=jKbH9i5axxU
+
+Zettelkästen
+  LINK : https://clerestory.netlify.com/zk/
+  DATE : 12019-10-26
+  TYPE : article
+  TAGS : epistemology, information, knowledge, psychology
+  NOTE : Not very well-known knowledge system. Each knowledge is one single atomic idea, and complex ideas form by connecting them together - just like our brain.
+
+America's Southern Chinese
+  LINK : https://www.youtube.com/watch?v=2NMrqGHr5zE
+  DATE : 12019-10-28
+  TYPE : video
+  TAGS : culture, america, history, accent, language, dialect, racism
+  NOTE : Chinese settlers along the Mississippi delta. Since they were neither races, their grocery stores served both Black and White.
+
+Paul Prudhomme's Jambalaya & Gumbo
+  LINK : https://www.youtube.com/watch?v=M5XXU47q9js
+  TAGS : food, recipes, cajun, america
+  TYPE : video
+  DATE : 12019-10-29
+  NOTE : He emphasized on seasoning every step of the way to increase depth, and also making the roux with oil from browning the chicken.
+  QOTE : "Ain't that pretty? God, I can taste it."
+
+Isaac Toup's Chicken and Sausage Gumbo
+  TAGS : food, recipes, cajun, america
+  TYPE : video
+  DATE : 12019-11-25
+  LINK : https://www.youtube.com/watch?v=76JXtB7JFQY
+  NOTE : Add slightly sauted Okra for a thicker soup.
+  QOTE
+    > "It's absolutely imperative that you have a cooking beer... Cooking's all about enjoying yourself, and I take that to heart."
+    > "If you can't find these ingredients, you need to move."
+    > "Don’t be a weenie, put the goddamn garlic in."
+    > "Thirty cracks of your black pepper. Yes that's a lot, no I don't care."
+
+OUTERRA
+  LINK : http://www.outerra.com/
+  TYPE : tool
+  TAGS : worldbuilding, game engine, space, planet
+
+EIGHTH NOTE
+  LINK : https://www.youtube.com/watch?v=JE1V7ZKXcNY
+  TYPE : video
+  NOTE : Platformer with voice controlled jump. Very annoying.
+  TAGS : game, game design, voice
+  DATE : 12020-11-19
+
+POUR COURTESY
+  DATE : 12019-12-09
+  TAGS : DIY, hardware, humor, sci-fi
+  LINK : https://neurogadget.net/2015/01/16/mind-controlled-drinking-game-hitchhikers-guide-galaxy-becomes-reality/10683
+  TYPE : article
+  NOTE : Mind-controlled drinking game, just like Janx Spirit in The Hitchhiker's Guide to the Galaxy.
+
+THE NUCLEAR WASTE PROBLEM
+  LINK : https://www.youtube.com/watch?v=uU3kLBo_ruo
+  TAGS : longtermism, future
+  TYPE : video
+
+Stylophone Business Card
+  LINK : https://www.youtube.com/watch?v=zHVrY_xLM3c
+
+GDC 2018 INDIE SOAPBOX
+  DATE : 12019-12-09
+  LINK : https://www.gdcvault.com/play/1024968/Indie
+  TAGS : game design, indie game, divination
+  TYPE : lecture
+  NOTE : Interesting talk at 12:00 about seeing divination systems as games, and using them in your game.
+
+XELNATH
+  LINK : https://xelnath.com/
+  DATE : 12019-11-5
+  TYPE : list
+  TAGS : individual, game design
+  NOTE : Game designer who worked at Blizzard, Riot, and Moon Studios (Ori).
+
+KINECT HUMAN INTERFACE GUIDELINES
+  LINK : http://download.microsoft.com/download/6/7/6/676611b4-1982-47a4-a42e-4cf84e1095a8/kinecthig.2.0.pdf
+  TYPE : book
+  DATE : 12019-10-24
+  TAGS : kinect, interaction design, HCI, gesture control
+
+MLM and Mormonism
+  DATE : 12019-11-20
+  TYPE : video
+  LINK : https://kutv.com/news/local/follow-the-profit-how-mormon-culture-made-utah-a-hotbed-for-multi-level-marketers
+  TAGS : business, MLM, religion, mormonism, cult, america
+  NOTE : There's a huge amount of MLMs based in Utah: DoTerra, Young Living, Nu Skin... The Mormons' missionary trips make them experienced in recruiting, and the high amount of stay-at-home moms give MLM companies a lot of preys to pick.
+
+swim_in_shit.exe
+  TYPE : video
+  DATE : 12020-11-19
+  LINK : https://www.youtube.com/watch?v=aY1r3HMZfBA
+  NOTE : Fake Terminal window made in Processing, connected with Ableton Live via MidiBus. The ASCII texts often directly represent value changes from Ableton, forming structures that imply the music beneath.
+  TAGS : generative, music, processing, visualization, synesthesia
+
+THE DEEP SEA
+  DATE : 12019-12-09
+  TYPE : interactive
+  LINK : https://neal.fun/deep-sea/
+  TAGS : deep sea, sea, fish, geography, thalassophobia, animal
+  NOTE : Scroll to the bottom of the sea.
+
+VR INTERFACE SOMETHING SOMETHING
+  LINK : https://www.youtube.com/watch?v=id86HeV-Vb8
+
+Alexander Reben
+  TYPE : list
+  TAGS : individual
+  LINK : https://areben.com/
+
+Painted Mountain music visualization
+  DATE : 12020-11-19
+  TYPE : video
+  TAGS : music, visualization, ink
+  NOTE : Procedural music visualization in the style of East Asian paintings (水墨画 or Sumi-e) and the works of Julie Keaten-Reed.
+  LINK : https://www.youtube.com/watch?v=3IwCzvN-ulU
+
+Pro Chef & Home Cook Swap Ingredients
+  DATE : 12019-12-30
+  TYPE : video
+  TAGS : recipes, cooking, steak
+  LINK : https://www.youtube.com/watch?v=KGAj8IhnR3c
+
+THE POTTER AND THE CLAY
+  DATE : 12020-01-18
+  TYPE : quote
+  TAGS : life, wisdom, growth
+  SRCE : Merveilles
+  PERS : horsman
+  QOTE
+    > love your PROCESS, not your STATE
+    > like YOU is the person operating the scalpel, too! we are the potters and the clay, ya dig
+    > if you are thinking about a you youd like to be, than you are already more than the you you have been
+
+DOSOJIN MATSURI SONG
+  DATE : 12020-01-19
+  TYPE : music
+  TAGS : japan, folk, tradition, festival, fire festival
+  LINK : https://www.youtube.com/watch?v=eyB8sxAE4q4
+  QOTE
+    > 目出度く建てた　命あるなら来年も
+    > また来年も　命あるなら来年も
+    > 唄えばつける　サアてば友達良いもんだ
+    > おいとまとれば　笠の露やら涙やら
+    > 穂に穂が咲いた　升はいらない箕で計れ
+    > 夜明けにひとつ　咲いてくれろや梅の花
+    > どんとと鳴るとこどこだ　あれはお伊勢の大神楽
+    > 大神楽にほれて　行かじゃなるまいお伊勢まで
+    > 添わせておくれ　縁を結ぶの神ならば
+    > 良い娘に良い衣装着せて　袖の下から乳握る
+    > 乳ょ握らせて　乳は内緒の締め樽だ
+    > 締め樽締めて　嫁にやります来年は
+    > 若い衆頼む　露は寝笹の葉を頼む
+    > お月のように　殿さ心はまんまると
+
+手羽先明太
+  DATE : 12020-01-19
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=bhAod4IYdxA
+  TAGS : japanese food, food, recipes, cooking, chicken
+  NOTE : Chicken wing with bone removed, and stuffed with spicy fish roe.
+
+2-5-1 warmup exercises that sound good
+  DATE : 12020-11-25
+  TYPE : video
+  PERS : Nahre Sol
+  LINK : https://www.youtube.com/watch?v=jKMNIB9sk18
+  TAGS : exercise, music, piano
+  NOTE
+    > 2-5-1 Arpeggio exercises that use extensions to connect the chords, and form pleasant-sounding lines. Demonstrated on piano, but can be adapted to other instruments.
+    > The Figure Eight
+    > The Outer Ripples
+    > The Cascading Beads
+    > The Left-hand Lateral
+    > The Curled Chains
+
+https://forum.arduino.cc/index.php?topic=396450
+
+How to Build a Universe That Doesn’t Fall Apart Two Days Later
+  DATE : 12020-01-29
+  TYPE : article
+  LINK : https://urbigenous.net/library/how_to_build.html
+  TAGS : sci-fi, writing, worldbuilding, philosophy
+  NOTE : Philip K. Dick, 1978
+  QOTE
+    > "Reality is that which, when you stop believing in it, doesn’t go away."
+    > "...inceasingly we are bombarded with pseudo-realities manufactured by very sophisticated people using very sophisticated electronic mechanisms. I do not distrust their motives; I distrust their power."
+    > "I will reveal a secret to you: I like to build universes which do fall apart. I like to see them come unglued, and I like to see how the characters in the novels cope with this problem."
+    > "...do not assume that order and stability are always good, in a society or in a universe. The old, the ossified, must always give way to new life and the birth of new things. Before the new things can be born the old must perish."
+
+How To Chop Every Vegetable
+  DATE : 12020-02-03
+  LINK : https://www.youtube.com/watch?v=p28wMbunulQ
+  TYPE : lecture
+  TAGS : food, vegetable, cooking
+  NOTE : Mostly western vegetables.
+
+HOW TO BE A DICTATOR
+  DATE : 12020-02-04
+  LINK : https://www.economist.com/prospero/2012/01/01/how-to-be-a-dictator
+  TYPE : article
+  TAGS : politics, political science, dictatorship
+  NOTE : Interview with the author of The Dictator's Handbook. An important insight is that, it doesn't benefit a dictator to keep their subjects too wealthy and happy, as that would give them power over you.
+  QOTE
+    > "Don't pay your supporters too much! You don't want them saving up and forming their own power base. Also, don't be nice to the people at the expense of your coalition. A classic example is natural disasters. Than Shwe was the ruler of Burma when Cyclone Nargis hit in 2008, and he did nothing to help the people. The Generals didn't warn anybody; though they knew it was coming, they provided virtually no emergency protection. He sent the army in to prevent the people from leaving the flooded Delta areas. He was the perfect example of a leader who never made the mistake of putting the people's welfare above himself and his coalition."
+    > "Places where there is oil, like Libya, have a very low chance of having democracy. The leaders don't really need the people to pay the bills of their cronies, because they have oil."
+
+CORONAVIRUS THOUGHT
+  DATE : 12020-02-24
+  PERS : Jan Dornig
+  TYPE : quote
+  TAGS : philosophy, pandemic
+  QOTE : "i wonder if ever in the history of the world, so many people moved so little"
+
+MITT ROMNEY SPEECH FOR IMPEACHMENT
+  DATE : 12020-11-19
+  TYPE : video
+  TAGS : politics, american politics, impeachment
+  LINK : https://www.youtube.com/watch?v=qS-aFfJe20U
+  NOTE : The only senator who voted for impeachment. The first senator to vote to convict a president in his own party. A rare display of integrity and humanity among politicians.
+
+JOHN MCCAIN SPEECH
+  DATE : 12020-11-19
+  TAGS : politics, american politics
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=wezSi5RLkRg
+  NOTE : John McCain's speech after casting a NO vote for repealing Obamacare, unlike most of his party.
+  QOTE
+    > "I hope we can again rely on humility, on our need to cooperate, on our dependence on each other to learn how to trust each other again and by so doing better serve the people who elected us. Stop listening to the bombastic loudmouths on the radio and television and the Internet. To hell with them. They don’t want anything done for the public good. Our incapacity is their livelihood."
+    > "Let’s trust each other. Let’s return to regular order."
+
+JOJO RABBIT DINNER SCENE
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=S1OgvSlVNyw
+
+INVENTING DISHES DURING CORONAVIRUS
+  TYPE : forum
+  LINK : https://www.reddit.com/r/Cooking/comments/f0qjm9/what_the_coronavirus_forcing_me_in_lockdowns/
+  TAGS : cooking, coronavirus
+
+FANTASY MAP GENERATOR
+  TYPE : tool
+  LINK : https://azgaar.github.io/Fantasy-Map-Generator/
+
+VEGETARIAN DEMI-GLACE
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=BraJQrO8IqM
+  DATE : 12020-02-14
+  TAGS : recipes, cooking, french cuisine, vegetarian
+  NOTE : Prepare sliced vegetables, mostly savory and some sweet. Add tomato paste for sour & kombu for umami. Roast vegetables in oven till very dark. Add water and roast to extract flavors. Strain and reduce. Add thickener.
+
+煎饼果子
+  TYPE : video
+  DATE : 12020-02-16
+  TAGS : chinese food, cooking, street food, recipes
+  LINK : https://www.youtube.com/watch?v=2eLbLEiW1Bk
+  NOTE : Make jianbing at home. Need Mung Bean Flour (绿豆面粉) mixed with regular flour for the batter, and Wonton Pastry for deep fry (云吞炸皮) to make 脆皮 with.
+
+Stovetop Pizza
+  TYPE : article
+  TAGS : recipes, pizza
+  DATE : 12020-02-23
+  LINK : https://slice.seriouseats.com/2012/03/the-pizza-lab-awesome-pizza-without-an-oven-aka-skillet-pizza.html
+  NOTE : Achieve char by applying direct flame carefully.
+
+SPICE INDEX
+  DATE : 12020-04-01
+  TAGS : cooking, spice, food, history, language, geography
+  TYPE : list
+  LINK : https://web.archive.org/web/20160315013057/http:/gernot-katzers-spice-pages.com/engl/spice_small.html
+  NOTE : Spices of the world, their names in other languages, and culinary info. Also indexes them by geography, botanical, parts of the plant used, and spice mixtures.
+
+LibriVox
+  LINK : https://librivox.org/
+  TYPE : tool
+  NOTE : Free public domain audiobooks.
+  DATE : 12020-11-25
+  TAGS : audiobook, book, library, public domain
+
+BOKASHI BIN
+  DATE : 12020-11-19
+  TYPE : article
+  LINK : https://en.wikipedia.org/wiki/Bokashi_(horticulture)
+  TAGS : farming, sustainability, horticulture
+  NOTE : Household composting alternative. It ferments the organic contents within, and keeps it acidic - no bacteria or insect.
+
+JANKO KEYBOARD
+  DATE : 12020-03-14
+  TYPE : interactive
+  LINK : http://www.brandlew.com/keyboard/keys.htm?fundamental=261.6255653&right=2&upright=1&size=50&rotation=0&instrument=piano&enum=false&equivSteps=12&spectrum_colors=false&fundamental_color=41FF2E&no_labels=true&scale=!%2012-ed2%20Jank%C3%B3%206-6%20Balanced%20Symmetric%20Bilinear%20Uniform%20Keyboard%20~Halberstadt.scl%0A!%2012-tone%20equal%20tempered%20scale%20consisting%20of%2012%20sonically%20equal%20divisions%20per%20frequency%20halving%2Fdoubling%2C%20mapped%20on%20a%20(hexagonal)%20tilted%20Jank%C3%B3%20layout%20which%20can%20be%20regarded%20as%20a%20stacked%206-6%2FBalanced%2FSymmetric%2FBilinear%2FUniform%20Keyboard%2C%20and%20which%20approximates%20the%207-white%2F5-black%20Halberstadt%20organ%20layout%20(the%20classic%20piano%20keyboard).%0A!%0ATerpstra%20Keyboard%20WebApp%20%7C%2012-ed2%20Jank%C3%B3%20%2F%206-6%2FBalanced%2FSymmetric%2FBilinear%2FUniform%20Keyboard%20%2F%20~Halberstadt%0A12%0A!%0A100.00000%0A200.00000%0A300.00000%0A400.00000%0A500.00000%0A600.00000%0A700.00000%0A800.00000%0A900.00000%0A1000.00000%0A1100.00000%0A1200.00000&names=C%0AD%E2%99%AD%2FC%E2%99%AF%0AD%0AE%E2%99%AD%2FD%E2%99%AF%0AE%0AF%0AG%E2%99%AD%2FF%E2%99%AF%0AG%0AA%E2%99%AD%2FG%E2%99%AF%0AA%0AB%E2%99%AD%2FA%E2%99%AF%0AB&note_colors=ffffff%0A7b7b7b%0Affffff%0A7b7b7b%0Affffff%0Affffff%0A7b7b7b%0Affffff%0A7b7b7b%0Affffff%0A7b7b7b%0Affffff
+  TAGS : music, music theory, instrument, design, psychology, keyboard
+  NOTE : Alternative piano layout. The site itself is also interesting - seem to be able to generate customizable microtonal keyboards laid out in a hexagonal grid.
+
+Fast SRT subtitles
+  LINK : https://www.youtube.com/watch?v=Ath3BX9DBRs
+  DATE : 12020-09-02
+  TYPE : tool
+  TAGS : subtitle, video editing, productivity
+  NOTE : Tool to map subtitle to video. Check comment section for tool link.
+
+FOR SEASONS AIR GUITAR MIX
+  DATE : 12020-03-30
+  TYPE : music
+  LINK : https://www.youtube.com/watch?v=bov4ZInsXXA
+  TAGS : djmax, game music, guitar
+
+LADYMADE STAR
+  DATE : 12020-03-30
+  TYPE : music
+  LINK : https://www.youtube.com/watch?v=D6j2YJNPdzU
+  TAGS : djmax, game music, cute
+
+ML-Agent Training Tips
+  DATE : 12020-03-31
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=ifBXOmG9xmw
+  TAGS : machine learning, unity, ml agents
+  NOTE
+    > 1. Start out as simple as possible. It's easier to increase complexity than reduce it.
+    > 2. Work carefully. Every training will take lots of time, make sure there's no error before pressing run.
+    > 3. Manually test the environment, and try to break it. Fix the env until you can't break it.
+    > 4. Use demonstrative learning to get a head start.
+    > 5. Use reward shaping in moderation; first try using curiosity and human demonstration.
+
+MISO NABE HOTPOT
+  DATE : 12020-11-19
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=cdghCC4aSyw
+  TAGS : cooking, japan, japanese food, recipes
+  NOTE
+    > Video showing how to make miso nabe hotpot. Charming hosts.
+    > To build the soup base: Dashi, minced garlic & ginger, mirin, soy sauce, and thick vegetables - cabbage stem, green onion, carrot, root veggies.
+    > Once the soup base is ready, keep heat below boiling and break miso paste into the soup. Taste to adjust.
+    > Add your mushrooms, leafy greens, tofu, and meat, in orders of cooking time. You can do this before serving, or let the guests do it.
+
+RESILIENT WEB DESIGN
+  LINK : https://resilientwebdesign.com/
+  SRCE : Merveilles
+  PERS : Josh
+
+WESTERN CHICKEN NOODLE SOUP
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=74tZ-yOOPy0&t=17s
+  DATE : 12020-01-05
+  TAGS : cooking, recipes, chicken, soup
+  NOTE : Veggies include celery, carrots, radishes, onion, and garlic. Use chicken parts that have extra cartilage and gelatin.
+
+SOUND SHAPES
+  LINK : https://www.youtube.com/watch?v=mwZtt4Q9CxY
+  TYPE : game
+  DATE : 12020-04-01
+  TAGS : indie game, music game, music, game design, lyrics
+  NOTE : Platformer that syncs all elements to music. The interplay between elements and the lyric is fun.
+
+CHIUNE SUGIHARA
+  LINK : https://en.wikipedia.org/wiki/Chiune_Sugihara
+  TAGS : individual, history, japan, jewish, WWII
+  DATE : 12020-05-05
+  TYPE : article
+  NOTE : Japanese diplomat who slipped 6000 jews away under the eyes of Nazi Germany during World War 2.
+
+FACTITIOUS NEWS GAME
+  LINK : https://medium.com/@bobhone.designer/factitious-news-game-helps-students-spot-pandemic-misinformation-87c9a2765b57
+  NOTE : Game about telling apart real and fake news.
+
+SATOYAMA
+  LINK : https://www.youtube.com/watch?v=eIsPXmHIxVQ&feature=youtu.be&t=747
+  TYPE : video
+  DATE : 12020-05-06
+  TAGS : japan, nature, ecosystem
+  NOTE : Carp powered dishwashing.
+
+Taishi - bluefieldcreator
+  LINK : https://www.youtube.com/watch?v=keF7n1eVKzE
+  TYPE : music
+  DATE : 12020-09-01
+  TAGS : japan, trance, glitch, electronic
+  NOTE : Trance masterpiece. Also, armpit.
+
+IS WEALTH INEQUALITY ACTUALLY A PROBLEM?
+  LINK : https://www.youtube.com/watch?v=swOpLpZaA78
+  TYPE : video
+  DATE : 12020-07-09
+  TAGS : economics, inequality
+  NOTE
+    > Inequality is on the rise ultimately is because the world is becoming wealthier.
+    > There are some benefits to inequality - technical and cultural innovation often comes from extreme concentration of wealth.
+    > The rich getting richer doesn't always mean the poor gets poorer, but unfortunately it's true in some cases (casino, political lobbying). It depends.
+    > A serious drawback of inequality actually doesn't come from outrageous spending, but from outrageous investing. Look up Savings Glut.
+
+WINE WINDOWS
+  LINK : https://buchettedelvino.org/home%20eng/news%20%26%20so.html
+  TYPE : article
+  DATE : 12020-08-12
+  TAGS : history, plague, coronavirus, italy
+  NOTE : Wine windows are tiny windows for passing objects during a quarantine. They got built in Florence during the Plague, and now they are coming back during the coronavirus.
+
+Boardgame Lab
+  LINK : https://boardgamelab.app/
+  TYPE : tool
+  DATE : 12020-08-31
+  TAGS : game design, board game, prototyping
+  NOTE : Web-based prototyping tool for boardgames.
+
+Magic the Gathering: Twenty Years, Twenty Lessons Learned
+  LINK : https://www.youtube.com/watch?v=QHHg99hwQGY
+  TAGS : game design, card game, postmortem
+
+https://markrosewater.tumblr.com/
+
+Birra Salento Igea Golden Ale, gluten free
+  LINK : https://untappd.com/b/birra-salento-igea/3441599
+  TYPE : drink
+  DATE : 12020-09-13
+  TAGS : beer, italy
+  NOTE : Italian golden ale from Birra Salento microbrewery. Very fragrant minty & citrusy aroma, light & crisp mouthfeel, hoppy aftertaste. Overall, an exotic beer for the summer nights. Would pair well with mediterranean food. 5.3 ABV.
+
+St. Bernardus Pater 6 Abbey Ale
+  TYPE : drink
+  DATE : 12020-11-01
+  TAGS : beer, belgium
+  NOTE : A sweet & savory abbey ale, with a slightly spicy mouthfeel. Aroma is dark malty. Quite flavorful.
+
+Rittmeister Hefeweizen
+  TYPE : drink
+  DATE : 12020-11-01
+  TAGS : beer, germany
+  NOTE : Tastes full of bread flavor. Very sweet. Kinda like a dessert.
+
+LEPINJE / SOMUN
+  LINK : https://www.youtube.com/watch?v=1K6V6kb9g6c
+  TYPE : video
+  DATE : 12020-09-16
+  TAGS : food, bread, serbia
+  TERM
+    > Lepinje / somun: Serbian flatbread or pita bread. EXTREMELY juicy.
+
+Ital Tek - Leaving The Grid
+  LINK : https://www.youtube.com/watch?v=4UuwLrcEtvg
+  TYPE : video
+  DATE : 12020-09-17
+  TAGS : music video, visual, particle cloud, VFX, photogrammetry, unity3d
+
+CHUCK FEENEY IS OFFICIALLY BROKE
+  LINK : https://www.forbes.com/sites/stevenbertoni/2020/09/15/exclusive-the-billionaire-who-wanted-to-die-brokeis-now-officially-broke/#4375379e3a2a
+  TAGS : billionaire, philanthropy
+  DATE : 12020-09-18
+  TYPE : article
+  QOTE : "The Billionaire Who Wanted To Die Broke . . . Is Now Officially Broke"
+
+THE ALMANACK OF NAVAL RAVIKANT
+  LINK : https://navalmanack.s3.amazonaws.com/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant_Final.pdf
+  TAGS : wisdom, self help, philosophy
+  DATE : 12020-09-18
+  TYPE : book
+  QOTE
+    > Every desire is a chosen unhappiness.
+    > Whenever the word “should” creeps up in your mind, it’s guilt or social programming.
+    > The enemy of peace of mind is expectations drilled into you by society and other people.
+
+APPLE EMOJI 中文检索
+  DATE : 12020-09-21
+  TYPE : tool
+  TAGS : emoji, apple, macos
+  LINK : https://phpz.xyz/emoji/
+  NOTE : Shows you how to bring up emojis with Apple's 中文输入法 Chinese input source.
+
+Alternative Handwriting and Shorthand Systems
+  DATE : 12020-09-22
+  LINK : http://www.alysion.org/handy/althandwriting.htm
+  TYPE : article
+  TAGS : shorthand, language, writing system, calligraphy
+
+CROQUIS CAFE
+  LINK : https://onairvideo.com/
+  DATE : 12020-09-22
+  TYPE : tool
+  TAGS : figure drawing, drawing
+  NOTE : Reference for drawing.
+
+SketchDaily
+  LINK : http://reference.sketchdaily.net/en
+  DATE : 12020-09-22
+  TYPE : tool
+  TAGS : figure drawing, drawing
+  NOTE : Reference for drawing.
+
+LINE OF ACTION
+  LINK : https://line-of-action.com/
+  DATE : 12020-09-22
+  TYPE : tool
+  TAGS : figure drawing, drawing
+  NOTE : Reference for drawing.
+
+QUICKPOSES
+  LINK : http://quickposes.com/
+  DATE : 12020-09-22
+  TYPE : tool
+  TAGS : figure drawing, drawing
+  NOTE : Reference for drawing.
+
+FREEPHOTOMUSCLE
+  LINK : https://freephotomuscle.com/
+  TYPE : tool
+  DATE : 12020-10-08
+  TAGS : figure drawing, drawing, muscle, funny
+  NOTE : マッチョフリー muscular japanese man in creative poses.
+
+The Shanghai Restoration Project - The Bund
+  DATE : 12020-11-19
+  LINK : https://www.youtube.com/watch?v=aKUNa7G7tXM
+  TYPE : music
+  TAGS : shanghai, chinese music, electronic, jazz
+  NOTE : The duo is by two Chinese Americans based in Brooklyn.
+
+Los Hermanos - Anna Júlia
+  DATE : 12020-09-22
+  TYPE : music
+  TAGS : portugese, brazilian, rock, one hit wonder
+  NOTE : This song somehow snuck into my senior year at high school, and stuck with me.
+  LINK : https://www.youtube.com/watch?v=umMIcZODm2k
+
+How to increase productivity
+  DATE : 12020-10-15
+  TYPE : lecture
+  TAGS : productivity, funnel, career
+  LINK : https://www.youtube.com/watch?v=5EuWCFCgy58
+  NOTE
+    > Patreon CEO gives a talk on the benefit of working to publish, and being a prolific creator.
+    > Publishing requires a different mindset from working for fun. Working for fun is inward, selfish, rooted in the ego, relaxing, and a luxury. Publishing is outward, selfless, and about putting something out for the world.
+    > The world is made of funnels - for every final success, there's a lot of failed attempts. That's why working to publish is a great strategy.
+    > For a creator contributing to the world, you can't choose what you are famous for. That's up to the funnel.
+
+http://freedomofmind.com/bite-model
+
+Tijman Schep
+  DATE : 12020-10-02
+  TYPE : list
+  LINK : https://www.tijmenschep.com/
+  TAGS : individual, privacy
+  NOTE : Technology critic & Privacy designer
+
+HOW NORMAL AM I?
+  DATE : 12020-10-15
+  TYPE : interactive
+  LINK : https://www.hownormalami.eu/
+  TAGS : privacy, machine learning, ai, facial recognition
+  QOTE : "This interactive documentary explores how face recognition technology is used, and lets you experience it yourself. You can find out how algorithms judge your beauty, age, gender, body mass index, life expectancy, emotions and much more."
+
+ハイスイノナサ - 地下鉄の動態
+  DATE : 12020-10-09
+  TYPE : music
+  LINK : https://www.youtube.com/watch?v=ZDykTjFFNIE
+  TAGS : visualization, synesthesia, animation, math rock, japanese music, minimalism
+  NOTE : Beautiful math rock composition with next-level synesthesia b&w visual that maps notes to shapes extensively.
+
+Jacob Collier Plays the Same Song In 18 Increasingly Complex Emotions
+  DATE : 12020-10-15
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=EWHpdmDHrn8
+  TAGS : music, emotion, composition, improvisation
+
+5 TYPES OF BULLSHIT JOBS
+  DATE : 12020-10-23
+  PERS : Stefan Aleksic
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=kehnIQ41y2o
+  TAGS : productivity, career, economics
+  TERM
+    > Flunkies: People who are hired to make someone else's job seem important.
+    > Goon: You don't need them unless someone else has them - like an arms race.
+    > Duct tapers: People who fix a problem that does not need to exist.
+    > Box tickers: People who are there to allow an org to say they are doing something they aren't doing. E.g. Surveyers who perform surveys that never get turned into policy, but allows the government to say they've been spending effort in a certain area.
+    > Task masters: People who supervise people who don't need supervising. They also make up new BS jobs
+
+deCoda
+  TYPE : tool
+  DATE : 12020-11-14
+  LINK : https://decoda.app/
+  TAGS : songwriting, music, music theory
+  NOTE : Analyze key, tempo, chords, notes, and musical structure from audio files. Great for learning or practicing materials. Allow manually mapping notes into MIDI files too.
+
+ASYNC ART
+  DATE : 12020-10-26
+  PERS : Jordan Gray
+  TYPE : list
+  LINK : https://async.art
+  TAGS : art, crypto
+  NOTE : Crypto art platform.
+
+Sounds in Super Mario Odyssey Harmonize with the Background Music
+  DATE : 12020-10-26
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=U5-YDxH6It8
+  NOTE : Sound effects such as riding the powerline harmonizes and changes depending on what chord the background music is playing.
+  TAGS : sound design, game design, music, nintendo
+
+WHY BILLIONS OF PEOPLE WON'T EAT PORK
+  TAGS : anthropology, food, history, culture, religion
+  LINK : https://www.youtube.com/watch?v=Sew4rctKghY
+  DATE : 12020-10-27
+  TYPE : video
+  NOTE : One-third of the world population don't eat pork. There are several reasons, overall it's quite complex and involves history.
+
+APONE APPLE RISOTTO
+  LINK : https://www.youtube.com/watch?v=vMFfjGPPYUo
+  TYPE : video
+  TAGS : recipes, apple, autumn, risotto
+  DATE : 12020-10-28
+  NOTE : Apple risotto flavored with onion, chili, cardamom, cloves, and other fall spices.
+
+Circuit bending basics by Reed Ghazala
+  LINK : http://www.anti-theory.com/soundart/circuitbend/
+  DATE : 12020-11-06
+  NOTE : Basic overview by the so-called "father of circuit bending.
+  TAGS : circuit bending, hardware
+  TYPE : article
+
+Kendrick Lamar - Sing About Me, I'm Dying Of Thirst
+  TAGS : rap, hip hop
+  TYPE : music
+  DATE : 12020-11-10
+  LINK : https://www.youtube.com/watch?v=75wmW7xjyog
+  NOTE : Powerful & sorrowful storytelling rap. With a sermon thrown in at the end.
+
+Rapping, deconstructed: The best rhymers of all time
+  TAGS : rap, hip hop
+  LINK : https://www.youtube.com/watch?v=QWveXdj6oZU
+  DATE : 12020-11-10
+  TYPE : video
+  NOTE : Development of different types of rhymes in rap songs, examples, and their creative usage.
+
+HERMA
+  TAGS : funny, genital, history, greece, sculpture
+  DATE : 12020-11-14
+  LINK : https://en.wikipedia.org/wiki/Herma
+  TYPE : article
+  TERM
+    > Herma: A greek sculpture; a column topped by the head of Hermes, and decorated with a male genital.
+
+CYBERCHEF
+  DATE : 12020-11-14
+  TYPE : tool
+  LINK : https://gchq.github.io/CyberChef/
+  TAGS : cybersecurity, encryption, osint
+  NOTE : "The Cyber Swiss Army Knife". Decrypt and convert encoded strings. Great for OSINT.
+
+Nassia Inglessis | Studio INI
+  DATE : 12020-11-19
+  TAGS : architecture, installation, interactive art, art
+  TYPE : list
+  LINK : https://www.nassia-inglessis.com/
+  NOTE : Artist / Engineer making public installations that focus on material & interactivity without electronics. Education from Oxford, Pratt Institute, RCA, and MIT.
+
+COOKING ON A BUDGET
+  DATE : 12020-11-19
+  TAGS : cooking, personal finance
+  TYPE : forum
+  LINK : https://www.reddit.com/r/Cooking/comments/jwjj5r/this_is_a_help_post_from_a_professional_chef_to/
+  NOTE : Professional chef sharing tips on eating healthy on a budget
+  QOTE
+    > Buy dry legumes in bulk. They are cheap and versatile. Look into middle-eastern and african cuisine for how to use them.
+    > "Superfoods" aren't wholly good because 1. Just because they have higher concentration doesn't mean you can't get the same nutritions elsewhere. 2. Practices on producing them could be questionable. 3. They are expensive.
+    > Buy fruits and vegetables when they are on sale - this is usually due to good harvest or lack of consumer interest. Use them up creatively. Fermentation and stock are two ways to get rid of them.
+    > Meat is a luxury, not an essential.
+    > Learn how to break down your meat.
+    > If you don't live beside a large body of water, your fish is iffy.
+    > Proteins are way more than just the meat. Make use of the bones for stock and skins for oil / snack.
+    > Instant ramen is delicious, but realize that they are closer to chips than real meal.
+    > Cheese and alcohol are luxuries. Quality over quantity.
+    > Coffee markups are crazy. Make your own.
+
+John Scofield and horn solos
+  DATE : 12020-12-21
+  TAGS : jazz, guitar, improvisation
+  LINK : https://www.csmonitor.com/1987/0629/lsco.html
+  TYPE : article
+  NOTE
+    > John Scofield developed his style not from copying other guitarists, but Miles Davis, John Coltrane, and other horn players.
+    > He and Miles both prefer to play more grounded, tonal music, not so much in and out stuff.
+    > Miles always strived to innovate, play something different even at the expense of making it sound bad. John on the other hand focuses more on being consistent and making the basic stuff sound great.
+  QOTE
+    > "Now I feel like I do have my own style, although you can trace everything I play back to somebody else."
+    > "I think in a way I'm conservative. I always liked guys like Miles because I play basically tonal music. I've always been fascinated with guys that could play in and out - play on standard things, but play notes that sounded different and had dissonance. But I like the standard forms, the tried and true, whether I'm playing funk or jazz or whatever."
+    > "The great thing about jazz players is their sound and their scope of feeling. Miles is so beyond the practice-your-scales-and-get-real-fast showoff stage - it's nice to play with someone that's real mature like that."
+    > "And [Miles] said, 'because I've played the solo I played before.' And I thought, 'this guy wants to change so much that he'd rather sound bad than sound formulated.'"
+
+临终是个怎样的过程？| Caring for the end-of-life period
+  DATE : 12021-01-05
+  TYPE : article
+  TAGS : hospice care, death
+  LINK : https://zhuanlan.zhihu.com/p/22344925
+  NOTE
+    > The end-of-life period typically lasts from 10 to 14 days, though in some cases it could be as short as 24 hours.
+    > The patient's skin would become cold and wet, due to reduced circulation. But don't cover it with warm clothes as the patient would feel it's too heavy.
+    > While the patients would have a hard time breathing, oxygen tank doesn't do a lot as they cannot utilize the oxygen very well.
+    > After the patient stops being able to eat & drink, the ketone in their blood would act as painkiller. If they ingest sugar at this point, that painkiller effect would go away immediately.
+    > Feeding the patient when they stop being able to eat on their own could make them throw up, or suffocate. IV injection can deliver nutrition & water, but causes pain, bloat, and nausea.
+    > End-of-life period often leads to less communication with others, and more with themselves.
+    > Most patients are conscious a week before end of their life, but that number drops to 8% when it's 6 hours before their end of life.
+    > Death throes are caused by fluids and phlegm. Move patient's body to the side, raise their pillow, or use medicine to reduce the amount of phlegm.
+    > Hearing is the last sense to go away.
+
+水曜日のカンパネラ - ウランちゃん
+  DATE : 12020-12-25
+  TYPE : music
+  TAGS : japan, electronic, indie music
+  LINK : https://www.youtube.com/watch?v=5waodDVpTZI
+  NOTE : Funky alternative electronica. Inspired by Astro Boy.
+
+走入博尔赫斯的迷宫
+  DATE : 12021-01-31
+  TYPE : article
+  TAGS : writing, poetry, dream, abstract, surreal
+  LINK : https://shud.in/posts/labyrinth-of-borges
+  QOTE : "我遇到一面刻着我无法阅读的长诗的断碑，与它一同保持心照不宣的沉默。"
+
+Rouketopolemos
+  DATE : 12021-01-31
+  LINK : https://en.wikipedia.org/wiki/Rouketopolemos
+  TYPE : article
+  TAGS : festival, tradition, greece, fire festival, chios
+  NOTE : An Easter tradition on the Greek island Chios, where villagers shoot rockets at each other. Reminds me of Dosojin Matsuri.
+
+MASTIC
+  DATE : 12021-01-31
+  LINK : https://en.wikipedia.org/wiki/Mastic_(plant_resin)
+  TYPE : article
+  TAGS : spice, food, greece, chios
+  NOTE : A resin spice produced almost exclusively in the island of Chios.
+  QOTE
+    > One of the earliest uses of mastic was as chewing gum; hence, the name.
+    > The mastic villages are fortress-like, out of sight from the sea, surrounded by high walls and with no doors at street level (meaning that the villages were entered only by ladders), in order to protect the sap from invaders.
+
+How Neuroscience Can Hack Your Brain's Potential
+  LINK : https://www.youtube.com/watch?v=qksd7aHGAUQ
+
+Upright Piano Action
+  DATE : 12021-01-31
+  LINK : http://www.concertpitchpiano.com/UprightActionModel.html
+  TYPE : image
+  FILE : 12021-01-31_piano.gif
+  TAGS : piano, instrument
+
+HELL YEAH OR NO
+  TYPE : book
+  TAGS : career
+  LINK : https://sive.rs/n
+
+HAYAO MIYAZAKI'S CREATIVE PROCESS
+  TAGS : productivity, anime, creativity, japan
+  LINK : https://subtlemaneuvers.substack.com/p/hayao-miyazaki-creativity-selfishness
+
+Practical Physics for Trumpeters and Teachers
+  TAGS : trumpet, instrument, physics
+  LINK : https://www.everythingtrumpet.com/schilke/Practical_Physics.html
+
+TRUMPET PHYSICS WITH PROFESSOR John Harbaugh
+  TAGS : trumpet, instrument, physics
+  LINK : https://www.youtube.com/watch?v=MVs2G60-ilo
+
+CHINA: THE DISAPPEARING MILLIONAIRES
+  LINK : https://www.arte.tv/en/videos/083456-000-A/china-the-disappearing-millionaires/
+
+HANDLING OVERLAPPING FREELANCE PROPOSALS
+  TYPE : forum
+  TAGS : freelancing, negotiation, business
+  LINK : https://www.reddit.com/r/freelance/comments/1tjov4/how_to_handle_multiple_overlapping_proposal/
+  DATE : 12021-01-31
+  NOTE
+    > Raise your fees until you only have one client standing, or:
+    > Use the project money to hire others to help, or:
+    > Push the clients toward committing to working with you, by requesting a deposit.
+    > There's no universally correct approach. Make sure to gather information and consider each project comprehensively.
+
+JOSEPH DUCREUX
+  LINK : https://en.wikipedia.org/wiki/Joseph_Ducreux
+  DATE : 12021-01-18
+  TYPE : article
+  TAGS : portrait, painter, art history, physiognomy, france, french revolution
+  NOTE : French painter during the French Revolution era. Produced works with lively physiognomy, some of which became internet memes today.
+
+La Joueuse de tympanon
+  LINK : https://www.youtube.com/watch?v=75CXFwgslsY
+  TYPE : video
+  DATE : 12021-01-19
+  PERS : 焉沁
+  TAGS : french revolution, france, music, instrument, history
+  NOTE : An automaton of Marie Antionette playing dulcimer, by David Roentgen. The mechanisms are hidden underneath Queen Marie's skirt.
+
+WORKING IN PUBLIC
+  LINK : https://www.goodreads.com/en/book/show/54140556
+  TAGS : open source, software
+  TYPE : book
+  PERS : Mike Nolan
+  DONE : false
+
+RISE OF THE ROBOTS
+  LINK : https://www.goodreads.com/book/show/22928874-rise-of-the-robots
+  TYPE : book
+  PERS : Mike Nolan
+
+WE ARE CUBA
+  TYPE : book
+  LINK : https://www.goodreads.com/book/show/41962940-we-are-cuba
+  PERS : Mike Nolan
+
+梦幻西游颐和园事件
+  TYPE : article
+  LINK : https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%B9%BB%E8%A5%BF%E9%81%8A
+  DATE : 12021-01-22
+  TAGS : china, nationalism, internet history, japan, mmorpg, gaming
+  NOTE : An online anti-japanese protest on one of the biggest Chinese MMOs, in 2006.
+  QOTE : "In 2006 July, the administrators dissolved a 700-member anti-Japanese guild, and locked the account of its founder for having an anti-Japanese user name. A mass protest took place in the game days later on July 7, the anniversary of the beginning of the Second Sino-Japanese War, with up to 80,000 users joining the online protest on one of the servers."
+
+Light of Aidan - Loving You
+  LINK : https://www.youtube.com/watch?v=sSyHs-0_27M
+  TYPE : music
+  DATE : 12021-01-24
+  TAGS : chillout, ambient
+  SRCE : 梧桐山赖着不走咖啡馆
+  NOTE : Very calming track. Part of the Cafe Del Mar releases. The group, consisting of Daniel Lozinski & Phil Baggaley, is incredibly difficult to find info of online.
+
+YOUR THEME
+  LINK : https://www.youtube.com/watch?v=NVGuFdX5guE
+  TYPE : video
+  DATE : 12021-01-24
+  TAGS : productivity, philosophy, self help
+  NOTE : Instead of setting yearly resolutions, use themes to gently push yourself into making better decisions throughout the year.
+
+Serph - feather (overdrive version)
+  LINK : https://www.youtube.com/watch?v=S4TYELJzTqI
+  TYPE : music
+  DATE : 12021-01-30
+  TAGS : electronica, japanese music, visualization, synesthesia, animation
+  NOTE : A cacophony of colors, dancing organically, radiantly. The label held a contest for the MV, winning entry directed by Tarafu Otani (大谷たらふ). Obviously inspired by, and imo masterfully executed, Wassily Kandinsky's synesthetia.
+
+History of salt
+  DATE : 12021-01-30
+  LINK : https://en.wikipedia.org/wiki/History_of_salt
+  TYPE : article
+  TAGS : history, economics
+  NOTE
+    > Salt and the salt industry had HUGE implications for older human society. 盐商 is famously rich in China. The word "Salary" comes from the Latin word for salt. This is frankly one of the most fascinating subjects I've encountered!
+    > What makes salt unique is: it's probably the only life essentials back then, that's both a recurring need, and location-dependent. Therefore it encourages a monopoly to manufacture, and a large scale infrastructure to distribute.
+  QOTE
+    > Salt's ability to preserve food was a founding contributor to the development of civilization.
+    > Many salt roads, such as the via Salaria in Italy, had been established by the Bronze Age.
+    > Monopolies over salt production and trade were essential aspects of government revenue in imperial China and retained its significance until 20th century.
+    > Salt created and destroyed empires. The salt mines of Poland led to a vast kingdom in the 16th century, only to be demolished when Germans brought in sea salt (which most of the world considered superior to rock salt).
+    > In Britain, the suffix "-wich" in a placename means it was once a source of salt, as in Sandwich and Norwich.
+    > During the Indian independence movement, Mahatma Gandhi organized the Salt Satyagraha protest to demonstrate against the British salt tax.
+
+Junichi Akagawa
+  LINK : https://junichiakagawa.net/
+  TAGS : individual, generative, music, glitch
+
+Noble
+  DATE : 12021-01-31
+  TYPE : article
+  TAGS : japanese music, electronica, music, glitch
+  LINK : https://en.wikipedia.org/wiki/Noble_(record_label)
+  NOTE : Japanese record label specializing in experimental electronics music, with glitch, shoegaze, and ambient element. Artists include Serph, Kashiwa Daisuke, and World's End Girlfriend.
+
+使用 Typora 一次性搞定公众号写作与排版
+  TYPE : article
+  TAGS : wechat, productivity, writing
+  LINK : https://sspai.com/post/40524
+  DATE : 12021-01-31
+  NOTE : 用Typora进行写作后导出至HTML，然后富文本复制粘贴到公众号编辑器里即可完成。需要设置一下图片上传和文本格式CSS。
+
+Sol LeWitt to Eva Hesse - Read by Benedict Cumberbatch
+  TYPE : video
+  TAGS : productivity, creativity, letter, art
+  LINK : https://www.youtube.com/watch?v=VnSMIgsPj5M
+  NOTE : Explosive read.
+  DATE : 12021-02-01
+  PERS : Eno Chen
+
+Jonathan Blow - Preventing the Collapse of Civilization
+  LINK : https://www.youtube.com/watch?v=pW-SOdj4Kkk
+  DATE : 12021-02-01
+
+80000 HOURS
+  LINK : https://80000hours.org/key-ideas/
+
+三和青年
+  LINK : https://www.yicai.com/news/100778005.html
+  TAGS : china, sociology, involution, minimalism
+
+凡尔赛文学
+
+The Fascinating World Inside of a Piano
+  LINK : https://www.youtube.com/watch?v=OpCpBWdl-ic
+
+GIANT STEPS DEEPER DIVE
+  DATE : 12021-02-03
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=tEq14C60wDI
+  TAGS : jazz, visualization, music theory, music
+  NOTE : Visualizing the chords of coltrane changes in a circle of 5th. The Grouping of Tonic, Relative Minor, Tritone, and Relative Major, is revealing. Also that the notes not used in the diatonic scale forms the pentatonic scale of the tritone.
+
+CHANGE CAREERS LIKE TARZAN
+  LINK : https://sive.rs/tarzan
+  DATE : 12021-02-03
+  TYPE : article
+  TAGS : career
+  QOTE : "Change careers like Tarzan. Don’t let go of the old one until the new one is supporting you. And make sure you don’t lose momentum."
+  NOTE
+    > Agree with the vine metaphor. Skeptical however regarding momentum - sometimes stillness is not inaction.
+    > Another reason to change careers like tarzan: if the new vine doesn't support you, you could look for more opportunities and understandings by climbing up the old vine.
+
+SOCIAL MEDIA ABYSS
+  TYPE : book
+  DATE : 12021-02-03
+  LINK : https://books.google.com/books/about/Social_Media_Abyss.html?id=ZRR0CgAAQBAJ&source=kp_book_description
+  TAGS : internet, social media, sociology, privacy
+  PERS : 深蓝
+  NOTE : Angelvs recommended this book on the topic of GME stock.
+
+PARTICLE HANOI
+  TYPE : video
+  LINK : https://twitter.com/Ruben_Fro/status/1215561737430282240
+  DATE : 12021-02-05
+  TAGS : visual, particle cloud, VFX, photogrammetry, unity3d, vietnam
+  NOTE : Particle VFX based on photogrammetry of Hanoi.
+
+RUBEN FRO
+  LINK : https://rubenfro.com/
+  DATE : 12021-02-05
+  TYPE : list
+  TAGS : individual, VFX, unity3d, photogrammetry
+  NOTE : Developer & VFX artist. Tokyo-based. Worked on that Ital Tek video.
+
+LINGUS SOLO BREAKDOWN
+  LINK : https://www.youtube.com/watch?v=H5REJ1SXNDQ
+  TYPE : video
+  DATE : 12021-02-05
+  TAGS : jazz, improvisation, music theory, funk
+  DONE : false
+  NOTE
+    > David Bruce analyses Cory Henry's solo in Snarky Puppy - Lingus.
+    > Chords: 8 bar of Em Em Em Em C C Am F
+    > Shape-wise, the solo starts with slower, melodic lines, with lots of gaps, and played on the low end of the keyboard. Gradually it raises intensity, until the end where it's a continuous run of high trill-filled 16th notes.
+    > Cory Henry plays lots of chromatic, but at the end of reels back to the stable Minor Pentatonic scale with bluesy lick.
+
+中文家用游戏博物馆
+  LINK : http://famicn.com/
+
+NAKAGIN CAPSULE TOWER INTERIOR TOUR
+  DATE : 12021-02-08
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=sXRJE2caPNY
+  TAGS : minimalism, architecture, interior design, japan, metabolist architecture
+  NOTE : A tour of the capsule units inside Nakagin Capsule Tower. The idea of this metabolist architecture is that, each capsules are isolated units attached to the tower. If one unit is broken, it can be replaced anew without modifying the rest of the building.
+
+WHOLE EARTH CATALOG
+  LINK : https://en.wikipedia.org/wiki/Whole_Earth_Catalog
+
+FAIR COMPANIES
+  LINK : https://faircompanies.com/
+  TYPE : list
+  TAGS : minimalism, DIY
+
+monome
+  LINK : https://monome.org/
+
+LET'S GET LOST
+  TYPE : video
+  LINK : https://www.youtube.com/watch?v=6PGeOZqvISk
+  TAGS : film, documentary, jazz
+  DATE : 12021-02-09
+  NOTE : A documentary about the turbulent life of Chet Baker. It flows like jazz.
+
+CHET BAKER - PORTRAIT IN BLACK AND WHITE
+  LINK : https://www.youtube.com/watch?v=FI_dF6_e9_w
+  NOTE : Amazing elevation of energy in the solo. One of Chet's finest performance.
+  DATE : 12021-02-09
+  TAGS : trumpet, jazz
+  TYPE : music
+
+COZY WEB
+  DATE : 12021-02-10
+  TAGS : sociology, internet
+  LINK : https://maggieappleton.com/cozy-web/
+
+INTERACTIVE CHORD WHEEL
+  TYPE : interactive
+  LINK : https://codepen.io/2kool2/full/bmVxpZ
+  NOTE : Chord wheel that shows you diatonic chords in major key, and their extended chord qualities. Can use this for analyzing & transposing.
+  TAGS : music theory, music, chord
+  DATE : 12021-02-10
+
+MNEMONIC MAJOR SYSTEM
+  LINK : https://en.wikipedia.org/wiki/Mnemonic_major_system
+
+CHEAP BUT GOOD ADVICE FROM CHICK COREA
+  LINK : https://www.reddit.com/r/Jazz/comments/litpzk/cheap_but_good_advice_from_chick_corea_rip/
+
+WHAT IS MUSIC?
+  LINK : https://whatismusic.info/blog/index.html
+  TYPE : list
+
+Adriano Celentano - Prisencolinensinainciusol
+  TYPE : music
+  DATE : 12021-02-16
+  LINK : https://www.youtube.com/watch?v=-VsmF9m_Nt8
+  TAGS : language, conlang, english, gibberish
+  NOTE : A song that's sang in a made-up language that sounds like english.
+
+Wynton Marsalis Septet - The Death of Jazz (The New Orleans Function)
+  DATE : 12021-02-26
+  TYPE : music
+  TAGS : jazz, trumpet, trombone
+  LINK : https://www.youtube.com/watch?v=gKHM53iv2VI
+  NOTE
+    > The song is in the form of a 12 bar blues, dramatically slow, and uses the motif from Marche Funèbre (6-6-6-1-77-66-56).
+    > The septet consists of trumpet, trombone, clarinet, sax, piano, bass, and drum. The bass is played with a bow in this song.
+    > (1:00) Wycliffe Gordon's trombone playing is out of this world. Extremely varied and expressive, making it weep and growl.
+    > (4:29) Victor Goines's clarinet makes use of wailing upward glissando. (5:40) He also shows how even just one continuous note across many bars can have so much variation and expression.
+    > (8:50) Wynton Marsalis threw rapidfire note clusters out of his trumpet (9:38). It's almost atonal - understood as texture and rhythm rather than melody. Spliced between calmer melodic lines, like bursts of grief and outrage - or a joke?
+
+Göbekli Tepe
+  LINK : https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe
+
+THREE RULES OF THREE
+  LINK : https://www.youtube.com/watch?v=rrOnk0JnXW4
+  DATE : 12021-02-18
+  TYPE : lecture
+  TAGS : communication, learning, speaking, presentation
+  NOTE : Alan Alda, who does not like tips, gives tips on communication.
+  QOTE
+    > When speaking, communicate no more than three points to your audience. More than that, and they will forget.
+    > Explain a difficult thing in three different ways. People learn in different ways - visual, aural, kinesthetic. Present the information in different ways to cover different audiences.
+    > To make sure they remember something, say it three times. "Tell them what you are going to tell them, then tell them, then tell them again."
+    > Fourth tip: Just remembering these tips aren't going to make you a better communicator. That transformation is a process, like going to the gym.
+    > "we're built to connect with another person. In spite of the fact that we often avoid it, it actually is fun when we get into that position."
+
+THE MOTHER OF ALL DEMOS
+  LINK : https://en.wikipedia.org/wiki/The_Mother_of_All_Demos
+
+Mutsuacen
+  TYPE : interactive
+  LINK : https://mutsuacen.com/drawing/56743931
+
+Joni Mitchell - The Dawntreader
+  DATE : 12021-02-19
+  TAGS : guitar, dream, sailing
+  LINK : https://www.youtube.com/watch?v=zQwVeu09VCQ
+  TYPE : music
+  NOTE
+    > Sea dreams.
+    > Joni Mitchell's songs explore many alternative tunings on guitar, and quartal & quintal harmonies.
+
+LIEU - WEBRING SEARCH ENGINE
+  LINK : https://lieu.cblgh.org/
+  TYPE : tool
+  NOTE : Search engine for Merveilles' webring. Made by cblgh.
+  PERS : cblgh
+  SRCE : Merveilles
+  TAGS : decentralization, web, community, webring
+  DATE : 12021-02-25
+
+RETURNEES 海归
+  LINK : https://gueorgui.net/projects/returnees/
+  SRCE : Merveilles
+  NOTE : Photography series and accompanying article on Chinese folks who studied abroad.
+  QOTE
+    > "I spent the summer of 2018 in Beijing, interviewing and photographing Chinese citizens who had spent a few years abroad before returning to live in China. The people I spoke with — mostly young adults — came back to a country that’s experiencing transformative growth that mirrors the one in their own lives."
+  TAGS : globalism, culture, sociology, photography, writing
+  TYPE : article
+  DATE : 12021-02-25
+
+十宅论
+  TYPE : book
+  DATE : 12021-02-25
+  TAGS : architecture, japan, sociology
+  NOTE : A very mean and exaggerated book about castes in japanese society, and the space they live in. By Kengo Kuma.
+
+TRIGGER WARNING WITH KILLER MIKE
+  LINK : https://www.youtube.com/watch?v=JW79j81iLDI
+  NOTE : Documentary by the rapper Killer Mike, where he takes a "what if...?" and "why not?" approach to taboo subjects such as religion, education, black community, and more.
+  DATE : 12021-02-26
+  TYPE : video
+  TAGS : documentary, netflix, sociology, religion, black community
+
+FOLDED LEVEL DESIGN
+  LINK : http://critical-gaming.com/blog/2008/8/5/folded-level-design.html
+  TAGS : game design, level design
 `
